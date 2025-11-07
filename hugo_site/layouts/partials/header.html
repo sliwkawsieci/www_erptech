@@ -1,0 +1,101 @@
+<!-- Navigation -->
+<nav class="sticky top-0 z-50 backdrop-blur bg-white/80 shadow-sm transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+            <div class="flex items-center">
+                <a href="{{ "/" | relLangURL }}">
+                    <img src="{{ "Images/erptech logo.png" | relURL }}" alt="ERPtech Logo" class="h-10 w-auto">
+                </a>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-2">
+                {{ range .Site.Menus.main }}
+                    {{ if .HasChildren }}
+                    <div class="dropdown">
+                        <button class="text-gray-700 hover:text-orange-600 font-medium px-3 py-2 transition-all">
+                            {{ .Name }} <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            {{ range .Children }}
+                            <a href="{{ .URL | relLangURL }}" class="nav-link-item">{{ .Name }}</a>
+                            {{ end }}
+                        </div>
+                    </div>
+                    {{ else }}
+                        {{ if eq .Name "Kontakt" }}
+                        <a href="{{ .URL | relLangURL }}" class="bg-orange-500 hover:bg-orange-600 text-white rounded-xl px-4 py-2 font-medium transition-all">{{ .Name }}</a>
+                        {{ else if eq .Name "Contact" }}
+                        <a href="{{ .URL | relLangURL }}" class="bg-orange-500 hover:bg-orange-600 text-white rounded-xl px-4 py-2 font-medium transition-all">{{ .Name }}</a>
+                        {{ else }}
+                        <a href="{{ .URL | relLangURL }}" class="text-gray-700 hover:text-orange-600 font-medium px-3 py-2 transition-all">{{ .Name }}</a>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+                
+                <!-- Language Switcher -->
+                {{ if .IsTranslated }}
+                <div class="dropdown">
+                    <button class="text-gray-700 hover:text-orange-600 font-medium px-3 py-2 transition-all">
+                        <i class="fas fa-globe mr-1"></i>
+                        {{ .Language.LanguageName }}
+                    </button>
+                    <div class="dropdown-menu">
+                        {{ range .Translations }}
+                        <a href="{{ .Permalink }}" class="nav-link-item">{{ .Language.LanguageName }}</a>
+                        {{ end }}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden flex items-center">
+                <button id="mobile-menu-btn" class="text-gray-700 hover:text-orange-500">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu md:hidden bg-white shadow-lg">
+        <div class="px-4 pt-2 pb-3 space-y-1">
+            {{ range .Site.Menus.main }}
+                {{ if .HasChildren }}
+                <div class="dropdown-mobile">
+                    <button class="w-full flex justify-between items-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">
+                        <span>{{ .Name }}</span>
+                        <i class="fas fa-chevron-down text-xs"></i>
+                    </button>
+                    <div class="dropdown-mobile-menu hidden pl-4">
+                        {{ range .Children }}
+                        <a href="{{ .URL | relLangURL }}" class="block px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50">{{ .Name }}</a>
+                        {{ end }}
+                    </div>
+                </div>
+                {{ else }}
+                    {{ if eq .Name "Kontakt" }}
+                    <a href="{{ .URL | relLangURL }}" class="block px-3 py-2 rounded-md text-base font-medium text-white bg-orange-500 hover:bg-orange-600 text-center">{{ .Name }}</a>
+                    {{ else if eq .Name "Contact" }}
+                    <a href="{{ .URL | relLangURL }}" class="block px-3 py-2 rounded-md text-base font-medium text-white bg-orange-500 hover:bg-orange-600 text-center">{{ .Name }}</a>
+                    {{ else }}
+                    <a href="{{ .URL | relLangURL }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">{{ .Name }}</a>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+            
+            <!-- Mobile Language Switcher -->
+            {{ if .IsTranslated }}
+            <div class="border-t border-gray-200 pt-2 mt-2">
+                {{ range .Translations }}
+                <a href="{{ .Permalink }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">
+                    <i class="fas fa-globe mr-2"></i>{{ .Language.LanguageName }}
+                </a>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</nav>
+<div class="h-16"></div> <!-- Spacer for fixed nav -->
