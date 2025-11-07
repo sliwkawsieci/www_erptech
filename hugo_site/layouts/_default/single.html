@@ -1,18 +1,24 @@
 {{ define "main" }}
 <!-- Hero Section -->
-<section class="hero-gradient pt-32 pb-20 px-4">
-    <div class="max-w-4xl mx-auto text-center text-white">
-        <h1 class="text-4xl md:text-5xl font-bold mb-6">{{ .Title }}</h1>
+<section class="text-center py-16 sm:py-20 lg:py-24 xl:py-32 bg-gradient-to-r from-orange-200 to-orange-50 animate-gradient px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+        <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 drop-shadow-sm mb-4 sm:mb-6 motion-safe:animate-fade-in">{{ .Title }}</h1>
         {{ with .Params.subtitle }}
-        <p class="text-xl">{{ . }}</p>
+        <p class="text-base sm:text-lg text-gray-800 drop-shadow-sm mb-6 sm:mb-8 motion-safe:animate-fade-up">{{ . }}</p>
         {{ end }}
+        <a href="/kontakt/" class="group inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 hover:scale-105 text-white font-medium px-6 py-3 sm:px-8 sm:py-4 rounded-xl shadow-lg transition-transform duration-300 ease-out motion-safe:animate-slide-up">
+            Umów prezentację
+            <svg class="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+            </svg>
+        </a>
     </div>
 </section>
 
 <!-- Content Section -->
-<section class="py-20 bg-white">
-    <div class="max-w-6xl mx-auto px-4">
-        <div class="prose prose-lg max-w-none">
+<section class="py-12 sm:py-16 lg:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="prose prose-sm sm:prose-lg max-w-none">
             {{ .Content }}
         </div>
     </div>

@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+<nav class="sticky top-0 z-50 backdrop-blur bg-white/80 shadow-sm transition-all">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
             <div class="flex items-center">
@@ -9,11 +9,11 @@
             </div>
             
             <!-- Desktop Menu -->
-            <div class="hidden md:flex items-center space-x-8">
+            <div class="hidden md:flex items-center space-x-2">
                 {{ range .Site.Menus.main }}
                     {{ if .HasChildren }}
                     <div class="dropdown">
-                        <button class="nav-link">
+                        <button class="text-gray-700 hover:text-orange-600 font-medium px-3 py-2 transition-all">
                             {{ .Name }} <i class="fas fa-chevron-down text-xs ml-1"></i>
                         </button>
                         <div class="dropdown-menu">
@@ -24,11 +24,11 @@
                     </div>
                     {{ else }}
                         {{ if eq .Name "Kontakt" }}
-                        <a href="{{ .URL | relLangURL }}" class="btn-primary">{{ .Name }}</a>
+                        <a href="{{ .URL | relLangURL }}" class="bg-orange-500 hover:bg-orange-600 text-white rounded-xl px-4 py-2 font-medium transition-all">{{ .Name }}</a>
                         {{ else if eq .Name "Contact" }}
-                        <a href="{{ .URL | relLangURL }}" class="btn-primary">{{ .Name }}</a>
+                        <a href="{{ .URL | relLangURL }}" class="bg-orange-500 hover:bg-orange-600 text-white rounded-xl px-4 py-2 font-medium transition-all">{{ .Name }}</a>
                         {{ else }}
-                        <a href="{{ .URL | relLangURL }}" class="nav-link">{{ .Name }}</a>
+                        <a href="{{ .URL | relLangURL }}" class="text-gray-700 hover:text-orange-600 font-medium px-3 py-2 transition-all">{{ .Name }}</a>
                         {{ end }}
                     {{ end }}
                 {{ end }}
@@ -36,7 +36,7 @@
                 <!-- Language Switcher -->
                 {{ if .IsTranslated }}
                 <div class="dropdown">
-                    <button class="nav-link">
+                    <button class="text-gray-700 hover:text-orange-600 font-medium px-3 py-2 transition-all">
                         <i class="fas fa-globe mr-1"></i>
                         {{ .Language.LanguageName }}
                     </button>
