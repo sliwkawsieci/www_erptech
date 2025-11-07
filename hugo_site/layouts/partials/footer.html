@@ -1,0 +1,18 @@
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+        <p class="mb-2">Copyright © {{ now.Year }} ERP Tech</p>
+        <p class="text-gray-400">
+            <a href="mailto:{{ .Site.Params.email }}" class="hover:text-cyan-400">{{ .Site.Params.email }}</a> | 
+            tel: <a href="tel:{{ .Site.Params.phone }}" class="hover:text-cyan-400">{{ .Site.Params.phone_display }}</a>
+        </p>
+    </div>
+</footer>
+
+<!-- Scroll to Top Button -->
+<button id="scroll-top" class="fixed bottom-8 right-8 text-white w-12 h-12 rounded-full shadow-lg transition">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- Scripts -->
+<script src="{{ "script.js" | relURL }}"></script>
