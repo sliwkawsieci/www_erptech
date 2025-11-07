@@ -41,7 +41,18 @@ type: "page"
     </div>
     <div class="space-y-4">
         <p class="text-lg text-gray-700">
-            ERPnext to najbardziej elastyczny i rozwijający się system o otwartym kodzie źródłowym, który jest zgodny z ideą kompleksowego zarządzania firmą (wszystko w jednym miejscu). Łączy w sobie ogromnÄ… funkcjonalność jak i intuicyjność, dlatego jest łatwy do obsługi przez użytkownika.
+            ERPNext – Elastyczny system ERP dla nowoczesnych firm
+ERPNext to jeden z najbardziej dynamicznie rozwijających się systemów ERP o otwartym kodzie źródłowym, stworzony z myślą o kompleksowym zarządzaniu przedsiębiorstwem – wszystko w jednym miejscu. Łączy rozbudowaną funkcjonalność z intuicyjnym interfejsem, dzięki czemu jest przyjazny zarówno dla użytkowników technicznych, jak i biznesowych.
+System wspiera zarządzanie kluczowymi obszarami działalności firmy, takimi jak:
+
+księgowość i finanse,
+gospodarka magazynowa i zapasy,
+projekty i zadania,
+zasoby ludzkie (HR),
+relacje z klientami (CRM),
+oraz wiele innych.
+
+Dzięki swojej modułowej budowie i otwartej architekturze ERPNext doskonale sprawdza się zarówno w małych firmach, jak i w dużych organizacjach, które szukają skalowalnego i dostosowanego do swoich potrzeb rozwiązania.
         </p>
         <p class="text-lg text-gray-700">
             Został zaprojektowany, aby pomóc firmom zarządzać różnymi aspektami ich działalności, w tym księgowością, zarządzaniem zapasami, zarządzaniem projektami, zasobami ludzkimi, zarządzaniem relacjami z klientami (CRM) i nie tylko.
