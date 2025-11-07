@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Poznaj ERPtech - ekspertów w dziedzinie systemów ERP i SAP">
+    <title>O Nas | ERPtech</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="smooth-scroll">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center gap-2">
+                    <img src="../Images/erptech logo.png" alt="ERPtech Logo" class="h-10 w-auto">
+                    <a href="../index.html" class="text-2xl font-bold" style="color: #ff9500;">ERPtech</a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <div class="dropdown">
+                        <button class="nav-link">
+                            ERPnext <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="erpnext.html">System ERPnext</a>
+                            <a href="magazyn.html">Magazyn</a>
+                            <a href="produkcja.html">Produkcja</a>
+                            <a href="eod.html">EOD</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="nav-link">
+                            SAP <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="fiori.html">SAP FIORI</a>
+                            <a href="integracje.html">Integracje</a>
+                            <a href="iot.html">SAP IoT</a>
+                        </div>
+                    </div>
+                    <a href="about.html" class="nav-link">O Nas</a>
+                    <a href="contact.html" class="btn-primary">Kontakt</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="mobile-menu md:hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="erpnext.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">System ERPnext</a>
+                    <a href="magazyn.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Magazyn</a>
+                    <a href="produkcja.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Produkcja</a>
+                    <a href="eod.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">EOD</a>
+                    <a href="fiori.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">SAP FIORI</a>
+                    <a href="integracje.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Integracje</a>
+                    <a href="iot.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">SAP IoT</a>
+                    <a href="about.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">O Nas</a>
+                    <a href="contact.html" class="block px-3 py-2 btn-primary rounded">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-gradient pt-32 pb-20 px-4">
+        <div class="max-w-4xl mx-auto text-center text-white">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">
+                O ERPtech
+            </h1>
+            <p class="text-xl">
+                Profesjonalizm, doświadczenie i zaangażowanie w każdym projekcie
+            </p>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="prose max-w-none">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Kim jesteśmy?</h2>
+                <p class="text-lg text-gray-600 mb-6">
+                    ERPtech to zespół doświadczonych specjalistów w dziedzinie systemów informatycznych klasy ERP. 
+                    Specjalizujemy się w implementacji i rozwoju systemów SAP oraz ERPnext, oferując kompleksowe 
+                    rozwiązania dostosowane do indywidualnych potrzeb naszych Klientów.
+                </p>
+                
+                <h2 class="text-3xl font-bold text-gray-800 mb-6 mt-12">Nasze wartości</h2>
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-star text-blue-900 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-gray-800">Profesjonalizm</h3>
+                        <p class="text-gray-600">
+                            Oferowane przez nas dedykowane rozwiązania są na najwyższym poziomie, ponieważ zawsze kierujemy się zadowoleniem Klienta.
+                        </p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-handshake text-blue-900 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-gray-800">Współpraca</h3>
+                        <p class="text-gray-600">
+                            Zależy nam na szczerych relacjach z Klientem – dzięki sprawnej komunikacji jesteśmy w stanie zdiagnozować procesy, które możemy udoskonalić.
+                        </p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-shield-alt text-blue-900 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-gray-800">Odpowiedzialność</h3>
+                        <p class="text-gray-600">
+                            Podejmujemy ambitne wyzwania, ale jednocześnie składamy tylko te obietnice, które jesteśmy w stanie zrealizować.
+                        </p>
+                    </div>
+                </div>
+                
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Nasze doświadczenie</h2>
+                <p class="text-lg text-gray-600 mb-6">
+                    Przez lata pracy zrealizowaliśmy dziesiątki projektów dla firm z różnych branż. Nasze doświadczenie 
+                    obejmuje implementacje systemów SAP, rozwój aplikacji FIORI, integracje systemów oraz automatyzację 
+                    procesów biznesowych.
+                </p>
+                
+                <div class="bg-gray-50 p-8 rounded-xl mt-8">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Skontaktuj się z nami</h3>
+                    <p class="text-gray-600 mb-6">
+                        Chcesz dowiedzieć się więcej o naszych usługach? Skontaktuj się z nami, a chętnie odpowiemy na wszystkie pytania.
+                    </p>
+                    <a href="contact.html" class="btn-primary inline-block">
+                        Formularz kontaktowy
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="mb-2">Copyright 2025 ERP Tech</p>
+            <p class="text-gray-400">
+                <a href="mailto:biuro@erptech.pl" class="hover:text-cyan-400">biuro@erptech.pl</a> | 
+                tel: <a href="tel:+48693068300" class="hover:text-cyan-400">(+48) 693 068 300</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="fixed bottom-8 right-8 text-white w-12 h-12 rounded-full shadow-lg transition">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="../script.js"></script>
+</body>
+</html>

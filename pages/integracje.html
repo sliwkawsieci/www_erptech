@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Integracje SAP z zewnętrznymi systemami | ERPtech">
+    <title>Integracje SAP | ERPtech</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="smooth-scroll">
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center gap-2">
+                    <img src="../Images/erptech logo.png" alt="ERPtech Logo" class="h-10 w-auto">
+                    <a href="../index.html" class="text-2xl font-bold" style="color: #ff9500;">ERPtech</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <div class="dropdown">
+                        <button class="nav-link">ERPnext <i class="fas fa-chevron-down text-xs ml-1"></i></button>
+                        <div class="dropdown-menu">
+                            <a href="erpnext.html">System ERPnext</a>
+                            <a href="magazyn.html">Magazyn</a>
+                            <a href="produkcja.html">Produkcja</a>
+                            <a href="eod.html">EOD</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="nav-link">SAP <i class="fas fa-chevron-down text-xs ml-1"></i></button>
+                        <div class="dropdown-menu">
+                            <a href="fiori.html">SAP FIORI</a>
+                            <a href="integracje.html">Integracje</a>
+                            <a href="iot.html">SAP IoT</a>
+                        </div>
+                    </div>
+                    <a href="about.html" class="nav-link">O Nas</a>
+                    <a href="contact.html" class="btn-primary">Kontakt</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700"><i class="fas fa-bars text-2xl"></i></button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="mobile-menu md:hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="erpnext.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">System ERPnext</a>
+                    <a href="magazyn.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Magazyn</a>
+                    <a href="produkcja.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Produkcja</a>
+                    <a href="eod.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">EOD</a>
+                    <a href="fiori.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">SAP FIORI</a>
+                    <a href="integracje.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Integracje</a>
+                    <a href="iot.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">SAP IoT</a>
+                    <a href="about.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">O Nas</a>
+                    <a href="contact.html" class="block px-3 py-2 btn-primary rounded">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-gradient pt-32 pb-20 px-4">
+        <div class="max-w-4xl mx-auto text-center text-white">
+            <div class="w-20 h-20 bg-white rounded-lg flex items-center justify-center mx-auto mb-6">
+                <i class="fas fa-exchange-alt text-blue-900 text-3xl"></i>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Integracje SAP</h1>
+            <p class="text-xl">Łączymy SAP z zewnętrznymi systemami</p>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Kompleksowe integracje</h2>
+                <p class="text-lg text-gray-600 mb-6">
+                    Pomagamy w integracji systemów peryferyjnych z systemami SAP oraz implementujemy własne rozwiązania 
+                    w osobnych technologiach zintegrowane z SAP. Dzięki pracy z najnowszymi technologiami możemy 
+                    zaoferować rozwiązania FIORI, SAPUI5, WEBDYNPRO, ADOBE FORMS, SAP HANA.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-xl">
+                    <div class="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-plug text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">API i Web Services</h3>
+                    <p class="text-gray-600">
+                        Tworzymy i integrujemy RESTful API oraz SOAP web services dla płynnej wymiany danych.
+                    </p>
+                </div>
+
+                <div class="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-xl">
+                    <div class="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-database text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Synchronizacja danych</h3>
+                    <p class="text-gray-600">
+                        Zapewniamy automatyczną synchronizację między SAP a systemami zewnętrznymi w czasie rzeczywistym.
+                    </p>
+                </div>
+
+                <div class="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-xl">
+                    <div class="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-shield-alt text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Bezpieczeństwo</h3>
+                    <p class="text-gray-600">
+                        Wszystkie integracje zabezpieczamy według najwyższych standardów bezpieczeństwa.
+                    </p>
+                </div>
+
+                <div class="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-xl">
+                    <div class="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-cog text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Customizacja</h3>
+                    <p class="text-gray-600">
+                        Dostosowujemy rozwiązania do unikalnych potrzeb każdego klienta.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 p-8 rounded-xl">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">Potrzebujesz integracji?</h3>
+                <p class="text-gray-600 mb-6">
+                    Nasi eksperci pomogą Ci w planowaniu i implementacji integracji SAP z Twoimi systemami.
+                </p>
+                <a href="contact.html" class="btn-primary inline-block">Skontaktuj się</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="mb-2">Copyright © 2025 ERP Tech</p>
+            <p class="text-gray-400">
+                <a href="mailto:biuro@erptech.pl" class="hover:text-cyan-400">biuro@erptech.pl</a> | 
+                tel: <a href="tel:+48693068300" class="hover:text-cyan-400">(+48) 693 068 300</a>
+            </p>
+        </div>
+    </footer>
+
+    <button id="scroll-top" class="fixed bottom-8 right-8 text-white w-12 h-12 rounded-full shadow-lg transition">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="../script.js"></script>
+</body>
+</html>

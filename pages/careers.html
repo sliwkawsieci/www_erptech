@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oferty pracy w ERPtech - dołącz do naszego zespołu">
+    <title>Oferty Pracy | ERPtech</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="smooth-scroll">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center gap-2">
+                    <img src="../Images/erptech logo.png" alt="ERPtech Logo" class="h-10 w-auto">
+                    <a href="../index.html" class="text-2xl font-bold" style="color: #ff9500;">ERPtech</a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <div class="dropdown">
+                        <button class="nav-link">
+                            ERPnext <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="erpnext.html">System ERPnext</a>
+                            <a href="magazyn.html">Magazyn</a>
+                            <a href="produkcja.html">Produkcja</a>
+                            <a href="eod.html">EOD</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="nav-link">
+                            SAP <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="fiori.html">SAP FIORI</a>
+                            <a href="integracje.html">Integracje</a>
+                            <a href="iot.html">SAP IoT</a>
+                        </div>
+                    </div>
+                    <a href="about.html" class="nav-link">O Nas</a>
+                    <a href="careers.html" class="nav-link">Oferty Pracy</a>
+                    <a href="contact.html" class="btn-primary">Kontakt</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-orange-500">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu md:hidden bg-white shadow-lg">
+            <div class="px-4 pt-2 pb-3 space-y-1">
+                <div class="dropdown-mobile">
+                    <button class="w-full flex justify-between items-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">
+                        <span>ERPnext</span>
+                        <i class="fas fa-chevron-down text-xs"></i>
+                    </button>
+                    <div class="dropdown-mobile-menu hidden pl-4">
+                        <a href="erpnext.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50">System ERPnext</a>
+                        <a href="magazyn.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50">Magazyn</a>
+                        <a href="produkcja.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50">Produkcja</a>
+                        <a href="eod.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50">EOD</a>
+                    </div>
+                </div>
+                <div class="dropdown-mobile">
+                    <button class="w-full flex justify-between items-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">
+                        <span>SAP</span>
+                        <i class="fas fa-chevron-down text-xs"></i>
+                    </button>
+                    <div class="dropdown-mobile-menu hidden pl-4">
+                        <a href="fiori.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50">SAP FIORI</a>
+                        <a href="integracje.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50">Integracje</a>
+                        <a href="iot.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50">SAP IoT</a>
+                    </div>
+                </div>
+                <a href="about.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">O Nas</a>
+                <a href="careers.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Oferty Pracy</a>
+                <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-white bg-orange-500 hover:bg-orange-600 text-center">Kontakt</a>
+            </div>
+        </div>
+    </nav>
+    <div class="h-16"></div>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h1 class="text-5xl font-bold mb-6">Dołącz do Naszego Zespołu</h1>
+            <p class="text-xl mb-8">Szukamy talentów, którzy chcą rozwijać się w środowisku nowoczesnych technologii</p>
+        </div>
+    </section>
+
+    <!-- Job Listings Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8">Aktualne Oferty Pracy</h2>
+            </div>
+
+            <!-- Job Card -->
+            <div class="bg-white border-l-4 border-orange-500 shadow-lg rounded-lg p-8 mb-8">
+                <div class="flex justify-between items-start mb-4">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Stażysta Python - Frappe/ERPnext</h3>
+                        <div class="flex flex-wrap gap-4 text-gray-600">
+                            <span class="flex items-center">
+                                <i class="fas fa-map-marker-alt mr-2" style="color: #ff9500;"></i>
+                                Warszawa / Praca Zdalna
+                            </span>
+                            <span class="flex items-center">
+                                <i class="fas fa-briefcase mr-2" style="color: #ff9500;"></i>
+                                Staż
+                            </span>
+                            <span class="flex items-center">
+                                <i class="fas fa-clock mr-2" style="color: #ff9500;"></i>
+                                Pełny etat
+                            </span>
+                        </div>
+                    </div>
+                    <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full font-semibold">Nowa</span>
+                </div>
+
+                <div class="mb-6 border-t pt-6">
+                    <h4 class="text-lg font-bold text-gray-800 mb-3">Opis Stanowiska</h4>
+                    <p class="text-gray-600 mb-4">
+                        Szukamy ambitnego stażysty z pasją do programowania w Pythonie. Będziesz pracować w środowisku Frappe/ERPnext, 
+                        rozwijając swoje umiejętności pod okiem doświadczonych programistów. To idealna okazja, aby zdobyć praktyczne 
+                        doświadczenie w tworzeniu nowoczesnych aplikacji biznesowych.
+                    </p>
+                </div>
+
+                <div class="mb-6">
+                    <h4 class="text-lg font-bold text-gray-800 mb-3">Wymagania</h4>
+                    <ul class="list-none space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mr-3 mt-1"></i>
+                            <span class="text-gray-600">Podstawowa wiedza z zakresu Pythona</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mr-3 mt-1"></i>
+                            <span class="text-gray-600">Zrozumienie koncepcji programowania obiektowego</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mr-3 mt-1"></i>
+                            <span class="text-gray-600">Chęć nauki i rozwoju w środowisku Frappe/ERPnext</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mr-3 mt-1"></i>
+                            <span class="text-gray-600">Umiejętność pracy w zespole</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mr-3 mt-1"></i>
+                            <span class="text-gray-600">Dobra komunikacja i zaangażowanie</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mb-6">
+                    <h4 class="text-lg font-bold text-gray-800 mb-3">Dodatkowe Umiejętności (Mile Widziane)</h4>
+                    <ul class="list-none space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-star text-orange-500 mr-3 mt-1"></i>
+                            <span class="text-gray-600">Doświadczenie z systemami ERP</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-star text-orange-500 mr-3 mt-1"></i>
+                            <span class="text-gray-600">Znajomość baz danych (SQL)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-star text-orange-500 mr-3 mt-1"></i>
+                            <span class="text-gray-600">Doświadczenie z Git/GitHub</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-star text-orange-500 mr-3 mt-1"></i>
+                            <span class="text-gray-600">Angielski na poziomie B1+</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mb-6">
+                    <h4 class="text-lg font-bold text-gray-800 mb-3">Co Oferujemy</h4>
+                    <ul class="list-none space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-gift text-orange-500 mr-3 mt-1"></i>
+                            <span class="text-gray-600">Mentoring od doświadczonych programistów</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-gift text-orange-500 mr-3 mt-1"></i>
+                            <span class="text-gray-600">Możliwość pracy zdalnej lub z biura w Warszawie</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-gift text-orange-500 mr-3 mt-1"></i>
+                            <span class="text-gray-600">Praktyczne doświadczenie w rzeczywistych projektach</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-gift text-orange-500 mr-3 mt-1"></i>
+                            <span class="text-gray-600">Przyjazne i wspierające środowisko pracy</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-gift text-orange-500 mr-3 mt-1"></i>
+                            <span class="text-gray-600">Możliwość rozwoju i przejścia na stanowisko junior developer</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="border-t pt-6">
+                    <h4 class="text-lg font-bold text-gray-800 mb-4">Zainteresowany?</h4>
+                    <p class="text-gray-600 mb-4">
+                        Wyślij nam swoje CV i list motywacyjny na adres:
+                    </p>
+                    <a href="mailto:biuro@erptech.pl?subject=Aplikacja%20-%20Stażysta%20Python%20Frappe" 
+                       class="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition">
+                        <i class="fas fa-envelope mr-2"></i>Wyślij Aplikację
+                    </a>
+                </div>
+            </div>
+
+            <!-- Info Box -->
+            <div class="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
+                <h4 class="text-lg font-bold text-gray-800 mb-2">Brak Idealne Oferty?</h4>
+                <p class="text-gray-600 mb-4">
+                    Jeśli nie znalazłeś oferty, która Cię interesuje, ale jesteś zainteresowany pracą w ERPtech, 
+                    wyślij nam spontaniczną aplikację. Zawsze szukamy talentów!
+                </p>
+                <a href="contact.html" class="text-orange-600 hover:text-orange-700 font-semibold">
+                    Skontaktuj się z nami <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="mb-2">Copyright © 2025 ERP Tech</p>
+            <p class="text-gray-400">
+                <a href="mailto:biuro@erptech.pl" class="hover:text-cyan-400">biuro@erptech.pl</a> | 
+                tel: <a href="tel:+48693068300" class="hover:text-cyan-400">(+48) 693 068 300</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="fixed bottom-8 right-8 text-white w-12 h-12 rounded-full shadow-lg transition">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="../script.js"></script>
+</body>
+</html>
