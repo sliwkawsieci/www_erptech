@@ -8,15 +8,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../css/styles.css">
-</head>
+    </head>
 <body class="smooth-scroll">
     <!-- Navigation -->
     <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
-                <div class="flex items-center gap-2">
-                    <img src="../Images/erptech logo.png" alt="ERPtech Logo" class="h-10 w-auto">
-                    <a href="../index.html" class="text-2xl font-bold" style="color: #ff9500;">ERPtech</a>
+                <div class="flex items-center">
+                    <a href="../index.html">
+                        <img src="../Images/erptech logo.png" alt="ERPtech Logo" class="h-10 w-auto">
+                    </a>
                 </div>
                 
                 <!-- Desktop Menu -->
@@ -49,46 +50,25 @@
                 
                 <!-- Mobile Menu Button -->
                 <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-orange-500">
-                        <i class="fas fa-bars text-2xl"></i>
-                    </button>
+                    <button id="mobile-menu-btn" class="text-gray-700"><i class="fas fa-bars text-2xl"></i></button>
                 </div>
             </div>
-        </div>
-        
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="mobile-menu md:hidden bg-white shadow-lg">
-            <div class="px-4 pt-2 pb-3 space-y-1">
-                <div class="dropdown-mobile">
-                    <button class="w-full flex justify-between items-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">
-                        <span>ERPnext</span>
-                        <i class="fas fa-chevron-down text-xs"></i>
-                    </button>
-                    <div class="dropdown-mobile-menu hidden pl-4">
-                        <a href="erpnext.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50">System ERPnext</a>
-                        <a href="magazyn.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50">Magazyn</a>
-                        <a href="produkcja.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50">Produkcja</a>
-                        <a href="eod.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50">EOD</a>
-                    </div>
+            <div id="mobile-menu" class="mobile-menu md:hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="erpnext.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">System ERPnext</a>
+                    <a href="magazyn.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Magazyn</a>
+                    <a href="produkcja.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Produkcja</a>
+                    <a href="eod.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">EOD</a>
+                    <a href="fiori.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">SAP FIORI</a>
+                    <a href="integracje.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Integracje</a>
+                    <a href="iot.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">SAP IoT</a>
+                    <a href="about.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">O Nas</a>
+                    <a href="careers.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Oferty Pracy</a>
+                    <a href="contact.html" class="block px-3 py-2 btn-primary rounded">Kontakt</a>
                 </div>
-                <div class="dropdown-mobile">
-                    <button class="w-full flex justify-between items-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">
-                        <span>SAP</span>
-                        <i class="fas fa-chevron-down text-xs"></i>
-                    </button>
-                    <div class="dropdown-mobile-menu hidden pl-4">
-                        <a href="fiori.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50">SAP FIORI</a>
-                        <a href="integracje.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50">Integracje</a>
-                        <a href="iot.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50">SAP IoT</a>
-                    </div>
-                </div>
-                <a href="about.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">O Nas</a>
-                <a href="careers.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Oferty Pracy</a>
-                <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-white bg-orange-500 hover:bg-orange-600 text-center">Kontakt</a>
             </div>
         </div>
     </nav>
-    <div class="h-16"></div>
 
     <!-- Hero Section -->
     <section class="hero-gradient text-white py-20">
@@ -256,3 +236,4 @@
     <script src="../script.js"></script>
 </body>
 </html>
+

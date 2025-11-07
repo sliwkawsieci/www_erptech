@@ -8,17 +8,19 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../css/styles.css">
-</head>
+    </head>
 <body class="smooth-scroll">
     <!-- Navigation -->
     <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
-                <div class="flex items-center gap-2">
-                    <img src="../Images/erptech logo.png" alt="ERPtech Logo" class="h-10 w-auto">
-                    <a href="../index.html" class="text-2xl font-bold" style="color: #ff9500;">ERPtech</a>
+                <div class="flex items-center">
+                    <a href="../index.html">
+                        <img src="../Images/erptech logo.png" alt="ERPtech Logo" class="h-10 w-auto">
+                    </a>
                 </div>
                 
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-8">
                     <div class="dropdown">
                         <button class="nav-link">
@@ -42,16 +44,15 @@
                         </div>
                     </div>
                     <a href="about.html" class="nav-link">O Nas</a>
+                    <a href="careers.html" class="nav-link">Oferty Pracy</a>
                     <a href="contact.html" class="btn-primary">Kontakt</a>
                 </div>
                 
+                <!-- Mobile Menu Button -->
                 <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-btn" class="text-gray-700">
-                        <i class="fas fa-bars text-2xl"></i>
-                    </button>
+                    <button id="mobile-menu-btn" class="text-gray-700"><i class="fas fa-bars text-2xl"></i></button>
                 </div>
             </div>
-            
             <div id="mobile-menu" class="mobile-menu md:hidden">
                 <div class="px-2 pt-2 pb-3 space-y-1">
                     <a href="erpnext.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">System ERPnext</a>
@@ -62,6 +63,7 @@
                     <a href="integracje.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Integracje</a>
                     <a href="iot.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">SAP IoT</a>
                     <a href="about.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">O Nas</a>
+                    <a href="careers.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Oferty Pracy</a>
                     <a href="contact.html" class="block px-3 py-2 btn-primary rounded">Kontakt</a>
                 </div>
             </div>
@@ -167,3 +169,4 @@
     <script src="../script.js"></script>
 </body>
 </html>
+
