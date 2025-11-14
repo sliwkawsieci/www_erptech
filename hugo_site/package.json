@@ -1,0 +1,14 @@
+{
+  "name": "erptech-hugo",
+  "version": "1.0.0",
+  "description": "ERP Tech Hugo website",
+  "scripts": {
+    "build-css": "tailwindcss -i ./assets/css/main.css -o ./static/css/styles.css --watch",
+    "build-css-prod": "tailwindcss -i ./assets/css/main.css -o ./static/css/styles.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16"
+  }
+}

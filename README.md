@@ -1,14 +1,15 @@
-# ERPtech - Strona Statyczna Multi-Page
+# ERPtech - Strona Hugo
 
-Nowoczesna strona statyczna inspirowana erptech.pl, stworzona z użyciem TailwindCSS i vanilla JavaScript. Strona ma strukturę multi-page z dedykowanymi podstronami dla każdej usługi.
+Nowoczesna strona firmowa erptech.pl, zbudowana z użyciem generatora stron statycznych Hugo, TailwindCSS i vanilla JavaScript.
 
 ## 🚀 Technologie
 
+- **Hugo** - Generator stron statycznych
 - **HTML5** - Struktura strony
 - **TailwindCSS** - Framework CSS do stylizacji
 - **Vanilla JavaScript** - Interaktywność bez zewnętrznych bibliotek
 - **Font Awesome** - Ikony
-- **Custom CSS** - Dodatkowe style i zmienne kolorystyczne
+- **Markdown** - Tworzenie treści
 
 ## 🎨 Paleta Kolorów
 
@@ -57,22 +58,40 @@ https://<twoja-nazwa-użytkownika>.github.io/www_erptech/
 
 ```
 www_erptech/
-├── index.html           # Strona główna
-├── script.js            # Logika JavaScript
-├── css/
-│   └── styles.css      # Niestandardowe style CSS
-├── pages/              # Podstrony
-│   ├── about.html      # O Nas
-│   ├── contact.html    # Kontakt
-│   ├── erpnext.html    # System ERPnext
-│   ├── magazyn.html    # Moduł Magazyn
-│   ├── produkcja.html  # Moduł Produkcja
-│   ├── eod.html        # EOD
-│   ├── fiori.html      # SAP FIORI
-│   ├── integracje.html # Integracje SAP
-│   └── iot.html        # SAP IoT
-├── .nojekyll           # Konfiguracja GitHub Pages
-└── README.md           # Dokumentacja
+├── hugo_site/               # Źródła Hugo
+│   ├── content/            # Treści w Markdown
+│   │   ├── pl/            # Wersja polska
+│   │   │   ├── _index.md  # Strona główna
+│   │   │   ├── o-nas.md
+│   │   │   ├── kontakt.md
+│   │   │   ├── kariera.md
+│   │   │   └── uslugi/    # Podstrony usług
+│   │   │       ├── erpnext.md
+│   │   │       ├── magazyn.md
+│   │   │       ├── produkcja.md
+│   │   │       ├── eod.md
+│   │   │       ├── fiori.md
+│   │   │       ├── integracje.md
+│   │   │       └── iot.md
+│   │   └── en/            # Wersja angielska
+│   ├── layouts/           # Szablony HTML
+│   │   ├── _default/      # Domyślne layouty
+│   │   │   ├── baseof.html
+│   │   │   └── single.html
+│   │   ├── partials/      # Komponenty wielokrotnego użytku
+│   │   │   ├── header.html
+│   │   │   └── footer.html
+│   │   └── index.html     # Layout strony głównej
+│   ├── static/            # Zasoby statyczne
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── images/
+│   ├── hugo.toml          # Konfiguracja Hugo
+│   └── public/            # Wygenerowane strony (gitignored)
+├── hugo_bin/              # Binarka Hugo
+│   └── hugo.exe
+├── [pliki wygenerowane]   # Output Hugo skopiowany do roota
+└── README.md              # Dokumentacja
 ```
 
 ## 📄 Podstrony
@@ -97,58 +116,68 @@ www_erptech/
 
 ## 🔧 Lokalne Uruchomienie
 
-Ponieważ jest to strona statyczna, wystarczy otworzyć plik `index.html` w przeglądarce:
+### Tryb deweloperski (z automatycznym przeładowaniem)
 
 ```bash
-# Windows
-start index.html
+# Uruchom serwer deweloperski Hugo
+hugo_bin\hugo.exe server --source hugo_site
 
-# Linux/Mac
-open index.html
+# Strona będzie dostępna pod: http://localhost:1313/
 ```
 
-Alternatywnie możesz użyć prostego serwera HTTP:
+### Budowanie strony produkcyjnej
 
 ```bash
-# Python 3
-python -m http.server 8000
+# Zbuduj stronę
+hugo_bin\hugo.exe --source hugo_site
 
-# Node.js (jeśli masz zainstalowany http-server)
-npx http-server
+# Skopiuj output do roota projektu
+Copy-Item -Path hugo_site\public\* -Destination . -Recurse -Force
 ```
+
+### Edycja treści
+
+1. Otwórz plik `.md` w `hugo_site/content/pl/` lub `hugo_site/content/en/`
+2. Edytuj treść w Markdownie
+3. Hugo automatycznie przebuduje stronę (jeśli działa `hugo server`)
+4. Zmiany pojawią się natychmiast w przeglądarce
 
 ## 📝 Customizacja
 
+### Zmiana treści strony
+1. Edytuj pliki `.md` w `hugo_site/content/pl/` lub `hugo_site/content/en/`
+2. Front matter (nagłówek YAML) określa meta dane:
+   ```yaml
+   ---
+   title: "Tytuł strony"
+   subtitle: "Podtytuł"
+   date: 2025-11-07
+   ---
+   ```
+3. Treść piszesz w Markdownie lub osadzasz HTML (jeśli `unsafe = true` w hugo.toml)
+
+### Zmiana layoutu
+1. Edytuj szablony w `hugo_site/layouts/`
+2. `baseof.html` - bazowy layout ze wspólną strukturą
+3. `single.html` - layout dla pojedynczych stron
+4. `partials/` - komponenty wielokrotnego użytku (header, footer)
+
+### Dodanie nowej usługi
+1. Utwórz plik `.md` w `hugo_site/content/pl/uslugi/nazwa-uslugi.md`
+2. Dodaj front matter i treść w Markdownie
+3. Dodaj link w menu w `hugo_site/hugo.toml`:
+   ```toml
+   [[languages.pl.menu.main]]
+     name = "Nazwa Usługi"
+     parent = "erpnext"  # lub "sap"
+     url = "/uslugi/nazwa-uslugi/"
+     weight = 5
+   ```
+4. Przebuduj stronę: `hugo_bin\hugo.exe --source hugo_site`
+
 ### Zmiana kolorów
-Kolory są definiowane w pliku `css/styles.css` przy użyciu zmiennych CSS:
-
-```css
-:root {
-    --primary-color: #1e3a8a;      /* Ciemnoniebieski */
-    --primary-dark: #1e40af;
-    --primary-light: #3b82f6;
-    --secondary-color: #0891b2;     /* Cyan */
-    --accent-color: #f59e0b;        /* Pomarańczowy akcent */
-}
-```
-
-Aby zmienić schemat kolorów, edytuj te zmienne w pliku `css/styles.css`.
-
-### Dodanie nowej podstrony
-1. Utwórz nowy plik HTML w folderze `pages/`
-2. Skopiuj strukturę z istniejącej podstrony
-3. Dodaj link do nowej strony w nawigacji (wszystkie pliki HTML)
-4. Dostosuj zawartość
-
-### Dropdown menu
-Menu dropdown używa CSS hover. Konfiguracja znajduje się w `css/styles.css`:
-```css
-.dropdown:hover .dropdown-menu {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
-```
+Kolory TailwindCSS są używane bezpośrednio w szablonach HTML.
+Dostosuj klasy Tailwind w plikach layoutów lub dodaj własne CSS w `hugo_site/static/css/`
 
 ## 📧 Kontakt
 

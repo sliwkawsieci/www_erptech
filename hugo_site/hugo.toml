@@ -42,6 +42,11 @@ enableGitInfo = false
       url = "/uslugi/eod/"
       weight = 4
     [[languages.pl.menu.main]]
+      name = "Lean ERP"
+      parent = "erpnext"
+      url = "/uslugi/lean-erp/"
+      weight = 5
+    [[languages.pl.menu.main]]
       name = "SAP"
       weight = 20
       identifier = "sap"
@@ -103,6 +108,11 @@ enableGitInfo = false
       parent = "erpnext"
       url = "/services/eod/"
       weight = 4
+    [[languages.en.menu.main]]
+      name = "Lean ERP"
+      parent = "erpnext"
+      url = "/services/lean-erp/"
+      weight = 5
     [[languages.en.menu.main]]
       name = "SAP"
       weight = 20

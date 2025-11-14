@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Główny przedstawiciel ERPnext w Polsce, wieloletnie doświadczenie we wdrażaniu i rozbudowie systemów informatycznych ERPnext i SAP.">
+    <title>Oprogramowanie ERPnext bez licencji, rozwój systemów SAP | ERPtech</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="smooth-scroll">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html">
+                        <img src="Images/erptech logo.png" alt="ERPtech Logo" class="h-10 w-auto">
+                    </a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <div class="dropdown">
+                        <button class="nav-link">
+                            ERPnext <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="/uslugi/erpnext/">System ERPnext</a>
+                            <a href="/uslugi/magazyn/">Magazyn</a>
+                            <a href="/uslugi/produkcja/">Produkcja</a>
+                            <a href="/uslugi/eod/">EOD</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="nav-link">
+                            SAP <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="/uslugi/fiori/">SAP FIORI</a>
+                            <a href="/uslugi/integracje/">Integracje</a>
+                            <a href="/uslugi/iot/">SAP IoT</a>
+                        </div>
+                    </div>
+                    <a href="/o-nas/" class="nav-link">O Nas</a>
+                    <a href="/kariera/" class="nav-link">Oferty Pracy</a>
+                    <a href="/kontakt/" class="btn-primary">Kontakt</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-orange-500">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="/uslugi/erpnext/" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">System ERPnext</a>
+                <a href="/uslugi/magazyn/" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Magazyn</a>
+                <a href="/uslugi/produkcja/" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Produkcja</a>
+                <a href="/uslugi/eod/" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">EOD</a>
+                <a href="/uslugi/fiori/" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">SAP FIORI</a>
+                <a href="/uslugi/integracje/" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Integracje</a>
+                <a href="/uslugi/iot/" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">SAP IoT</a>
+                <a href="/o-nas/" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">O Nas</a>
+                <a href="/kariera/" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded">Oferty Pracy</a>
+                <a href="/kontakt/" class="block px-3 py-2 btn-primary rounded">Kontakt</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient pt-24 pb-20 px-4">
+        <div class="max-w-7xl mx-auto text-center text-white">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
+                Oprogramowanie dla firm
+            </h1>
+            <h2 class="text-2xl md:text-3xl mb-8 font-light">
+                Usługi informatyczne | Wdrożenia ERP
+            </h2>
+            <p class="text-xl mb-10 max-w-3xl mx-auto">
+                Naszym celem jest zrozumienie indywidualnych potrzeb Klientów, aby zaoferować im rozwiązania szyte na miarę. Wiemy, że każda działalność biznesowa to wyjątkowe potrzeby, a my staramy się im sprostać.
+            </p>
+            <a href="#services" class="inline-block bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold text-lg hover:bg-gray-100 transition">
+                Dowiedz się więcej
+            </a>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="value-card bg-white p-8 rounded-xl shadow-lg text-center">
+                    <svg class="w-16 h-16 mx-auto mb-4" viewBox="0 0 100 100">
+                        <use href="Images/icons.svg#icon-profesjonalizm"></use>
+                    </svg>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-800">Profesjonalizm</h3>
+                    <p class="text-gray-600">
+                        Oferowane przez nas dedykowane rozwiązania są na najwyższym poziomie, ponieważ zawsze kierujemy się zadowoleniem Klienta.
+                    </p>
+                </div>
+                
+                <div class="value-card bg-white p-8 rounded-xl shadow-lg text-center">
+                    <svg class="w-16 h-16 mx-auto mb-4" viewBox="0 0 100 100">
+                        <use href="Images/icons.svg#icon-wspolpraca"></use>
+                    </svg>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-800">Współpraca</h3>
+                    <p class="text-gray-600">
+                        Zależy nam na szczerych relacjach z Klientem – dzięki sprawnej komunikacji jesteśmy w stanie zdiagnozować procesy, które możemy udoskonalić.
+                    </p>
+                </div>
+                
+                <div class="value-card bg-white p-8 rounded-xl shadow-lg text-center">
+                    <svg class="w-16 h-16 mx-auto mb-4" viewBox="0 0 100 100">
+                        <use href="Images/icons.svg#icon-odpowiedzialnosc"></use>
+                    </svg>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-800">Odpowiedzialność</h3>
+                    <p class="text-gray-600">
+                        Podejmujemy ambitne wyzwania, ale jednocześnie składamy tylko te obietnice, które jesteśmy w stanie zrealizować.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">
+                    Usługi informatyczne, wdrożenia ERP i oprogramowanie dla Twojej firmy!
+                </h2>
+                <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+                    W ERPTECH oferujemy rozwiązania szyte na miarę – szczegółowo analizujemy oczekiwania naszych Klientów, aby zaimplementować rozwiązania dopasowane do ich indywidualnych potrzeb.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- SAP FIORI -->
+                <div id="fiori" class="service-card bg-gradient-to-br from-orange-50 to-yellow-50 p-8 rounded-xl shadow-lg">
+                    <svg class="w-12 h-12 mb-4" viewBox="0 0 100 100">
+                        <use href="Images/service-icons.svg#icon-fiori"></use>
+                    </svg>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-800">SAP FIORI</h3>
+                    <p class="text-gray-600 mb-4">
+                        Te dwa wyrazy symbolizują wejście SAP w nową erę. Nowoczesny wygląd, ergonomia i mobilność - to główne atuty najnowszego rozwiązania SAP.
+                    </p>
+                </div>
+
+                <!-- EOD -->
+                <div id="eod" class="service-card bg-gradient-to-br from-orange-50 to-yellow-50 p-8 rounded-xl shadow-lg">
+                    <svg class="w-12 h-12 mb-4" viewBox="0 0 100 100">
+                        <use href="Images/service-icons.svg#icon-eod"></use>
+                    </svg>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-800">EOD</h3>
+                    <p class="text-gray-600 mb-4">
+                        Automatyzacja obiegu dokumentów, które wymagają zatwierdzeń, ewidencji oraz archiwizacji powoli staje się niezbędnym elementem w przedsiębiorstwach.
+                    </p>
+                </div>
+
+                <!-- SAP HANA -->
+                <div class="service-card bg-gradient-to-br from-orange-50 to-yellow-50 p-8 rounded-xl shadow-lg">
+                    <svg class="w-12 h-12 mb-4" viewBox="0 0 100 100">
+                        <use href="Images/service-icons.svg#icon-integracje"></use>
+                    </svg>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-800">SAP HANA</h3>
+                    <p class="text-gray-600 mb-4">
+                        Inwestycja w najnowsze rozwiązanie SAP HANA nie opiera się jedynie na zmianie bazy danych. Potrzebne jest dostosowanie procesów oraz programów.
+                    </p>
+                </div>
+
+                <!-- Finanse i Księgowość -->
+                <div class="service-card bg-gradient-to-br from-orange-50 to-yellow-50 p-8 rounded-xl shadow-lg">
+                    <svg class="w-12 h-12 mb-4" viewBox="0 0 100 100">
+                        <use href="Images/service-icons.svg#icon-erpnext"></use>
+                    </svg>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-800">Finanse i Księgowość</h3>
+                    <p class="text-gray-600 mb-4">
+                        Podstawa każdej firmy. Jeden z najważniejszych i najbardziej newralgicznych obszarów działalności organizacji. Dlatego tak istotna jest sprawność i niezawodność systemów.
+                    </p>
+                </div>
+
+                <!-- SAP IoT -->
+                <div id="iot" class="service-card bg-gradient-to-br from-orange-50 to-yellow-50 p-8 rounded-xl shadow-lg">
+                    <svg class="w-12 h-12 mb-4" viewBox="0 0 100 100">
+                        <use href="Images/service-icons.svg#icon-iot"></use>
+                    </svg>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-800">SAP IoT</h3>
+                    <p class="text-gray-600 mb-4">
+                        To nieograniczone możliwości, dzięki którym możemy zwiększyć sprawność i rentowność naszego przedsiębiorstwa. Wykorzystując IoT jesteśmy o krok przed konkurencją.
+                    </p>
+                </div>
+
+                <!-- Automatyzacja Procesów -->
+                <div class="service-card bg-gradient-to-br from-orange-50 to-yellow-50 p-8 rounded-xl shadow-lg">
+                    <svg class="w-12 h-12 mb-4" viewBox="0 0 100 100">
+                        <use href="Images/service-icons.svg#icon-produkcja"></use>
+                    </svg>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-800">Automatyzacja Procesów</h3>
+                    <p class="text-gray-600 mb-4">
+                        Automatyzacja procesów, które są wykonywane przez człowieka to nie tylko oszczędność, ale także zwiększone bezpieczeństwo oraz gwarancja niezawodności.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Skontaktuj się z nami</h2>
+                <p class="text-xl text-gray-600">Jesteśmy gotowi pomóc w Twoich projektach</p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <form id="contact-form" class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Imię i nazwisko *</label>
+                            <input type="text" id="name" name="name" required 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email *</label>
+                            <input type="email" id="email" name="email" required 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label for="subject" class="block text-gray-700 font-medium mb-2">Temat</label>
+                        <input type="text" id="subject" name="subject" 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent">
+                    </div>
+                    
+                    <div>
+                        <label for="message" class="block text-gray-700 font-medium mb-2">Treść wiadomości</label>
+                        <textarea id="message" name="message" rows="5" 
+                                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent"></textarea>
+                    </div>
+                    
+                    <div class="text-center">
+                        <button type="submit" class="btn-primary text-lg">
+                            Wyślij wiadomość
+                        </button>
+                    </div>
+                </form>
+                
+                <div class="mt-8 text-center text-gray-600">
+                    <p class="mb-2">
+                        <i class="fas fa-envelope mr-2"></i>
+                        <a href="mailto:biuro@erptech.pl" class="text-blue-600 hover:underline">biuro@erptech.pl</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-2"></i>
+                        <a href="tel:+48693068300" class="text-blue-600 hover:underline">537 533 179</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="mb-2">Copyright © 2025 ERP Tech</p>
+            <p class="text-gray-400">
+                <a href="mailto:biuro@erptech.pl" class="hover:text-cyan-400">biuro@erptech.pl</a> | 
+                tel: <a href="tel:+48693068300" class="hover:text-cyan-400">(+48) 693 068 300</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="fixed bottom-8 right-8 text-white w-12 h-12 rounded-full shadow-lg transition">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

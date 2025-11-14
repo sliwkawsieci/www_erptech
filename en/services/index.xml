@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on ERP Tech</title>
+    <link>https://erptech.pl/en/services/</link>
+    <description>Recent content in Services on ERP Tech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://erptech.pl/en/services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EOD</title>
+      <link>https://erptech.pl/en/services/eod/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://erptech.pl/en/services/eod/</guid>
+      <description>EOD System in ERPnext ERPnext offers a comprehensive electronic document management solution:&#xA;Document creation and management Workflows and business processes Version control Electronic signatures Integration with other modules Document Templates&#xD;Ready-made templates for invoices, contracts, orders and other documents.&#xD;Workflows&#xD;Defining business processes and approval paths.&#xD;Versioning&#xD;Full history of document changes.&#xD;E-Signatures&#xD;Option to add qualified electronic signatures.&#xD;Benefits Security - document access control Efficiency - elimination of paper documents Tracking - full history of changes and approvals Integration - automatic document generation from other modules Interested in implementation?</description>
+    </item>
+    <item>
+      <title>ERPnext System</title>
+      <link>https://erptech.pl/en/services/erpnext/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://erptech.pl/en/services/erpnext/</guid>
+      <description>Main ERPnext Representative in Poland ERPnext is an open source ERP system offering full functionality without license costs. We are the main ERPnext representative in Poland with years of experience in implementing and customizing this system.&#xA;No License&#xD;Open source without license costs&#xA;Modularity&#xD;Choose only needed modules&#xA;Mobility&#xD;Access from any device&#xA;Customization&#xD;Tailored to your needs&#xA;ERPnext Modules Warehouse&#xD;Comprehensive warehouse and logistics management.&#xD;Learn more →&#xD;Production&#xD;Production planning, BOM, work orders and quality control.</description>
+    </item>
+    <item>
+      <title>Production</title>
+      <link>https://erptech.pl/en/services/production/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://erptech.pl/en/services/production/</guid>
+      <description>ERPnext Production Module ERPnext enables comprehensive production management:&#xA;BOM (Bill of Materials) definition Work order creation Production capacity planning Production progress tracking Cost calculation Warehouse integration Product Cards&#xD;Full specification of products and components.&#xD;Product Structures&#xD;Multi-level BOM definitions with alternative versions.&#xD;Work Orders&#xD;Planning and execution of production orders.&#xD;Production Reports&#xD;Analysis of production efficiency and costs.&#xD;Benefits Optimization - better resource utilization Control - real-time progress tracking Flexibility - adaptation to different production models Integration - connection with warehouse and finance Interested in implementation?</description>
+    </item>
+    <item>
+      <title>SAP FIORI</title>
+      <link>https://erptech.pl/en/services/fiori/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://erptech.pl/en/services/fiori/</guid>
+      <description>SAP FIORI - interface revolution SAP FIORI is a modern, responsive user interface for SAP systems:&#xA;UX-driven design Access from any device View personalization Intuitive navigation Ready-to-use apps for various business processes Responsiveness&#xD;Full functionality on computers, tablets and smartphones.&#xD;Personalization&#xD;Interface customization to user needs.&#xD;Performance&#xD;Fast loading and smooth operation.&#xD;Security&#xD;Advanced authentication and authorization mechanisms.&#xD;Our Services SAP FIORI Implementation - full installation and configuration Migration from SAP GUI - smooth transition to new interface App Development - custom FIORI apps creation Integrations - connection with other systems Training - user preparation Interested in implementation?</description>
+    </item>
+    <item>
+      <title>SAP IoT</title>
+      <link>https://erptech.pl/en/services/iot/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://erptech.pl/en/services/iot/</guid>
+      <description>SAP IoT - smart solutions We integrate IoT devices with SAP systems:&#xA;Sensor data collection Real-time data analysis Process automation Predictive maintenance ERP and MES integration IoT Devices&#xD;Integration of various sensors and devices.&#xD;SAP Cloud&#xD;Secure data storage and analysis.&#xD;Data Analysis&#xD;Advanced data analysis algorithms.&#xD;Automation&#xD;Automatic reactions to events.&#xD;Benefits Savings - cost reduction through monitoring Efficiency - production process optimization Prediction - failure forecasting Reports - comprehensive data summaries Interested in solution?</description>
+    </item>
+    <item>
+      <title>Warehouse</title>
+      <link>https://erptech.pl/en/services/warehouse/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://erptech.pl/en/services/warehouse/</guid>
+      <description>ERPnext Warehouse System ERPnext offers full warehouse management functionality including:&#xA;Stock level tracking Location management Goods receipt and issue Inventory counts Batch and serial number management Integration with purchases and sales Barcodes&#xD;Generate and scan barcodes for quick item identification.&#xD;Stock Transfers&#xD;Manage item transfers between warehouses.&#xD;Inventory&#xD;Plan and conduct inventory counts with variance reports.&#xD;Logistics&#xD;Manage deliveries and transportation.&#xD;Benefits Automation - minimize human errors Integration - full connection with sales and purchase modules Reports - analysis of warehouse turnover Mobility - access from mobile devices Interested in implementation?</description>
+    </item>
+  </channel>
+</rss>
