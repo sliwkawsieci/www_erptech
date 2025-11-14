@@ -1,13 +1,78 @@
 backend:
   name: git-gateway
   branch: main
+  # For local development, you can use:
+  # name: proxy
+  # proxy_url: http://localhost:8081/api/v1
 
 media_folder: "static/Images"
 public_folder: "/Images"
 
 locale: "pl"
 
+# Site URL for preview functionality
+site_url: "http://localhost:56921"
+
 collections:
+  - name: "homepage_pl"
+    label: "Strona główna (PL)"
+    files:
+      - file: "content/pl/_index.md"
+        label: "Strona główna (PL)"
+        name: "homepage_pl"
+        fields:
+          - {label: "Tytuł", name: "title", widget: "string"}
+          - {label: "Podtytuł", name: "subtitle", widget: "string"}
+          - {label: "Tekst CTA", name: "cta_text", widget: "string"}
+          - label: "Wartości"
+            name: "values"
+            widget: "object"
+            fields:
+              - {label: "Tytuł sekcji", name: "title", widget: "string"}
+              - label: "Elementy"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Nazwa", name: "name", widget: "string"}
+                  - {label: "Opis", name: "description", widget: "text"}
+                  - {label: "Ikona (HTML)", name: "icon", widget: "text"}
+          - label: "Usługi"
+            name: "services"
+            widget: "object"
+            fields:
+              - {label: "Tytuł sekcji", name: "title", widget: "string"}
+              - {label: "Tekst linku", name: "learn_more", widget: "string"}
+              - label: "Elementy"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Nazwa", name: "name", widget: "string"}
+                  - {label: "Opis", name: "description", widget: "text"}
+                  - {label: "URL", name: "url", widget: "string"}
+                  - {label: "Ikona (HTML)", name: "icon", widget: "text"}
+          - label: "Technologie"
+            name: "technologies"
+            widget: "object"
+            fields:
+              - {label: "Tytuł sekcji", name: "title", widget: "string"}
+              - label: "Elementy"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Nazwa", name: "name", widget: "string"}
+                  - {label: "Opis", name: "description", widget: "text"}
+                  - {label: "Ikona (HTML)", name: "icon", widget: "text"}
+          - label: "Sekcja kontaktowa"
+            name: "contact_section"
+            widget: "object"
+            fields:
+              - {label: "Tytuł", name: "title", widget: "string"}
+              - {label: "Opis", name: "description", widget: "text"}
+              - {label: "Etykieta telefonu", name: "phone_label", widget: "string"}
+              - {label: "Etykieta spotkania", name: "meeting_label", widget: "string"}
+              - {label: "CTA spotkania", name: "meeting_cta", widget: "string"}
+              - {label: "Tekst przycisku", name: "cta_button", widget: "string"}
+
   - name: "pages_pl"
     label: "Strony (PL)"
     folder: "content/pl"
@@ -17,6 +82,10 @@ collections:
       - {label: "Tytuł", name: "title", widget: "string"}
       - {label: "Podtytuł", name: "subtitle", widget: "string", required: false}
       - {label: "Data", name: "date", widget: "datetime"}
+      - {label: "Opis", name: "description", widget: "text", required: false}
+      - {label: "Słowa kluczowe", name: "keywords", widget: "list", required: false}
+      - {label: "Typ", name: "type", widget: "string", default: "page", required: false}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Treść", name: "body", widget: "markdown"}
 
   - name: "services_pl"
@@ -28,7 +97,21 @@ collections:
       - {label: "Tytuł", name: "title", widget: "string"}
       - {label: "Podtytuł", name: "subtitle", widget: "string", required: false}
       - {label: "Data", name: "date", widget: "datetime"}
+      - {label: "Opis", name: "description", widget: "text", required: false}
+      - {label: "Słowa kluczowe", name: "keywords", widget: "list", required: false}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Treść", name: "body", widget: "markdown"}
+
+  - name: "homepage_en"
+    label: "Homepage (EN)"
+    files:
+      - file: "content/en/_index.md"
+        label: "Homepage (EN)"
+        name: "homepage_en"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "CTA Text", name: "cta_text", widget: "string"}
 
   - name: "pages_en"
     label: "Pages (EN)"
@@ -39,6 +122,10 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Keywords", name: "keywords", widget: "list", required: false}
+      - {label: "Type", name: "type", widget: "string", default: "page", required: false}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "services_en"
@@ -50,4 +137,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Keywords", name: "keywords", widget: "list", required: false}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
