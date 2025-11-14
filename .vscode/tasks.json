@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Hugo Server",
+            "type": "shell",
+            "command": "${workspaceFolder}/hugo_bin/hugo.exe",
+            "args": ["server", "--buildDrafts"],
+            "options": {
+                "cwd": "${workspaceFolder}/hugo_site"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "isBackground": true,
+            "problemMatcher": []
+        },
+        {
+            "label": "Build CSS",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "build-css"],
+            "options": {
+                "cwd": "${workspaceFolder}/hugo_site"
+            },
+            "group": "build"
+        }
+    ]
+}

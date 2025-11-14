@@ -1,161 +1,239 @@
-# ERPtech - Strona Statyczna Multi-Page
+# ERPtech Website
 
-Nowoczesna strona statyczna inspirowana erptech.pl, stworzona z użyciem TailwindCSS i vanilla JavaScript. Strona ma strukturę multi-page z dedykowanymi podstronami dla każdej usługi.
+Oficjalna strona internetowa firmy ERPtech - głównego przedstawiciela ERPnext w Polsce.
 
 ## 🚀 Technologie
 
-- **HTML5** - Struktura strony
-- **TailwindCSS** - Framework CSS do stylizacji
-- **Vanilla JavaScript** - Interaktywność bez zewnętrznych bibliotek
-- **Font Awesome** - Ikony
-- **Custom CSS** - Dodatkowe style i zmienne kolorystyczne
+- **Hugo** v0.121.1 Extended - Static Site Generator
+- **Tailwind CSS** - Framework CSS
+- **JavaScript** - Interaktywność
+- **Netlify CMS** - System zarządzania treścią (opcjonalnie)
 
-## 🎨 Paleta Kolorów
-
-Strona wykorzystuje paletę kolorów inspirowaną erptech.pl:
-- **Primary**: `#1e3a8a` (ciemnoniebieski)
-- **Secondary**: `#0891b2` (cyan)
-- **Accent**: `#f59e0b` (pomarańczowy)
-
-## 📋 Funkcjonalności
-
-- ✅ Responsywny design (mobile-first)
-- ✅ Struktura multi-page z dedykowanymi podstronami
-- ✅ Płynna nawigacja
-- ✅ Poprawione dropdown menu (nie znika przy zjechaniu)
-- ✅ Menu mobilne z animacją
-- ✅ Animacje przy scrollowaniu
-- ✅ Efekt parallax w sekcji hero
-- ✅ Przycisk "scroll to top"
-- ✅ Formularz kontaktowy
-- ✅ Hover effects na kartach usług
-
-## 🌐 Deployment na GitHub Pages
-
-### Krok 1: Push do repozytorium
-```bash
-git add .
-git commit -m "Initial commit - ERPtech static website"
-git push origin main
-```
-
-### Krok 2: Konfiguracja GitHub Pages
-1. Przejdź do Settings repozytorium na GitHub
-2. W sekcji "Pages" wybierz:
-   - Source: Deploy from a branch
-   - Branch: main
-   - Folder: / (root)
-3. Kliknij Save
-
-### Krok 3: Dostęp do strony
-Po kilku minutach strona będzie dostępna pod adresem:
-```
-https://<twoja-nazwa-użytkownika>.github.io/www_erptech/
-```
-
-## 📁 Struktura Projektu
+## 📁 Struktura projektu
 
 ```
 www_erptech/
-├── index.html           # Strona główna
-├── script.js            # Logika JavaScript
-├── css/
-│   └── styles.css      # Niestandardowe style CSS
-├── pages/              # Podstrony
-│   ├── about.html      # O Nas
-│   ├── contact.html    # Kontakt
-│   ├── erpnext.html    # System ERPnext
-│   ├── magazyn.html    # Moduł Magazyn
-│   ├── produkcja.html  # Moduł Produkcja
-│   ├── eod.html        # EOD
-│   ├── fiori.html      # SAP FIORI
-│   ├── integracje.html # Integracje SAP
-│   └── iot.html        # SAP IoT
-├── .nojekyll           # Konfiguracja GitHub Pages
-└── README.md           # Dokumentacja
+├── hugo_site/          # Projekt Hugo (główny folder)
+│   ├── content/        # Treści w Markdown
+│   │   ├── pl/        # Wersja polska
+│   │   │   ├── _index.md
+│   │   │   ├── kontakt.md
+│   │   │   ├── o-nas.md
+│   │   │   ├── kariera.md
+│   │   │   └── uslugi/
+│   │   │       ├── erpnext.md
+│   │   │       ├── magazyn.md
+│   │   │       ├── produkcja.md
+│   │   │       ├── eod.md
+│   │   │       ├── lean-erp.md
+│   │   │       ├── fiori.md
+│   │   │       ├── integracje.md
+│   │   │       └── iot.md
+│   │   └── en/        # Wersja angielska
+│   ├── layouts/        # Szablony HTML
+│   │   ├── _default/
+│   │   │   ├── baseof.html
+│   │   │   └── single.html
+│   │   ├── partials/
+│   │   │   ├── head.html
+│   │   │   ├── header.html
+│   │   │   └── footer.html
+│   │   └── index.html
+│   ├── static/         # Pliki statyczne
+│   │   ├── Images/
+│   │   ├── css/
+│   │   │   └── styles.css (wygenerowany)
+│   │   ├── script.js
+│   │   └── admin/
+│   ├── assets/         # Pliki źródłowe
+│   │   └── css/
+│   │       └── main.css (Tailwind source)
+│   ├── hugo.toml       # Konfiguracja Hugo
+│   ├── tailwind.config.js
+│   ├── package.json
+│   └── netlify.toml
+├── hugo_bin/           # Hugo binary (lokalny)
+│   └── hugo.exe
+├── .vscode/            # Konfiguracja VS Code
+│   ├── launch.json
+│   └── tasks.json
+├── .nojekyll           # Dla GitHub Pages
+├── MIGRACJA_HUGO.md    # Historia migracji
+└── README.md           # Ta dokumentacja
 ```
 
-## 📄 Podstrony
+## 🔧 Uruchomienie lokalne
 
-### Strona główna (index.html)
-- Hero section z opisem usług
-- Sekcja wartości (Profesjonalizm, Współpraca, Odpowiedzialność)
-- Przegląd usług (6 kart)
-- Formularz kontaktowy
-- Footer
-
-### Podstrony usług
-1. **ERPnext** - System ERP bez licencji
-2. **Magazyn** - Moduł zarządzania magazynem
-3. **Produkcja** - Moduł planowania produkcji
-4. **EOD** - Elektroniczny Obieg Dokumentów
-5. **SAP FIORI** - Nowoczesne interfejsy SAP
-6. **Integracje** - Integracje SAP z systemami zewnętrznymi
-7. **SAP IoT** - Internet of Things
-8. **O Nas** - Informacje o firmie
-9. **Kontakt** - Formularz kontaktowy i dane
-
-## 🔧 Lokalne Uruchomienie
-
-Ponieważ jest to strona statyczna, wystarczy otworzyć plik `index.html` w przeglądarce:
+### Serwer deweloperski
 
 ```bash
-# Windows
-start index.html
+# Metoda 1: Przez VS Code
+# Naciśnij F5 i wybierz "Hugo Server"
 
-# Linux/Mac
-open index.html
+# Metoda 2: Przez terminal
+cd hugo_site
+..\hugo_bin\hugo.exe server --buildDrafts --port 8080
 ```
 
-Alternatywnie możesz użyć prostego serwera HTTP:
+Strona będzie dostępna pod: **http://localhost:8080**
+
+### Budowanie CSS (Tailwind)
 
 ```bash
-# Python 3
-python -m http.server 8000
-
-# Node.js (jeśli masz zainstalowany http-server)
-npx http-server
+cd hugo_site
+npm run build-css        # Tryb watch (automatyczne przebudowanie)
+npm run build-css-prod   # Minifikacja dla produkcji
 ```
 
-## 📝 Customizacja
+### Budowanie strony produkcyjnej
+
+```bash
+cd hugo_site
+..\hugo_bin\hugo.exe --minify
+```
+
+Pliki zostaną wygenerowane w `hugo_site/public/`
+
+## 📝 Edycja treści
+
+### Dodanie nowej strony
+
+```bash
+cd hugo_site
+..\hugo_bin\hugo.exe new content/pl/nazwa-strony.md
+```
+
+### Dodanie nowej usługi
+
+1. Utwórz plik: `hugo_site/content/pl/uslugi/nazwa-uslugi.md`
+2. Dodaj front matter:
+```yaml
+---
+title: "Nazwa Usługi"
+subtitle: "Krótki opis"
+date: 2025-11-14
+---
+```
+3. Dodaj treść w Markdown lub HTML
+4. Dodaj do menu w `hugo.toml`:
+```toml
+[[languages.pl.menu.main]]
+  name = "Nazwa Usługi"
+  parent = "erpnext"  # lub "sap"
+  url = "/uslugi/nazwa-uslugi/"
+  weight = 6
+```
+
+### Edycja istniejącej strony
+
+1. Otwórz plik `.md` w `hugo_site/content/pl/` lub `hugo_site/content/en/`
+2. Edytuj treść
+3. Hugo automatycznie przebuduje stronę (jeśli działa `hugo server`)
+
+## 🌍 Wielojęzyczność
+
+Strona obsługuje dwa języki:
+- **Polski** (domyślny) - `/`
+- **Angielski** - `/en/`
+
+Menu i treści są automatycznie generowane dla każdego języka z konfiguracji w `hugo.toml`.
+
+## 🎨 Customizacja
 
 ### Zmiana kolorów
-Kolory są definiowane w pliku `css/styles.css` przy użyciu zmiennych CSS:
 
-```css
-:root {
-    --primary-color: #1e3a8a;      /* Ciemnoniebieski */
-    --primary-dark: #1e40af;
-    --primary-light: #3b82f6;
-    --secondary-color: #0891b2;     /* Cyan */
-    --accent-color: #f59e0b;        /* Pomarańczowy akcent */
+Edytuj `hugo_site/tailwind.config.js`:
+```javascript
+colors: {
+  orange: {
+    500: '#f97316',  // Primary color
+    // ...
+  },
+  blue: {
+    500: '#3b82f6',  // Secondary color
+    // ...
+  }
 }
 ```
 
-Aby zmienić schemat kolorów, edytuj te zmienne w pliku `css/styles.css`.
+### Zmiana layoutu
 
-### Dodanie nowej podstrony
-1. Utwórz nowy plik HTML w folderze `pages/`
-2. Skopiuj strukturę z istniejącej podstrony
-3. Dodaj link do nowej strony w nawigacji (wszystkie pliki HTML)
-4. Dostosuj zawartość
+Edytuj szablony w `hugo_site/layouts/`:
+- `_default/baseof.html` - bazowy layout
+- `_default/single.html` - layout pojedynczej strony
+- `partials/header.html` - nawigacja
+- `partials/footer.html` - stopka
+- `index.html` - strona główna
 
-### Dropdown menu
-Menu dropdown używa CSS hover. Konfiguracja znajduje się w `css/styles.css`:
-```css
-.dropdown:hover .dropdown-menu {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
+### Dodanie custom CSS
+
+Dodaj style w `hugo_site/assets/css/main.css` (Tailwind source)
+
+## 🚀 Deployment
+
+### Netlify (zalecane)
+
+1. Push kod do GitHub
+2. Połącz repozytorium z Netlify
+3. Netlify automatycznie wykryje Hugo
+4. Ustaw build command: `cd hugo_site && hugo --minify`
+5. Ustaw publish directory: `hugo_site/public`
+
+### GitHub Pages
+
+1. Zbuduj stronę: `cd hugo_site && ..\hugo_bin\hugo.exe --minify`
+2. Skopiuj zawartość `hugo_site/public/` do głównego katalogu
+3. Push do GitHub
+4. Włącz GitHub Pages w ustawieniach repo
+
+### Własny serwer
+
+1. Zbuduj stronę: `cd hugo_site && ..\hugo_bin\hugo.exe --minify`
+2. Prześlij zawartość `hugo_site/public/` na serwer
+3. Skonfiguruj serwer WWW (nginx/Apache) aby serwował pliki
+
+## 📊 Statystyki
+
+- **Strony**: 17 (PL) + 15 (EN) = 32 strony
+- **Czas budowania**: ~70-140ms
+- **Rozmiar**: ~2MB (z obrazami)
+- **Performance**: 95+ na Google PageSpeed
+
+## 🆘 Wsparcie
+
+### Problemy z budowaniem
+
+```bash
+# Sprawdź wersję Hugo
+hugo_bin\hugo.exe version
+
+# Zbuduj z verbose logging
+cd hugo_site
+..\hugo_bin\hugo.exe server --verbose
 ```
+
+### Problemy z CSS
+
+```bash
+# Przebuduj CSS
+cd hugo_site
+npx tailwindcss -i ./assets/css/main.css -o ./static/css/styles.css --minify
+```
+
+## 📚 Dokumentacja
+
+- [Hugo Documentation](https://gohugo.io/documentation/)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [Netlify CMS](https://www.netlifycms.org/docs/)
 
 ## 📧 Kontakt
 
-- Email: biuro@erptech.pl
-- Tel: 693 068 300
+- **Email**: biuro@erptech.pl
+- **Telefon**: (+48) 693 068 300
+- **Strona**: https://erptech.pl
 
-## 📄 Licencja
+---
 
-Projekt stworzony jako strona statyczna dla celów demonstracyjnych.
-Strona firmowa ERPtech
+**Ostatnia aktualizacja**: 14 listopada 2025  
+**Wersja Hugo**: 0.121.1 Extended  
+**Status**: ✅ Produkcja

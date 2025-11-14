@@ -1,0 +1,22 @@
+# Hugo
+hugo_site/public/
+hugo_site/resources/
+hugo_site/.hugo_build.lock
+
+# Node modules
+hugo_site/node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*~

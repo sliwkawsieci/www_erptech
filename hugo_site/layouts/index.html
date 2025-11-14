@@ -49,6 +49,26 @@
 </section>
 {{ end }}
 
+<!-- Technologies Section -->
+{{ with .Params.technologies }}
+<section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">{{ .title }}</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+            {{ range .items }}
+            <div class="text-center group">
+                <div class="w-20 h-20 mx-auto mb-4 flex items-center justify-center bg-gray-50 rounded-xl group-hover:bg-blue-50 transition-colors">
+                    {{ .icon | safeHTML }}
+                </div>
+                <h3 class="text-lg font-bold text-gray-800 mb-2">{{ .name }}</h3>
+                <p class="text-sm text-gray-600">{{ .description }}</p>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+
 <!-- Contact CTA Section -->
 {{ with .Params.contact_section }}
 <section class="py-20 bg-white">

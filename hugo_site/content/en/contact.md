@@ -7,6 +7,7 @@ date: 2025-11-07
 <div class="max-w-4xl mx-auto">
     <div class="bg-white p-8 rounded-xl shadow-lg">
         <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-6">
+            <!-- REPLACE YOUR_FORM_ID with your actual Formspree form ID -->
             <div class="grid md:grid-cols-2 gap-6">
                 <div>
                     <label for="name" class="block text-gray-700 font-medium mb-2">Name *</label>
