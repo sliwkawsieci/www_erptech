@@ -61,6 +61,24 @@
   display: block;
 }
 
+.dropdown-menu a {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  color: #374151;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  font-size: 0.875rem;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.dropdown-menu a:hover {
+  background-color: #fff7ed;
+  color: #ea580c;
+}
+
 /* Mobile menu button */
 .mobile-menu-button {
   display: none;
