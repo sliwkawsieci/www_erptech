@@ -5,7 +5,7 @@
             "label": "Hugo Server",
             "type": "shell",
             "command": "${workspaceFolder}/hugo_bin/hugo.exe",
-            "args": ["server", "--buildDrafts", "--port", "8080"],
+            "args": ["server", "--buildDrafts"],
             "options": {
                 "cwd": "${workspaceFolder}/hugo_site"
             },
