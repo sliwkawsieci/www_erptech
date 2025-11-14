@@ -9,6 +9,7 @@
   "devDependencies": {
     "tailwindcss": "^3.4.0",
     "postcss": "^8.4.31",
-    "autoprefixer": "^10.4.16"
+    "autoprefixer": "^10.4.16",
+    "@tailwindcss/typography": "^0.5.10"
   }
 }

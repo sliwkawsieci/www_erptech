@@ -2,6 +2,7 @@
 title: "SAP IoT"
 subtitle: "Internet Rzeczy w systemach SAP"
 date: 2025-11-07
+draft: true
 ---
 
 <div class="py-20 bg-white" id="iot-intro">

@@ -11,20 +11,58 @@ type: "page"
 <div class="max-w-6xl mx-auto px-6 lg:px-8">
 <div class="text-center mb-12">
 <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Główny przedstawiciel ERPNext w Polsce</h2>
-<p class="text-lg text-gray-600 mt-4 max-w-2xl mx-auto">Specjalizujemy się w kompleksowych wdrożeniach ERPNext, dostosowując system do unikalnych potrzeb każdej organizacji. Łączymy doświadczenie techniczne z praktyką biznesową.</p>
+<p class="text-lg text-gray-600 mt-4 max-w-2xl mx-auto">Specjalizujemy się w kompleksowych wdrożeniach ERPNext. Lączymy doświadczenie techniczne z praktyką biznesową dla optymalnych wyników.</p>
 </div>
 
 <div class="grid md:grid-cols-2 gap-10 items-center">
-<div class="space-y-4 text-gray-700 leading-relaxed">
-<p><strong class="text-gray-900">Wieloletnia praktyka we wdrożeniach.</strong> Przeprowadziliśmy dziesiątki wdrożeń ERPNext w firmach różnej wielkości – od małych przedsiębiorstw po duże korporacje.</p>
-<p><strong class="text-gray-900">Dedykowane rozwiązania.</strong> Tworzymy niestandardowe moduły i funkcjonalności idealnie dopasowane do Twojej branży.</p>
-<p><strong class="text-gray-900">Integracje i automatyzacje.</strong> Łączymy ERPNext z e-commerce, CRM, systemami magazynowymi i zewnętrznymi API.</p>
-<p><strong class="text-gray-900">Wsparcie i szkolenia.</strong> Zapewniamy pełną obsługę po wdrożeniu oraz transfer wiedzy dla użytkowników końcowych.</p>
+<div class="space-y-6">
+<div class="flex items-start gap-4">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-orange-100 text-orange-600 shadow-inner">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+</div>
+<div>
+<h3 class="font-bold text-gray-900 mb-1">Profesjonalne wdrożenia</h3>
+<p class="text-gray-700 text-sm">Dziesiątki wdrożeń w firmach różnej wielkości - od małych przedsiębiorstw po duże korporacje.</p>
+</div>
+</div>
+
+<div class="flex items-start gap-4">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 text-blue-600 shadow-inner">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/></svg>
+</div>
+<div>
+<h3 class="font-bold text-gray-900 mb-1">Dedykowane moduły</h3>
+<p class="text-gray-700 text-sm">Tworzymy niestandardowe rozwiązania idealnie dopasowane do Twojej branży.</p>
+</div>
+</div>
+
+<div class="flex items-start gap-4">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-green-100 text-green-600 shadow-inner">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+</div>
+<div>
+<h3 class="font-bold text-gray-900 mb-1">Integracje i automatyzacje</h3>
+<p class="text-gray-700 text-sm">Łączymy ERPNext z e-commerce, CRM, systemami magazynowymi i zewnętrznymi API.</p>
+</div>
+</div>
+
+<div class="flex items-start gap-4">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-purple-100 text-purple-600 shadow-inner">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M12 2.25a9.75 9.75 0 109.75 9.75A9.75 9.75 0 0012 2.25z"/></svg>
+</div>
+<div>
+<h3 class="font-bold text-gray-900 mb-1">Pełne wsparcie i szkolenia</h3>
+<p class="text-gray-700 text-sm">Zapewniamy kompleksową obsługę po wdrożeniu oraz transfer wiedzy dla użytkowników.</p>
+</div>
+</div>
 </div>
 
 <div class="relative">
-<img src="/images/erpnext-team.jpg" alt="Zespół ERPtech" class="rounded-2xl shadow-lg">
+<img src="/Images/erptech%20flow.png" alt="ERPtech Flow - Proces wdrożenia ERPNext" class="rounded-2xl shadow-lg">
 <div class="absolute inset-0 bg-gradient-to-tr from-orange-400/10 to-transparent rounded-2xl"></div>
+<div class="absolute top-4 right-4 bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold shadow-lg">
+✓ 100+ wdrożeń
+</div>
 </div>
 </div>
 </div>

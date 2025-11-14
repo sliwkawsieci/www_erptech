@@ -2,6 +2,7 @@
 title: "SAP IoT"
 subtitle: "Internet of Things in SAP systems"
 date: 2025-11-07
+draft: true
 ---
 
 ## SAP IoT - smart solutions

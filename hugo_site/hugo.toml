@@ -50,21 +50,21 @@ enableGitInfo = false
       name = "SAP"
       weight = 20
       identifier = "sap"
-    [[languages.pl.menu.main]]
-      name = "SAP FIORI"
-      parent = "sap"
-      url = "/uslugi/fiori/"
-      weight = 1
-    [[languages.pl.menu.main]]
-      name = "Integracje"
-      parent = "sap"
-      url = "/uslugi/integracje/"
-      weight = 2
-    [[languages.pl.menu.main]]
-      name = "SAP IoT"
-      parent = "sap"
-      url = "/uslugi/iot/"
-      weight = 3
+    # [[languages.pl.menu.main]]
+    #   name = "SAP FIORI"
+    #   parent = "sap"
+    #   url = "/uslugi/fiori/"
+    #   weight = 1
+    # [[languages.pl.menu.main]]
+    #   name = "Integracje"
+    #   parent = "sap"
+    #   url = "/uslugi/integracje/"
+    #   weight = 2
+    # [[languages.pl.menu.main]]
+    #   name = "SAP IoT"
+    #   parent = "sap"
+    #   url = "/uslugi/iot/"
+    #   weight = 3
     [[languages.pl.menu.main]]
       name = "O Nas"
       url = "/o-nas/"

@@ -45,6 +45,28 @@ services:
       url: "/uslugi/iot/"
       icon: '<i class="fas fa-network-wired text-blue-600 text-4xl"></i>'
 
+technologies:
+  title: "Technologie w których specjalizujemy się"
+  items:
+    - name: "ERPNext"
+      description: "Open source ERP system"
+      icon: '<i class="fas fa-cube text-orange-600 text-4xl"></i>'
+    - name: "SAP S/4HANA"
+      description: "Nowoczesny system ERP SAP"
+      icon: '<i class="fas fa-database text-blue-600 text-4xl"></i>'
+    - name: "SAP FIORI"
+      description: "Intuicyjny interfejs użytkownika"
+      icon: '<i class="fas fa-mobile-alt text-purple-600 text-4xl"></i>'
+    - name: "Python/Frappe"
+      description: "Framework dla ERPNext"
+      icon: '<i class="fab fa-python text-green-600 text-4xl"></i>'
+    - name: "PostgreSQL"
+      description: "Zaawansowana baza danych"
+      icon: '<i class="fas fa-server text-gray-600 text-4xl"></i>'
+    - name: "REST API"
+      description: "Integracje i automatyzacje"
+      icon: '<i class="fas fa-code text-indigo-600 text-4xl"></i>'
+
 contact_section:
   title: "Skontaktuj się z nami"
   description: "Jesteśmy gotowi pomóc Ci w cyfrowej transformacji Twojej firmy"
