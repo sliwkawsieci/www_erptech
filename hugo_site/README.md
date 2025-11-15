@@ -1,6 +1,6 @@
 # ERPtech - Strona Hugo
 
-Strona internetowa ERPtech zbudowana z wykorzystaniem Hugo Static Site Generator.
+Strona internetowa ERPtech zbudowana z wykorzystaniem Hugo Static Site Generator..
 
 ## Wymagania
 
