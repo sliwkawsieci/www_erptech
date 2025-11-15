@@ -50,4 +50,3 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./hugo_site/public
-        cname: erptech.pl
