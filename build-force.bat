@@ -26,9 +26,8 @@ if %ERRORLEVEL% NEQ 0 (
 )
 
 echo Building Hugo site to docs folder...
-cd ..\hugo_bin
-echo Running: hugo.exe --config ..\hugo_site\hugo_build.toml --minify --gc --destination ..\docs
-hugo.exe --config ..\hugo_site\hugo_build.toml --minify --gc --destination ..\docs
+echo Running: ..\hugo_bin\hugo.exe --config hugo_build.toml --minify --gc --destination ../docs
+..\hugo_bin\hugo.exe --config hugo_build.toml --minify --gc --destination ../docs
 if %ERRORLEVEL% NEQ 0 (
   echo ERROR: Hugo build failed!
   echo Check configuration file: ..\hugo_site\hugo_build.toml
