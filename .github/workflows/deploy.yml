@@ -34,6 +34,11 @@ jobs:
         cd hugo_site
         npm install
 
+    - name: Fix permissions
+      run: |
+        cd hugo_site
+        chmod +x node_modules/.bin/tailwindcss
+
     - name: Build CSS
       run: |
         cd hugo_site
