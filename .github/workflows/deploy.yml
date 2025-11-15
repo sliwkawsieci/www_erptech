@@ -32,7 +32,7 @@ jobs:
     - name: Install dependencies
       run: |
         cd hugo_site
-        npm ci
+        npm install
 
     - name: Build CSS
       run: |
@@ -42,11 +42,11 @@ jobs:
     - name: Build Hugo site
       run: |
         cd hugo_site
-        hugo --config hugo_build.toml --minify --gc
+        hugo --config hugo_build.toml --minify --gc --destination ../docs
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./hugo_site/public
+        publish_dir: ./docs
