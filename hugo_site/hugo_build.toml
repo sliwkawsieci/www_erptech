@@ -1,4 +1,4 @@
-baseURL = 'https://erptech.pl/'
+baseURL = 'https://sliwkawsieci.github.io/www_erptech/'
 title = 'ERP Tech'
 defaultContentLanguage = 'pl'
 enableRobotsTXT = true
@@ -84,11 +84,6 @@ enableGitInfo = false
       parent = "erpnext"
       url = "/services/production/"
       weight = 3
-    [[languages.en.menu.main]]
-      name = "EOD"
-      parent = "erpnext"
-      url = "/services/eod/"
-      weight = 4
     [[languages.en.menu.main]]
       name = "Lean ERP"
       parent = "erpnext"
