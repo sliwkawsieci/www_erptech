@@ -1,4 +1,4 @@
-baseURL = 'https://sliwkawsieci.github.io/www_erptech/'
+baseURL = 'https://erptech.pl/'
 title = 'ERP Tech'
 defaultContentLanguage = 'pl'
 enableRobotsTXT = true
