@@ -2,6 +2,9 @@
 title: "Magazyn"
 subtitle: "Kompleksowe zarządzanie magazynem i logistyką"
 date: 2025-11-07
+raw_html: true
+hero_image: "/Images/grafika-glowna-magazyn.jpg"
+hero_image_alt: "Grafika główna magazynu"
 ---
 
 <div class="py-20 bg-white" id="warehouse-intro">
@@ -40,7 +43,7 @@ date: 2025-11-07
 </div>
 
 <div class="relative">
-<img src="/Images/system-erp-schemat.jpg.webp" alt="Moduł magazynowy ERPnext" class="rounded-2xl shadow-lg" loading="lazy" decoding="async">
+<img src="/Images/infografika-procesowa.png" alt="Infografika procesowa ERPnext" class="rounded-2xl shadow-lg" loading="lazy" decoding="async">
 <div class="absolute inset-0 bg-gradient-to-tr from-blue-400/10 via-transparent to-transparent rounded-2xl"></div>
 </div>
 </div>
@@ -110,20 +113,82 @@ date: 2025-11-07
 </div>
 
 <div class="relative">
-<img src="/uslugi/magazyn/magazyn erp.png" alt="System raportów magazynowych ERPnext" class="rounded-2xl shadow-lg w-full h-auto" loading="lazy" decoding="async">
+<img src="/Images/grafika-zarzadcza.png" alt="Grafika zarządcza raportów magazynowych" class="rounded-2xl shadow-lg w-full h-auto" loading="lazy" decoding="async">
 <div class="absolute inset-0 bg-gradient-to-tr from-blue-400/10 via-transparent to-blue-400/10 rounded-2xl"></div>
-<div class="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-lg p-4 shadow-md">
-<h4 class="font-semibold text-gray-900 mb-2">Korzyści dla firmy</h4>
-<ul class="text-sm text-gray-700 space-y-1">
-<li>• <strong>Optymalizacja zapasów</strong> - redukcja kosztów składowania</li>
-<li>• <strong>Lepsze planowanie</strong> - przewidywanie potrzeb zakupowych</li>
-<li>• <strong>Zwiększona wydajność</strong> - identyfikacja wąskich gardeł</li>
-<li>• <strong>Kontrola kosztów</strong> - monitoring efektywności logistycznej</li>
-</ul>
+</div>
+</div>
+</div>
+
+<section class="py-16 lg:py-20 bg-gradient-to-r from-orange-50 via-white to-blue-50 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+<div class="max-w-7xl mx-auto">
+<div class="grid lg:grid-cols-2 gap-10 items-center">
+<div class="space-y-6">
+<div>
+<h2 class="text-3xl font-bold text-gray-900">Skanowanie kodów kreskowych</h2>
+<p class="mt-3 text-lg text-gray-700 leading-relaxed">
+Przyjęcia, wydania i kompletacja mogą działać szybciej i bez pomyłek. ERPNext zapisuje skanowany kod, lokalizację, numer partii lub numer seryjny w jednym kroku.
+</p>
+</div>
+
+<div class="grid sm:grid-cols-2 gap-4">
+<div class="bg-white/80 backdrop-blur rounded-2xl p-5 shadow-sm border border-gray-100">
+<div class="flex items-start gap-3">
+<span class="flex h-10 w-10 items-center justify-center rounded-xl bg-orange-100 text-orange-600"><i class="fas fa-barcode"></i></span>
+<div>
+<h3 class="font-semibold text-gray-900">Szybsza obsługa</h3>
+<p class="text-sm text-gray-600 mt-1">Skanery ręczne i mobilne przyspieszają PZ/WZ, przesunięcia i kompletację.</p>
+</div>
+</div>
+</div>
+<div class="bg-white/80 backdrop-blur rounded-2xl p-5 shadow-sm border border-gray-100">
+<div class="flex items-start gap-3">
+<span class="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-100 text-blue-600"><i class="fas fa-check-circle"></i></span>
+<div>
+<h3 class="font-semibold text-gray-900">Mniej błędów</h3>
+<p class="text-sm text-gray-600 mt-1">Walidacja kodów, partii i lokalizacji minimalizuje pomyłki w dokumentach.</p>
+</div>
+</div>
+</div>
+<div class="bg-white/80 backdrop-blur rounded-2xl p-5 shadow-sm border border-gray-100">
+<div class="flex items-start gap-3">
+<span class="flex h-10 w-10 items-center justify-center rounded-xl bg-green-100 text-green-600"><i class="fas fa-layer-group"></i></span>
+<div>
+<h3 class="font-semibold text-gray-900">Zarządzanie kodami</h3>
+<p class="text-sm text-gray-600 mt-1">Centralna baza kodów kreskowych, numerów seryjnych i partii z pełną historią ruchów.</p>
+</div>
+</div>
+</div>
+<div class="bg-white/80 backdrop-blur rounded-2xl p-5 shadow-sm border border-gray-100">
+<div class="flex items-start gap-3">
+<span class="flex h-10 w-10 items-center justify-center rounded-xl bg-purple-100 text-purple-600"><i class="fas fa-stopwatch"></i></span>
+<div>
+<h3 class="font-semibold text-gray-900">Oszczędność czasu</h3>
+<p class="text-sm text-gray-600 mt-1">Automatyczne podpowiedzi i alerty skracają operacje i ograniczają poprawki.</p>
 </div>
 </div>
 </div>
 </div>
+
+<div class="flex flex-col sm:flex-row gap-3">
+<a href="/kontakt/" class="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-xl transition-all duration-300 hover:scale-105">
+Umów konsultację
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+</a>
+<a href="/uslugi/integracje/" class="inline-flex items-center justify-center gap-2 bg-white/80 hover:bg-white text-gray-900 font-semibold px-6 py-3 rounded-xl border border-gray-200 transition-all duration-300">
+Integracje i urządzenia
+</a>
+</div>
+</div>
+
+<div class="relative">
+<div class="rounded-3xl overflow-hidden shadow-2xl">
+<img src="/Images/grafika-produktowa.png" alt="Grafika produktowa – skanowanie kodów kreskowych" class="w-full h-auto object-cover" loading="lazy" decoding="async">
+</div>
+<div class="absolute inset-0 rounded-3xl bg-gradient-to-tr from-orange-400/10 via-transparent to-blue-400/10 pointer-events-none"></div>
+</div>
+</div>
+</div>
+</section>
 
 <div class="bg-gradient-to-b from-blue-50 via-white to-blue-50 py-16 lg:py-24 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
 <div class="max-w-7xl mx-auto">
