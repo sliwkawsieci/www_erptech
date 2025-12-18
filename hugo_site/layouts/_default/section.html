@@ -1,13 +1,30 @@
 {{ define "main" }}
-<div class="container mx-auto px-4 py-8">
-    <h1 class="text-3xl font-bold mb-4">{{ .Title }}</h1>
-    {{ .Content }}
-    {{ range .Pages }}
-    <article class="mb-8">
-        <h2 class="text-2xl font-semibold"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-        <p class="text-gray-600">{{ .Date.Format "2006-01-02" }}</p>
-        <p>{{ .Summary }}</p>
-    </article>
-    {{ end }}
-</div>
+<!-- Hero Section -->
+<section class="text-center py-16 sm:py-20 lg:py-24 xl:py-32 bg-gradient-to-r from-orange-200 to-orange-50 animate-gradient px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+        <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 drop-shadow-sm mb-4 sm:mb-6 motion-safe:animate-fade-in">{{ .Title }}</h1>
+        {{ with .Params.subtitle }}
+        <p class="text-base sm:text-lg text-gray-800 drop-shadow-sm mb-6 sm:mb-8 motion-safe:animate-fade-up">{{ . }}</p>
+        {{ end }}
+        <a href="/kontakt/" class="group inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 hover:scale-105 text-white font-medium px-6 py-3 sm:px-8 sm:py-4 rounded-xl shadow-lg transition-transform duration-300 ease-out motion-safe:animate-slide-up">
+            Umów prezentację
+            <svg class="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+            </svg>
+        </a>
+    </div>
+</section>
+
+<!-- Content Section -->
+<section class="py-12 sm:py-16 lg:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {{ if .Params.raw_html }}
+            {{ .Content | safeHTML }}
+        {{ else }}
+            <div class="prose prose-sm sm:prose-lg max-w-none">
+                {{ .Content }}
+            </div>
+        {{ end }}
+    </div>
+</section>
 {{ end }}

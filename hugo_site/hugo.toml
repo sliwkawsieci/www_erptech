@@ -66,6 +66,30 @@ enableGitInfo = false
     #   url = "/uslugi/iot/"
     #   weight = 3
     [[languages.pl.menu.main]]
+      name = "Oferta"
+      weight = 25
+      identifier = "oferta"
+    [[languages.pl.menu.main]]
+      name = "ERPnext Start"
+      parent = "oferta"
+      url = "/oferta/erpnext-start/"
+      weight = 1
+    [[languages.pl.menu.main]]
+      name = "Cennik i Pakiety"
+      parent = "oferta"
+      url = "/oferta/cennik/"
+      weight = 2
+    [[languages.pl.menu.main]]
+      name = "Wsparcie"
+      parent = "oferta"
+      url = "/oferta/wsparcie/"
+      weight = 3
+    [[languages.pl.menu.main]]
+      name = "Hosting"
+      parent = "oferta"
+      url = "/oferta/hosting/"
+      weight = 4
+    [[languages.pl.menu.main]]
       name = "O Nas"
       url = "/o-nas/"
       weight = 30

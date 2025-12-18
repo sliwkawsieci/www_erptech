@@ -1,10 +1,20 @@
 {{ define "main" }}
 <!-- Hero Section -->
 <section class="hero-gradient pt-32 pb-20 px-4">
-    <div class="max-w-4xl mx-auto text-center text-white">
-        <h1 class="text-4xl md:text-6xl font-bold mb-6">{{ .Title }}</h1>
-        <p class="text-xl md:text-2xl mb-8">{{ .Params.subtitle }}</p>
-        <a href="{{ "kontakt" | relLangURL }}" class="btn-primary inline-block text-lg">{{ .Params.cta_text }}</a>
+    <div class="max-w-6xl mx-auto">
+        <div class="rounded-3xl overflow-hidden mb-10 shadow-2xl">
+            <img src="/Images/ERPtech%20hero.png" alt="ERPtech hero graphic" class="w-full h-auto object-cover" loading="lazy" decoding="async">
+        </div>
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+            <div class="text-white">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">{{ .Title }}</h1>
+                <p class="text-xl md:text-2xl mb-8">{{ .Params.subtitle }}</p>
+                <a href="{{ "kontakt" | relLangURL }}" class="btn-primary inline-block text-lg">{{ .Params.cta_text }}</a>
+            </div>
+            <div class="flex justify-center">
+                <img src="/Images/erptech%20flow.png" alt="ERP Tech Flow" class="max-w-full h-auto rounded-lg shadow-2xl">
+            </div>
+        </div>
     </div>
 </section>
 

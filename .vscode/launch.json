@@ -3,19 +3,28 @@
     "configurations": [
         {
             "name": "Hugo Server",
-            "type": "node",
+            "type": "node-terminal",
             "request": "launch",
-            "program": "${workspaceFolder}/hugo_bin/hugo.exe",
-            "args": ["server", "--buildDrafts"],
+            "command": "..\\hugo_bin\\hugo.exe",
+            "args": ["server", "--buildDrafts", "--port", "1313"],
             "cwd": "${workspaceFolder}/hugo_site",
-            "console": "integratedTerminal"
+            "presentation": {
+                "hidden": false,
+                "group": "hugo",
+                "order": 1
+            }
         },
         {
             "type": "msedge",
             "request": "launch",
             "name": "Launch Edge",
             "url": "http://localhost:1313",
-            "webRoot": "${workspaceFolder}/hugo_site"
+            "webRoot": "${workspaceFolder}/hugo_site",
+            "presentation": {
+                "hidden": false,
+                "group": "hugo",
+                "order": 2
+            }
         }
     ]
-} 
+}

@@ -73,13 +73,13 @@ type: "page"
 <h2 class="text-3xl font-bold text-center text-gray-900 mb-10 motion-safe:animate-fade-in">Schemat systemu ERPnext</h2>
 
 <div class="grid md:grid-cols-2 gap-8 items-center">
-    <div class="bg-white p-4 rounded-xl shadow-lg">
-        <img src="/Images/system-erp-schemat.jpg.webp" alt="Schemat systemu ERPnext" class="rounded-lg w-full h-auto aspect-video object-cover" loading="lazy" decoding="async">
-        <p class="text-center text-sm text-gray-500 mt-2">Schemat architektury systemu ERPnext</p>
-    </div>
-    <div class="space-y-4">
-        <p class="text-lg text-gray-700">
-            ERPNext – Elastyczny system ERP dla nowoczesnych firm
+<div class="bg-white p-4 rounded-xl shadow-lg">
+    <img src="/Images/system-erp-schemat.jpg.webp" alt="Schemat systemu ERPnext" class="rounded-lg w-full h-auto aspect-video object-cover" loading="lazy" decoding="async">
+    <p class="text-center text-sm text-gray-500 mt-2">Schemat architektury systemu ERPnext</p>
+</div>
+<div class="space-y-4">
+    <p class="text-lg text-gray-700">
+        ERPNext – Elastyczny system ERP dla nowoczesnych firm
 ERPNext to jeden z najbardziej dynamicznie rozwijających się systemów ERP o otwartym kodzie źródłowym, stworzony z myślą o kompleksowym zarządzaniu przedsiębiorstwem – wszystko w jednym miejscu. Łączy rozbudowaną funkcjonalność z intuicyjnym interfejsem, dzięki czemu jest przyjazny zarówno dla użytkowników technicznych, jak i biznesowych.
 System wspiera zarządzanie kluczowymi obszarami działalności firmy, takimi jak:
 
@@ -91,11 +91,11 @@ relacje z klientami (CRM),
 oraz wiele innych.
 
 Dzięki swojej modułowej budowie i otwartej architekturze ERPNext doskonale sprawdza się zarówno w małych firmach, jak i w dużych organizacjach, które szukają skalowalnego i dostosowanego do swoich potrzeb rozwiązania.
-        </p>
-        <p class="text-lg text-gray-700">
-            Został zaprojektowany, aby pomóc firmom zarządzać różnymi aspektami ich działalności, w tym księgowością, zarządzaniem zapasami, zarządzaniem projektami, zasobami ludzkimi, zarządzaniem relacjami z klientami (CRM) i nie tylko.
-        </p>
-    </div>
+    </p>
+    <p class="text-lg text-gray-700">
+        Został zaprojektowany, aby pomóc firmom zarządzać różnymi aspektami ich działalności, w tym księgowością, zarządzaniem zapasami, zarządzaniem projektami, zasobami ludzkimi, zarządzaniem relacjami z klientami (CRM) i nie tylko.
+    </p>
+</div>
 </div>
 </div>
 </div>
@@ -105,82 +105,82 @@ Dzięki swojej modułowej budowie i otwartej architekturze ERPNext doskonale spr
 <h2 class="text-3xl font-bold text-center text-gray-900 mb-10 motion-safe:animate-fade-in">Moduły ERPnext</h2>
 
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
-    <div class="group bg-white rounded-2xl p-6 shadow hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
-        <svg class="w-8 h-8 text-orange-500 mb-3 transition-transform group-hover:scale-110 group-hover:rotate-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
-        </svg>
-        <h3 class="font-semibold text-lg mb-1 text-gray-900">Magazyn</h3>
-        <p class="text-sm text-gray-600 mb-3">
-            Kompleksowe zarządzanie magazynem, stanem magazynowym i logistyką.
-        </p>
-        <a href="/uslugi/magazyn/" class="text-orange-500 hover:text-orange-600 text-sm font-medium">Dowiedz się więcej →</a>
-    </div>
-    <div class="group bg-white rounded-2xl p-6 shadow hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
-        <svg class="w-8 h-8 text-orange-500 mb-3 transition-transform group-hover:scale-110 group-hover:rotate-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>
-        </svg>
-        <h3 class="font-semibold text-lg mb-1 text-gray-900">Produkcja</h3>
-        <p class="text-sm text-gray-600 mb-3">
-            Planowanie produkcji, BOM, zlecenia produkcyjne i kontrola jakości.
-        </p>
-        <a href="/uslugi/produkcja/" class="text-orange-500 hover:text-orange-600 text-sm font-medium">Dowiedz się więcej →</a>
-    </div>
-    <div class="group bg-white rounded-2xl p-6 shadow hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
-        <svg class="w-8 h-8 text-orange-500 mb-3 transition-transform group-hover:scale-110 group-hover:rotate-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
-        </svg>
-        <h3 class="font-semibold text-lg mb-1 text-gray-900">Finanse i Księgowość</h3>
-        <p class="text-sm text-gray-600">
-            Pełna księgowość, faktury, płatności i raportowanie finansowe.
-        </p>
-    </div>
-    <div class="group bg-white rounded-2xl p-6 shadow hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
-        <svg class="w-8 h-8 text-orange-500 mb-3 transition-transform group-hover:scale-110 group-hover:rotate-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
-        </svg>
-        <h3 class="font-semibold text-lg mb-1 text-gray-900">CRM i Sprzedaż</h3>
-        <p class="text-sm text-gray-600">
-            Zarządzanie klientami, oferty, zamówienia i analiza sprzedaży.
-        </p>
-    </div>
+<div class="group bg-white rounded-2xl p-6 shadow hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
+    <svg class="w-8 h-8 text-orange-500 mb-3 transition-transform group-hover:scale-110 group-hover:rotate-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+    </svg>
+    <h3 class="font-semibold text-lg mb-1 text-gray-900">Magazyn</h3>
+    <p class="text-sm text-gray-600 mb-3">
+        Kompleksowe zarządzanie magazynem, stanem magazynowym i logistyką.
+    </p>
+    <a href="/uslugi/magazyn/" class="text-orange-500 hover:text-orange-600 text-sm font-medium">Dowiedz się więcej →</a>
+</div>
+<div class="group bg-white rounded-2xl p-6 shadow hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
+    <svg class="w-8 h-8 text-orange-500 mb-3 transition-transform group-hover:scale-110 group-hover:rotate-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>
+    </svg>
+    <h3 class="font-semibold text-lg mb-1 text-gray-900">Produkcja</h3>
+    <p class="text-sm text-gray-600 mb-3">
+        Planowanie produkcji, BOM, zlecenia produkcyjne i kontrola jakości.
+    </p>
+    <a href="/uslugi/produkcja/" class="text-orange-500 hover:text-orange-600 text-sm font-medium">Dowiedz się więcej →</a>
+</div>
+<div class="group bg-white rounded-2xl p-6 shadow hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
+    <svg class="w-8 h-8 text-orange-500 mb-3 transition-transform group-hover:scale-110 group-hover:rotate-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+    </svg>
+    <h3 class="font-semibold text-lg mb-1 text-gray-900">Finanse i Księgowość</h3>
+    <p class="text-sm text-gray-600">
+        Pełna księgowość, faktury, płatności i raportowanie finansowe.
+    </p>
+</div>
+<div class="group bg-white rounded-2xl p-6 shadow hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
+    <svg class="w-8 h-8 text-orange-500 mb-3 transition-transform group-hover:scale-110 group-hover:rotate-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+    </svg>
+    <h3 class="font-semibold text-lg mb-1 text-gray-900">CRM i Sprzedaż</h3>
+    <p class="text-sm text-gray-600">
+        Zarządzanie klientami, oferty, zamówienia i analiza sprzedaży.
+    </p>
+</div>
 </div>
 </div>
 </div>
 
 <div class="bg-gradient-to-b from-orange-50 via-white to-gray-50 py-16 lg:py-24 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
 <div class="max-w-7xl mx-auto">
-    <h2 class="text-3xl font-bold text-center text-gray-900 mb-10 motion-safe:animate-fade-in">Kluczowe zalety ERPnext</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
-        <div class="flex flex-col items-center text-center gap-3 p-6 bg-white rounded-xl shadow hover:shadow-md hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
-            <svg class="w-12 h-12 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-            </svg>
-            <h3 class="font-bold text-lg text-gray-800">Bez licencji</h3>
-            <p class="text-gray-600 text-sm">Open source bez kosztów licencyjnych</p>
-        </div>
-        <div class="flex flex-col items-center text-center gap-3 p-6 bg-white rounded-xl shadow hover:shadow-md hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
-            <svg class="w-12 h-12 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"/>
-            </svg>
-            <h3 class="font-bold text-lg text-gray-800">Modułowość</h3>
-            <p class="text-gray-600 text-sm">Wybierz tylko potrzebne moduły</p>
-        </div>
-        <div class="flex flex-col items-center text-center gap-3 p-6 bg-white rounded-xl shadow hover:shadow-md hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
-            <svg class="w-12 h-12 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
-            </svg>
-            <h3 class="font-bold text-lg text-gray-800">Mobilność</h3>
-            <p class="text-gray-600 text-sm">Dostęp z każdego urządzenia</p>
-        </div>
-        <div class="flex flex-col items-center text-center gap-3 p-6 bg-white rounded-xl shadow hover:shadow-md hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
-            <svg class="w-12 h-12 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
-            </svg>
-            <h3 class="font-bold text-lg text-gray-800">Customizacja</h3>
-            <p class="text-gray-600 text-sm">Dostosowanie do Twoich potrzeb</p>
-        </div>
+<h2 class="text-3xl font-bold text-center text-gray-900 mb-10 motion-safe:animate-fade-in">Kluczowe zalety ERPnext</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+    <div class="flex flex-col items-center text-center gap-3 p-6 bg-white rounded-xl shadow hover:shadow-md hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
+        <svg class="w-12 h-12 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        </svg>
+        <h3 class="font-bold text-lg text-gray-800">Bez licencji</h3>
+        <p class="text-gray-600 text-sm">Open source bez kosztów licencyjnych</p>
     </div>
+    <div class="flex flex-col items-center text-center gap-3 p-6 bg-white rounded-xl shadow hover:shadow-md hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
+        <svg class="w-12 h-12 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"/>
+        </svg>
+        <h3 class="font-bold text-lg text-gray-800">Modułowość</h3>
+        <p class="text-gray-600 text-sm">Wybierz tylko potrzebne moduły</p>
+    </div>
+    <div class="flex flex-col items-center text-center gap-3 p-6 bg-white rounded-xl shadow hover:shadow-md hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
+        <svg class="w-12 h-12 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+        </svg>
+        <h3 class="font-bold text-lg text-gray-800">Mobilność</h3>
+        <p class="text-gray-600 text-sm">Dostęp z każdego urządzenia</p>
+    </div>
+    <div class="flex flex-col items-center text-center gap-3 p-6 bg-white rounded-xl shadow hover:shadow-md hover:-translate-y-1 transition-all duration-300 ease-out motion-safe:animate-fade-up">
+        <svg class="w-12 h-12 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+        </svg>
+        <h3 class="font-bold text-lg text-gray-800">Customizacja</h3>
+        <p class="text-gray-600 text-sm">Dostosowanie do Twoich potrzeb</p>
+    </div>
+</div>
 </div>
 </div>
 
@@ -345,27 +345,27 @@ ERPnext łatwo integruje się z popularnymi aplikacjami biznesowymi, zwiększaj�
 </div>
 
 <div class="bg-gradient-to-r from-blue-50 via-white to-blue-50 border-l-4 border-blue-500 rounded-xl p-8 sm:p-10 my-12 shadow-md motion-safe:animate-fade-up">
-    <div class="max-w-4xl mx-auto">
-        <h3 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 flex items-center gap-3">
-            <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+<div class="max-w-4xl mx-auto">
+    <h3 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+        <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+        </svg>
+        Potrzebujesz dedykowanej integracji?
+    </h3>
+    <p class="text-lg text-gray-700 leading-relaxed">
+        Tworzymy niestandardowe integracje ERPnext z dowolnymi systemami zewnętrznymi. Dzięki <span class="font-semibold text-blue-600">REST API i webhooks</span> możemy połączyć ERPnext z Twoimi obecnymi narzędziami biznesowymi, zapewniając płynny przepływ danych między systemami.
+    </p>
+    <div class="mt-6 flex flex-col sm:flex-row gap-4">
+        <a href="/kontakt/" class="inline-flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
             </svg>
-            Potrzebujesz dedykowanej integracji?
-        </h3>
-        <p class="text-lg text-gray-700 leading-relaxed">
-            Tworzymy niestandardowe integracje ERPnext z dowolnymi systemami zewnętrznymi. Dzięki <span class="font-semibold text-blue-600">REST API i webhooks</span> możemy połączyć ERPnext z Twoimi obecnymi narzędziami biznesowymi, zapewniając płynny przepływ danych między systemami.
-        </p>
-        <div class="mt-6 flex flex-col sm:flex-row gap-4">
-            <a href="/kontakt/" class="inline-flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
-                </svg>
-                Umów konsultację
-            </a>
-            <a href="/uslugi/integracje/" class="inline-flex items-center justify-center gap-2 bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold px-6 py-3 rounded-lg transition-all duration-300">
-                Dowiedz się więcej
-            </a>
-        </div>
+            Umów konsultację
+        </a>
+        <a href="/uslugi/integracje/" class="inline-flex items-center justify-center gap-2 bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold px-6 py-3 rounded-lg transition-all duration-300">
+            Dowiedz się więcej
+        </a>
     </div>
+</div>
 </div>
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Oprogramowanie dla firm"
 subtitle: "Usługi informatyczne | Wdrożenia ERP"
 cta_text: "Skontaktuj się z nami"
@@ -6,66 +6,66 @@ cta_text: "Skontaktuj się z nami"
 values:
   title: "Nasze wartości"
   items:
-    - name: "Profesjonalizm"
-      description: "Oferowane przez nas dedykowane rozwiązania są na najwyższym poziomie, ponieważ zawsze kierujemy się zadowoleniem Klienta."
-      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="text-blue-600"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>'
-    - name: "Współpraca"
-      description: "Zależy nam na szczerych relacjach z Klientem – dzięki sprawnej komunikacji jesteśmy w stanie zdiagnozować procesy, które możemy udoskonalić."
-      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="text-blue-600"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>'
-    - name: "Odpowiedzialność"
-      description: "Podejmujemy ambitne wyzwania, ale jednocześnie składamy tylko te obietnice, które jesteśmy w stanie zrealizować."
-      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="text-blue-600"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>'
+  - name: "Profesjonalizm"
+    description: "Oferowane przez nas dedykowane rozwiązania są na najwyższym poziomie, ponieważ zawsze kierujemy się zadowoleniem Klienta."
+    icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="text-blue-600"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>'
+  - name: "Współpraca"
+    description: "Zależy nam na szczerych relacjach z Klientem – dzięki sprawnej komunikacji jesteśmy w stanie zdiagnozować procesy, które możemy udoskonalić."
+    icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="text-blue-600"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>'
+  - name: "Odpowiedzialność"
+    description: "Podejmujemy ambitne wyzwania, ale jednocześnie składamy tylko te obietnice, które jesteśmy w stanie zrealizować."
+    icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="text-blue-600"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>'
 
 services:
   title: "Nasze usługi"
   learn_more: "Dowiedz się więcej"
   items:
-    - name: "System ERPnext"
-      description: "Kompleksowy system ERP bez kosztów licencji"
-      url: "/uslugi/erpnext/"
-      icon: '<i class="fas fa-laptop-code text-blue-600 text-4xl"></i>'
-    - name: "Magazyn"
-      description: "Zarządzanie magazynem i logistyką"
-      url: "/uslugi/magazyn/"
-      icon: '<i class="fas fa-warehouse text-blue-600 text-4xl"></i>'
-    - name: "Produkcja"
-      description: "Planowanie i kontrola produkcji"
-      url: "/uslugi/produkcja/"
-      icon: '<i class="fas fa-industry text-blue-600 text-4xl"></i>'
-    - name: "SAP FIORI"
-      description: "Nowoczesny interfejs dla SAP"
-      url: "/uslugi/fiori/"
-      icon: '<i class="fas fa-mobile-alt text-blue-600 text-4xl"></i>'
-    - name: "Integracje"
-      description: "Integracja systemów IT"
-      url: "/uslugi/integracje/"
-      icon: '<i class="fas fa-plug text-blue-600 text-4xl"></i>'
-    - name: "SAP IoT"
-      description: "Internet rzeczy w SAP"
-      url: "/uslugi/iot/"
-      icon: '<i class="fas fa-network-wired text-blue-600 text-4xl"></i>'
+  - name: "System ERPnext"
+    description: "Kompleksowy system ERP bez kosztów licencji"
+    url: "/uslugi/erpnext/"
+    icon: '<i class="fas fa-laptop-code text-blue-600 text-4xl"></i>'
+  - name: "Magazyn"
+    description: "Zarządzanie magazynem i logistyką"
+    url: "/uslugi/magazyn/"
+    icon: '<i class="fas fa-warehouse text-blue-600 text-4xl"></i>'
+  - name: "Produkcja"
+    description: "Planowanie i kontrola produkcji"
+    url: "/uslugi/produkcja/"
+    icon: '<i class="fas fa-industry text-blue-600 text-4xl"></i>'
+  - name: "SAP FIORI"
+    description: "Nowoczesny interfejs dla SAP"
+    url: "/uslugi/fiori/"
+    icon: '<i class="fas fa-mobile-alt text-blue-600 text-4xl"></i>'
+  - name: "Integracje"
+    description: "Integracja systemów IT"
+    url: "/uslugi/integracje/"
+    icon: '<i class="fas fa-plug text-blue-600 text-4xl"></i>'
+  - name: "SAP IoT"
+    description: "Internet rzeczy w SAP"
+    url: "/uslugi/iot/"
+    icon: '<i class="fas fa-network-wired text-blue-600 text-4xl"></i>'
 
 technologies:
   title: "Technologie w których specjalizujemy się"
   items:
-    - name: "ERPNext"
-      description: "Open source ERP system"
-      icon: '<i class="fas fa-cube text-orange-600 text-4xl"></i>'
-    - name: "SAP S/4HANA"
-      description: "Nowoczesny system ERP SAP"
-      icon: '<i class="fas fa-database text-blue-600 text-4xl"></i>'
-    - name: "SAP FIORI"
-      description: "Intuicyjny interfejs użytkownika"
-      icon: '<i class="fas fa-mobile-alt text-purple-600 text-4xl"></i>'
-    - name: "Python/Frappe"
-      description: "Framework dla ERPNext"
-      icon: '<i class="fab fa-python text-green-600 text-4xl"></i>'
-    - name: "PostgreSQL"
-      description: "Zaawansowana baza danych"
-      icon: '<i class="fas fa-server text-gray-600 text-4xl"></i>'
-    - name: "REST API"
-      description: "Integracje i automatyzacje"
-      icon: '<i class="fas fa-code text-indigo-600 text-4xl"></i>'
+  - name: "ERPNext"
+    description: "Open source ERP system"
+    icon: '<i class="fas fa-cube text-orange-600 text-4xl"></i>'
+  - name: "SAP S/4HANA"
+    description: "Nowoczesny system ERP SAP"
+    icon: '<i class="fas fa-database text-blue-600 text-4xl"></i>'
+  - name: "SAP FIORI"
+    description: "Intuicyjny interfejs użytkownika"
+    icon: '<i class="fas fa-mobile-alt text-purple-600 text-4xl"></i>'
+  - name: "Python/Frappe"
+    description: "Framework dla ERPNext"
+    icon: '<i class="fab fa-python text-green-600 text-4xl"></i>'
+  - name: "PostgreSQL"
+    description: "Zaawansowana baza danych"
+    icon: '<i class="fas fa-server text-gray-600 text-4xl"></i>'
+  - name: "REST API"
+    description: "Integracje i automatyzacje"
+    icon: '<i class="fas fa-code text-indigo-600 text-4xl"></i>'
 
 contact_section:
   title: "Skontaktuj się z nami"
