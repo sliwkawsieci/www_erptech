@@ -2,7 +2,9 @@
 title: "SAP FIORI"
 subtitle: "Modern user interface for SAP"
 date: 2025-11-07
-draft: true
+draft: false
+aliases:
+  - /en/services/fiori
 ---
 
 ## SAP FIORI - interface revolution
