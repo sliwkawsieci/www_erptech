@@ -104,6 +104,16 @@
   @apply bg-orange-500 hover:bg-orange-600 text-white font-semibold px-4 py-2 rounded-lg transition-all duration-300;
 }
 
+/* Font Awesome icon styles */
+i[class^="fas"],
+i[class*=" fas"] {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
 /* Additional utility classes */
 .text-balance {
   text-wrap: balance;
