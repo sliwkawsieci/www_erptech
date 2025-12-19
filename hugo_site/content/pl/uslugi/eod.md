@@ -2,6 +2,8 @@
 title: "EOD"
 subtitle: "Elektroniczny Obieg Dokumentów"
 date: 2025-11-07
+hero_image: "/Images/eod.png"
+hero_image_alt: "EOD"
 ---
 
 <div class="py-20 bg-white" id="eod-intro">
@@ -40,7 +42,7 @@ date: 2025-11-07
 </div>
 
 <div class="relative">
-<img src="/Images/system-erp-schemat.jpg.webp" alt="Elektroniczny obieg dokumentów" class="rounded-2xl shadow-lg" loading="lazy" decoding="async">
+<img src="/Images/eod2.png" alt="Elektroniczny obieg dokumentów" class="rounded-2xl shadow-lg" loading="lazy" decoding="async">
 <div class="absolute inset-0 bg-gradient-to-tr from-blue-400/10 via-transparent to-transparent rounded-2xl"></div>
 </div>
 </div>

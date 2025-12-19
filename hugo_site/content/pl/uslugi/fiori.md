@@ -2,7 +2,10 @@
 title: "SAP FIORI"
 subtitle: "Nowoczesny interfejs użytkownika dla SAP"
 date: 2025-11-07
-draft: true
+draft: false
+raw_html: true
+aliases:
+  - /uslugi/fiori
 ---
 
 <div class="py-20 bg-white" id="fiori-intro">

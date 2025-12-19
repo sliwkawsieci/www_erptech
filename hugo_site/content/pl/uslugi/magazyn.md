@@ -181,8 +181,8 @@ Integracje i urządzenia
 </div>
 
 <div class="relative">
-<div class="rounded-3xl overflow-hidden shadow-2xl">
-<img src="/Images/grafika-produktowa.png" alt="Grafika produktowa – skanowanie kodów kreskowych" class="w-full h-auto object-cover" loading="lazy" decoding="async">
+<div class="rounded-3xl overflow-hidden shadow-2xl bg-white p-6">
+<img src="/Images/grafika-produktowa.png" alt="Grafika produktowa – skanowanie kodów kreskowych" class="w-full h-auto object-contain" loading="lazy" decoding="async">
 </div>
 <div class="absolute inset-0 rounded-3xl bg-gradient-to-tr from-orange-400/10 via-transparent to-blue-400/10 pointer-events-none"></div>
 </div>

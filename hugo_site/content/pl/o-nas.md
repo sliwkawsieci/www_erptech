@@ -7,9 +7,9 @@ raw_html: true
 
 <div class="bg-gradient-to-br from-blue-50 to-orange-50 py-16 px-4 -mx-4 my-8 rounded-2xl">
 <div class="max-w-4xl mx-auto text-center animate-fade-in">
-    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
         ERP Tech
-    </h1>
+    </h2>
     <p class="text-xl md:text-2xl text-gray-700 font-medium mb-4">
         Twój partner w cyfrowej transformacji
     </p>
