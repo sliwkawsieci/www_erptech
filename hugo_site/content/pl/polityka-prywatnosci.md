@@ -11,9 +11,10 @@ ERP Tech (dalej: „my", „nas", „nasz") szanuje Twoją prywatność. Niniejs
 
 Administratorem Twoich danych osobowych jest:
 - **ERP Tech Sp. z o.o.**
-- Adres: [Twój adres]
-- Email: [Twój email]
-- Telefon: [Twój telefon]
+- Adres: ul. Łęczycka 19/11, 53-632 Wrocław
+- NIP: 897-192-4461
+- Email: krzysztof@erptech.pl
+- Telefon: (+48) 693 068 300
 
 ### 2. Jakie dane zbieramy?
 
@@ -82,8 +83,8 @@ Możemy aktualizować tę politykę. Powiadomimy Cię o istotnych zmianach poprz
 ### 10. Kontakt
 
 Pytania dotyczące prywatności? Skontaktuj się z nami:
-- Email: [Twój email]
-- Telefon: [Twój telefon]
+- Email: biuro@erptech.pl
+- Telefon: (+48) 693 068 300
 - Formularz: [link do formularza kontaktowego](/kontakt/)
 
 ---

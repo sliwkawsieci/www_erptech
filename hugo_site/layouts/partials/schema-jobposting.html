@@ -1,0 +1,29 @@
+{{ if in .RelPermalink "/kariera/" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "{{ if .Params.job_title }}{{ .Params.job_title }}{{ else }}Dołącz do zespołu ERP Tech{{ end }}",
+  "description": "{{ .Description }}",
+  "datePosted": "{{ .Date.Format "2006-01-02" }}",
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "ERP Tech",
+    "sameAs": "{{ .Site.BaseURL }}",
+    "logo": "{{ "Images/erptech logo.png" | absURL }}"
+  },
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "PL",
+      "addressLocality": "Wrocław",
+      "postalCode": "53-632",
+      "streetAddress": "ul. Łęczycka 19/11"
+    }
+  },
+  "employmentType": "FULL_TIME",
+  "jobLocationType": "{{ if .Params.remote }}TELECOMMUTE{{ else }}ONSITE{{ end }}"
+}
+</script>
+{{ end }}

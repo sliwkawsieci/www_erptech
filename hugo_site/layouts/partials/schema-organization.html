@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ERP Tech",
+  "legalName": "ERP Tech Sp. z o.o.",
+  "url": "{{ .Site.BaseURL }}",
+  "logo": "{{ "Images/erptech logo.png" | absURL }}",
+  "description": "{{ .Site.Params.description }}",
+  "email": "{{ .Site.Params.email }}",
+  "telephone": "{{ .Site.Params.phone }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "PL",
+    "addressLocality": "Wrocław",
+    "postalCode": "53-632",
+    "streetAddress": "ul. Łęczycka 19/11"
+  },
+  "taxID": "NIP: 897-192-4461",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "{{ .Site.Params.phone }}",
+    "contactType": "customer service",
+    "email": "{{ .Site.Params.email }}",
+    "availableLanguage": ["Polish", "English"]
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/erptech-pl",
+    "https://www.youtube.com/@erptech"
+  ],
+  "areaServed": {
+    "@type": "Country",
+    "name": "Poland"
+  },
+  "knowsAbout": [
+    "ERPNext",
+    "SAP",
+    "ERP Systems",
+    "Business Software",
+    "System Integration"
+  ]
+}
+</script>
