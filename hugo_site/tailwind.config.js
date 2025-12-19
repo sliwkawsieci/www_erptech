@@ -2,9 +2,8 @@
 module.exports = {
   content: [
     './layouts/**/*.html',
-    './content/**/*.md',
-    './content/**/*.html',
-    './assets/**/*.js',
+    './content/**/*.{md,html}',
+    './static/**/*.js',
   ],
   theme: {
     extend: {
