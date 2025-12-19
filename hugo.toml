@@ -1,0 +1,167 @@
+baseURL = 'https://erptech.pl/'
+title = 'ERP Tech'
+defaultContentLanguage = 'pl'
+enableRobotsTXT = true
+enableGitInfo = false
+publishDir = './docs'
+contentDir = './hugo_site/content'
+layoutDir = './hugo_site/layouts'
+staticDir = './hugo_site/static'
+assetDir = './hugo_site/assets'
+dataDir = './hugo_site/data'
+
+[params]
+  description = "Główny przedstawiciel ERPnext w Polsce, wieloletnie doświadczenie we wdrażaniu i rozbudowie systemów informatycznych ERPnext i SAP."
+  email = "biuro@erptech.pl"
+  phone = "+48 693 068 300"
+  phone_display = "(+48) 693 068 300"
+
+[languages]
+  [languages.pl]
+    languageName = "Polski"
+    weight = 1
+    contentDir = "hugo_site/content/pl"
+    [languages.pl.params]
+      languageCode = "pl-PL"
+    [[languages.pl.menu.main]]
+      name = "ERPnext"
+      weight = 10
+      identifier = "erpnext"
+    [[languages.pl.menu.main]]
+      name = "System ERPnext"
+      parent = "erpnext"
+      url = "/uslugi/erpnext/"
+      weight = 1
+    [[languages.pl.menu.main]]
+      name = "Magazyn"
+      parent = "erpnext"
+      url = "/uslugi/magazyn/"
+      weight = 2
+    [[languages.pl.menu.main]]
+      name = "Produkcja"
+      parent = "erpnext"
+      url = "/uslugi/produkcja/"
+      weight = 3
+    [[languages.pl.menu.main]]
+      name = "EOD"
+      parent = "erpnext"
+      url = "/uslugi/eod/"
+      weight = 4
+    [[languages.pl.menu.main]]
+      name = "Lean ERP"
+      parent = "erpnext"
+      url = "/uslugi/lean-erp/"
+      weight = 5
+    [[languages.pl.menu.main]]
+      name = "SAP"
+      weight = 20
+      identifier = "sap"
+    [[languages.pl.menu.main]]
+      name = "Oferta"
+      weight = 25
+      identifier = "oferta"
+      url = "/oferta/"
+    [[languages.pl.menu.main]]
+      name = "ERPnext Start"
+      parent = "oferta"
+      url = "/oferta/erpnext-start/"
+      weight = 1
+    [[languages.pl.menu.main]]
+      name = "Cennik i Pakiety"
+      parent = "oferta"
+      url = "/oferta/cennik/"
+      weight = 2
+    [[languages.pl.menu.main]]
+      name = "Wsparcie"
+      parent = "oferta"
+      url = "/oferta/wsparcie/"
+      weight = 3
+    [[languages.pl.menu.main]]
+      name = "Hosting"
+      parent = "oferta"
+      url = "/oferta/hosting/"
+      weight = 4
+    [[languages.pl.menu.main]]
+      name = "O Nas"
+      url = "/o-nas/"
+      weight = 30
+    [[languages.pl.menu.main]]
+      name = "Oferty Pracy"
+      url = "/kariera/"
+      weight = 40
+    [[languages.pl.menu.main]]
+      name = "Kontakt"
+      url = "/kontakt/"
+      weight = 50
+
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    contentDir = "hugo_site/content/en"
+    [languages.en.params]
+      languageCode = "en-US"
+    [[languages.en.menu.main]]
+      name = "ERPnext"
+      weight = 10
+      identifier = "erpnext"
+    [[languages.en.menu.main]]
+      name = "ERPnext System"
+      parent = "erpnext"
+      url = "/services/erpnext/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Warehouse"
+      parent = "erpnext"
+      url = "/services/warehouse/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Production"
+      parent = "erpnext"
+      url = "/services/production/"
+      weight = 3
+    [[languages.en.menu.main]]
+      name = "EOD"
+      parent = "erpnext"
+      url = "/services/eod/"
+      weight = 4
+    [[languages.en.menu.main]]
+      name = "Lean ERP"
+      parent = "erpnext"
+      url = "/services/lean-erp/"
+      weight = 5
+    [[languages.en.menu.main]]
+      name = "SAP"
+      weight = 20
+      identifier = "sap"
+    [[languages.en.menu.main]]
+      name = "SAP FIORI"
+      parent = "sap"
+      url = "/services/fiori/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Integrations"
+      parent = "sap"
+      url = "/services/integrations/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "SAP IoT"
+      parent = "sap"
+      url = "/services/iot/"
+      weight = 3
+    [[languages.en.menu.main]]
+      name = "About Us"
+      url = "/about/"
+      weight = 30
+    [[languages.en.menu.main]]
+      name = "Careers"
+      url = "/careers/"
+      weight = 40
+    [[languages.en.menu.main]]
+      name = "Contact"
+      url = "/contact/"
+      weight = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
