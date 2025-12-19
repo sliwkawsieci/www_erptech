@@ -29,6 +29,21 @@ if (mobileMenuBtn && mobileMenu) {
             }
         });
     });
+
+    // Toggle nested dropdowns on mobile
+    const dropdownButtons = mobileMenu.querySelectorAll('.dropdown-mobile > button');
+    dropdownButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const targetMenu = button.nextElementSibling;
+            if (targetMenu) {
+                targetMenu.classList.toggle('hidden');
+            }
+            const chevron = button.querySelector('i');
+            if (chevron) {
+                chevron.classList.toggle('rotate-180');
+            }
+        });
+    });
 }
 
 // Smooth scrolling for anchor links

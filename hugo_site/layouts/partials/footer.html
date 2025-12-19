@@ -71,11 +71,19 @@
             <div class="text-sm text-center text-gray-500 mb-4">
                 <p>© {{ now.Year }} ERP Tech. {{ i18n "footer_rights" }}</p>
             </div>
-            <div class="text-xs text-gray-600 text-center">
+            <div class="text-xs text-gray-600 text-center space-y-3">
                 {{ if eq .Site.Language.Lang "pl" }}
-                <p>Ta strona wykorzystuje <strong>Matomo Analytics</strong> do analizy ruchu i poprawy doświadczenia użytkownika. Matomo jest narzędziem analitycznym, które zbiera anonimowe dane o odwiedzinach. Możesz <a href="//www.vh13224.vh.net.pl/index.php?module=CoreAdminHome&action=optOut&language=pl" target="_blank" rel="noopener" class="text-orange-400 hover:underline">zrezygnować z śledzenia</a>.</p>
+                <p>Ta strona wykorzystuje <strong>Matomo Analytics</strong> i <strong>Google Analytics 4</strong> do analizy ruchu i poprawy doświadczenia użytkownika. Cookies analityczne wymagają Twojej zgody.</p>
+                <div class="flex flex-wrap gap-3 justify-center">
+                    <a href="/polityka-prywatnosci/" class="text-orange-400 hover:underline">Polityka prywatności i cookies</a>
+                    <button onclick="window.ERPTechCookieConsent && window.ERPTechCookieConsent.open()" class="text-orange-400 hover:underline bg-transparent border-none cursor-pointer p-0">Zmień ustawienia cookies</button>
+                </div>
                 {{ else }}
-                <p>This website uses <strong>Matomo Analytics</strong> to analyze traffic and improve user experience. Matomo is an analytics tool that collects anonymous visit data. You can <a href="//www.vh13224.vh.net.pl/index.php?module=CoreAdminHome&action=optOut&language=en" target="_blank" rel="noopener" class="text-orange-400 hover:underline">opt out of tracking</a>.</p>
+                <p>This website uses <strong>Matomo Analytics</strong> and <strong>Google Analytics 4</strong> to analyze traffic and improve user experience. Analytics cookies require your consent.</p>
+                <div class="flex flex-wrap gap-3 justify-center">
+                    <a href="/privacy-policy/" class="text-orange-400 hover:underline">Privacy Policy & Cookies</a>
+                    <button onclick="window.ERPTechCookieConsent && window.ERPTechCookieConsent.open()" class="text-orange-400 hover:underline bg-transparent border-none cursor-pointer p-0">Change cookie settings</button>
+                </div>
                 {{ end }}
             </div>
         </div>
