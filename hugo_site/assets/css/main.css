@@ -84,6 +84,27 @@
   color: #ea580c;
 }
 
+/* Mobile menu styles */
+.mobile-menu {
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.mobile-menu.active {
+  display: block;
+  max-height: 100vh;
+}
+
+.dropdown-mobile-menu {
+  transition: max-height 0.3s ease-out;
+}
+
+.dropdown-mobile-menu.hidden {
+  display: none;
+}
+
 /* Mobile menu button */
 .mobile-menu-button {
   display: none;
