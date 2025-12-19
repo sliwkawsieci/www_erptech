@@ -1,0 +1,23 @@
+{{ if eq .Type "page" }}
+{{ if in .RelPermalink "/uslugi/" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "provider": {
+    "@type": "Organization",
+    "name": "ERP Tech",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Poland"
+  },
+  "serviceType": "{{ .Title }}",
+  "url": "{{ .Permalink }}"
+}
+</script>
+{{ end }}
+{{ end }}

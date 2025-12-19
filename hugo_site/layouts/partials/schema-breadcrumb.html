@@ -1,0 +1,32 @@
+{{ $url := .Permalink }}
+{{ $lang := .Language.Lang }}
+{{ $homeURL := .Site.BaseURL }}
+{{ $sections := split (trim .RelPermalink "/") "/" }}
+{{ $position := 1 }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "{{ if eq $lang "pl" }}Strona główna{{ else }}Home{{ end }}",
+      "item": "{{ $homeURL }}"
+    }{{ if gt (len $sections) 0 }},
+    {{ $currentPath := "" }}
+    {{ range $index, $section := $sections }}
+    {{ $position = add $index 2 }}
+    {{ $currentPath = printf "%s/%s" $currentPath $section }}
+    {{ $sectionPage := $.Site.GetPage $currentPath }}
+    {
+      "@type": "ListItem",
+      "position": {{ $position }},
+      "name": "{{ if $sectionPage }}{{ $sectionPage.Title }}{{ else }}{{ $section }}{{ end }}",
+      "item": "{{ $homeURL }}{{ $currentPath }}/"
+    }{{ if ne $index (sub (len $sections) 1) }},{{ end }}
+    {{ end }}
+    {{ end }}
+  ]
+}
+</script>

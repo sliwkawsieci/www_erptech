@@ -34,6 +34,24 @@ class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:rin
 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent"></textarea>
 </div>
 
+<div class="space-y-3">
+<div class="flex items-start">
+<input type="checkbox" id="privacy-consent" name="privacy-consent" required 
+class="mt-1 h-4 w-4 text-orange-600 focus:ring-orange-500 border-gray-300 rounded">
+<label for="privacy-consent" class="ml-2 text-sm text-gray-700">
+Wyrażam zgodę na przetwarzanie moich danych osobowych w celu udzielenia odpowiedzi na zapytanie zgodnie z <a href="/polityka-prywatnosci/" class="text-blue-600 hover:underline" target="_blank">Polityką prywatności</a>. *
+</label>
+</div>
+
+<div class="flex items-start">
+<input type="checkbox" id="marketing-consent" name="marketing-consent" 
+class="mt-1 h-4 w-4 text-orange-600 focus:ring-orange-500 border-gray-300 rounded">
+<label for="marketing-consent" class="ml-2 text-sm text-gray-700">
+Wyrażam zgodę na otrzymywanie informacji handlowych drogą elektroniczną (opcjonalnie).
+</label>
+</div>
+</div>
+
 <div class="text-center">
 <button type="submit" class="btn-primary text-lg">
 Wyślij wiadomość
