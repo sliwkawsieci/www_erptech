@@ -69,6 +69,7 @@ enableGitInfo = false
       name = "Oferta"
       weight = 25
       identifier = "oferta"
+      url = "/oferta/"
     [[languages.pl.menu.main]]
       name = "ERPnext Start"
       parent = "oferta"
