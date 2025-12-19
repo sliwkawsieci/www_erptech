@@ -2,7 +2,8 @@
 {{ $contactPath := cond (eq .Site.Language.Lang "pl") "kontakt" "contact" }}
 {{ $contactURL := $contactPath | relLangURL }}
 <!-- Hero Section with Background Image -->
-<section class="relative pt-24 pb-16 px-4 min-h-[500px] flex items-center" style="background-image: url('/Images/erptech-hero.png'); background-size: cover; background-position: center;">
+<section class="relative pt-24 pb-16 px-4 min-h-[500px] flex items-center overflow-hidden">
+    <img src="{{ "Images/erptech-hero.png" | relURL }}" alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover" loading="eager" decoding="async">
     <!-- Overlay for better text readability -->
     <div class="absolute inset-0 bg-gradient-to-r from-gray-900/80 to-gray-900/40"></div>
     <div class="max-w-5xl mx-auto relative z-10">

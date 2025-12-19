@@ -114,7 +114,7 @@ raw_html: true
 
 ## Pakiet Start WdroÅ¼enia zawiera:
 
-<div class="bg-gradient-to-r from-blue-50 to-orange-50 p-8 rounded-xl my-12">
+<div id="pakiet-start" class="bg-gradient-to-r from-blue-50 to-orange-50 p-8 rounded-xl my-12">
 <p class="text-lg text-gray-700 mb-6 font-medium">
     Idealny start dla maÅ‚ych i Å›rednich firm, ktÃ³re chcÄ… samodzielnie rozwijaÄ‡ swÃ³j system
 </p>
@@ -155,6 +155,44 @@ raw_html: true
         </svg>
         <span class="text-gray-700">30 dni wsparcia po wdroÅ¼eniu</span>
     </div>
+<div id="pelna-oferta" class="bg-white border border-gray-200 rounded-2xl shadow-sm p-8 my-12">
+<h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Pe³na oferta ERPnext Start na erptech.pl</h3>
+<div class="grid md:grid-cols-3 gap-6">
+    <div class="p-5 rounded-xl bg-blue-50">
+        <p class="text-sm font-semibold text-blue-600 uppercase">Etap 1</p>
+        <h4 class="text-lg font-bold text-gray-900 mt-1 mb-2">Warsztaty procesowe</h4>
+        <p class="text-gray-600 text-sm">Dwa spotkania online, podczas których mapujemy procesy i przygotowujemy backlog startowy.</p>
+    </div>
+    <div class="p-5 rounded-xl bg-orange-50">
+        <p class="text-sm font-semibold text-orange-600 uppercase">Etap 2</p>
+        <h4 class="text-lg font-bold text-gray-900 mt-1 mb-2">Konfiguracja i migracja</h4>
+        <p class="text-gray-600 text-sm">Instalacja œrodowiska, import danych podstawowych, przygotowanie ról oraz dashboardów.</p>
+    </div>
+    <div class="p-5 rounded-xl bg-green-50">
+        <p class="text-sm font-semibold text-green-600 uppercase">Etap 3</p>
+        <h4 class="text-lg font-bold text-gray-900 mt-1 mb-2">Szkolenie i wsparcie</h4>
+        <p class="text-gray-600 text-sm">Dwugodzinne szkolenie u¿ytkowników, checklisty powdro¿eniowe oraz 30 dni asysty zespo³u ERP Tech.</p>
+    </div>
+</div>
+<div class="mt-8 grid md:grid-cols-2 gap-6">
+    <div class="bg-gray-50 rounded-xl p-5">
+        <h5 class="text-base font-semibold text-gray-900 mb-2">W cenie pakietu</h5>
+        <ul class="text-gray-600 text-sm space-y-2">
+            <li>&bull; dostêp do repozytorium konfiguracyjnego ERP Tech</li>
+            <li>&bull; checklisty wdro¿eniowe i scenariusze testów</li>
+            <li>&bull; dokumentacja administracyjna w jêzyku polskim</li>
+        </ul>
+    </div>
+    <div class="bg-gray-50 rounded-xl p-5">
+        <h5 class="text-base font-semibold text-gray-900 mb-2">Opcje rozszerzeñ</h5>
+        <ul class="text-gray-600 text-sm space-y-2">
+            <li>&bull; integracje z e-commerce i systemami finansowymi</li>
+            <li>&bull; modu³y bran¿owe (produkcja, magazyn, serwis)</li>
+            <li>&bull; abonament wsparcia rozliczany wed³ug pakietów godzinowych</li>
+        </ul>
+    </div>
+</div>
+</div>
 </div>
 </div>
 
@@ -210,9 +248,15 @@ raw_html: true
         <a href="/kontakt/" class="inline-block bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl">
             Skontaktuj siÄ™
         </a>
-        <a href="https://sliwkawsieci.github.io/oferta-erpnext/" target="_blank" class="inline-block bg-white/20 text-white hover:bg-white/30 px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 border-2 border-white/30">
+        <a href="#pelna-oferta" class="inline-block bg-white/20 text-white hover:bg-white/30 px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 border-2 border-white/30">
             Zobacz peÅ‚nÄ… ofertÄ™
         </a>
     </div>
 </div>
 </div>
+
+
+
+
+
+
