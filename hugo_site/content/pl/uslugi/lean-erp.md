@@ -2,6 +2,9 @@
 title: "Lean ERP"
 subtitle: "Skuteczne wdrożenie metodyki Lean w systemach ERP"
 date: 2025-11-13
+raw_html: true
+hero_image: "/Images/lean_erp.png"
+hero_image_alt: "Lean ERP"
 ---
 
 <div class="py-20 bg-white" id="lean-intro">

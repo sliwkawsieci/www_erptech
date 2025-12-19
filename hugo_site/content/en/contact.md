@@ -2,6 +2,8 @@
 title: "Contact"
 subtitle: "Get in touch with us"
 date: 2025-11-07
+markup: "html"
+raw_html: true
 ---
 
 <div class="max-w-4xl mx-auto">

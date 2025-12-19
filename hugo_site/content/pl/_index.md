@@ -1,6 +1,6 @@
 ﻿---
-title: "Oprogramowanie dla firm"
-subtitle: "Usługi informatyczne | Wdrożenia ERP"
+title: "Wdrożenia ERPNext w Polsce – integracje i utrzymanie"
+subtitle: "Wdrożenia ERPNext • integracje • utrzymanie i rozwój"
 cta_text: "Skontaktuj się z nami"
 
 values:
@@ -49,7 +49,7 @@ technologies:
   title: "Technologie w których specjalizujemy się"
   items:
   - name: "ERPNext"
-    description: "Open source ERP system"
+    description: "Otwarty system ERP bez kosztów licencji"
     icon: '<i class="fas fa-cube text-orange-600 text-4xl"></i>'
   - name: "SAP S/4HANA"
     description: "Nowoczesny system ERP SAP"
