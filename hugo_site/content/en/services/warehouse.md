@@ -2,6 +2,81 @@
 title: "Warehouse"
 subtitle: "Comprehensive warehouse and logistics management"
 date: 2025-11-07
+service_sections:
+  scope:
+    eyebrow: "Scope"
+    title: "What we cover in WMS projects"
+    description: "Designing inbound/outbound processes, slotting, barcode workflows and reporting."
+    items:
+      - title: "Layout & locations"
+        description: "Zones, racks, bins and picking routes mapped directly in ERPNext."
+      - title: "Inbound/outbound flows"
+        description: "ASN, wave picking, cross-docking and quality checks with scanners."
+      - title: "Reporting & integrations"
+        description: "KPI dashboards, ABC analysis and connections to couriers or devices."
+  scenarios:
+    eyebrow: "Use cases"
+    title: "Where the module excels"
+    description: "Typical scenarios we implement."
+    items:
+      - title: "E-commerce fulfillment"
+        description: "Multichannel orders, stock reservations and returns handling."
+      - title: "Manufacturing logistics"
+        description: "Batch/serial tracking between production buffers."
+      - title: "3PL operations"
+        description: "Customer portals, SLA reports and billing for storage/services."
+    highlight:
+      title: "ERPNext as your WMS"
+      description: "One data model for purchases, production and warehouse shortens inventory counts and reconciliations."
+      bullets:
+        - "Full movement history"
+        - "Low stock alerts"
+        - "Mobile-ready screens"
+  starter:
+    eyebrow: "Kick-off"
+    title: "How we run warehouse projects"
+    description: "Short sprints with a working prototype."
+    steps:
+      - title: "Process walk-through"
+        description: "On-site visit, KPI matrix and pain-point review."
+      - title: "Prototype & testing"
+        description: "Configure locations, document types and mobile flows."
+      - title: "Go-live & training"
+        description: "Hypercare, video manuals and post-launch audit."
+  faq:
+    eyebrow: "FAQ"
+    title: "Warehouse module Q&A"
+    description: "Answers to the most common questions."
+    items:
+      - question: "Do you support GS1 / 2D barcodes?"
+        answer: "Yes – we manage custom code dictionaries and print GS1-compliant labels."
+      - question: "Can scanners work offline?"
+        answer: "We provide sync buffers and fallback modes that push data once the device reconnects."
+      - question: "How do mobile screens look?"
+        answer: "Native Frappe/ERPNext views optimised for handheld Android/iOS devices."
+  related:
+    eyebrow: "Related services"
+    title: "Enhance your warehouse"
+    description: "Combine WMS with production or automation projects."
+    items:
+      - category: "Production"
+        name: "Production module"
+        description: "Connect BOM, material demand and buffers."
+        url: "/en/services/production/"
+      - category: "Integrations"
+        name: "Integrations & automation"
+        description: "Automatic data exchange with carriers and marketplaces."
+        url: "/en/services/integrations/"
+  cta:
+    eyebrow: "Next step"
+    title: "See how much time you can save in the warehouse"
+    description: "Pick a support package or book a warehouse optimisation workshop."
+    primary:
+      label: "Book a call"
+      url: "/en/contact/"
+    secondary:
+      label: "Explore services"
+      url: "/en/services/"
 ---
 
 ## ERPnext Warehouse System

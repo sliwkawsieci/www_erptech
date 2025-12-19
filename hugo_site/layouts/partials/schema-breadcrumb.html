@@ -1,8 +1,4 @@
-{{ $url := .Permalink }}
-{{ $lang := .Language.Lang }}
-{{ $homeURL := .Site.BaseURL }}
-{{ $sections := split (trim .RelPermalink "/") "/" }}
-{{ $position := 1 }}
+{{ if ne .Kind "home" }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -11,22 +7,16 @@
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "{{ if eq $lang "pl" }}Strona główna{{ else }}Home{{ end }}",
-      "item": "{{ $homeURL }}"
-    }{{ if gt (len $sections) 0 }},
-    {{ $currentPath := "" }}
-    {{ range $index, $section := $sections }}
-    {{ $position = add $index 2 }}
-    {{ $currentPath = printf "%s/%s" $currentPath $section }}
-    {{ $sectionPage := $.Site.GetPage $currentPath }}
+      "name": "{{ if eq .Language.Lang "pl" }}Strona główna{{ else }}Home{{ end }}",
+      "item": "{{ .Site.BaseURL }}"
+    },
     {
       "@type": "ListItem",
-      "position": {{ $position }},
-      "name": "{{ if $sectionPage }}{{ $sectionPage.Title }}{{ else }}{{ $section }}{{ end }}",
-      "item": "{{ $homeURL }}{{ $currentPath }}/"
-    }{{ if ne $index (sub (len $sections) 1) }},{{ end }}
-    {{ end }}
-    {{ end }}
+      "position": 2,
+      "name": "{{ .Title }}",
+      "item": "{{ .Permalink }}"
+    }
   ]
 }
 </script>
+{{ end }}

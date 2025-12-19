@@ -6,6 +6,81 @@ draft: false
 raw_html: true
 aliases:
   - /uslugi/fiori
+service_sections:
+  scope:
+    eyebrow: "Zakres"
+    title: "Zakres projektów SAP Fiori"
+    description: "Projektujemy i wdrażamy aplikacje Fiori oraz integrujemy je z SAP ERP/S4HANA."
+    items:
+      - title: "Audyt UX i katalog aplikacji"
+        description: "Identyfikujemy procesy do digitalizacji i dobieramy odpowiednie aplikacje standardowe lub rozszerzenia."
+      - title: "Custom apps i rozszerzenia"
+        description: "Budujemy dedykowane kafle, rozszerzamy OData i dostosowujemy warstwę UI5."
+      - title: "Zarządzanie uprawnieniami"
+        description: "Konfiguracja ról, przestrzeni, grup oraz integracja z SAP Identity."
+  scenarios:
+    eyebrow: "Scenariusze"
+    title: "Najczęstsze przypadki użycia"
+    description: "Tworzymy rozwiązania dla działów logistyki, finansów oraz kadry menedżerskiej."
+    items:
+      - title: "Kokpity menedżerskie"
+        description: "Dashboardy KPI, alerty i szybkie akcje zatwierdzające."
+      - title: "Aplikacje mobilne"
+        description: "Inwentaryzacja, zatwierdzanie faktur, zgody HR na tabletach i telefonach."
+      - title: "Integracje z ERPNext"
+        description: "Mostki danych między Fiori a modułami ERPNext lub systemami IoT."
+    highlight:
+      title: "Spójny UX dla SAP"
+      description: "Fiori przyspiesza adopcję systemu, skraca szkolenia i zmniejsza liczbę błędów operatorów."
+      bullets:
+        - "Responsywne ekrany"
+        - "Tryb offline i powiadomienia"
+        - "Personalizacja ról"
+  starter:
+    eyebrow: "Pakiet startowy"
+    title: "Jak prowadzimy projekt Fiori"
+    description: "Łączymy design thinking z doświadczeniem wdrożeniowym SAP."
+    steps:
+      - title: "Warsztat UX"
+        description: "Persony, journey map i prototypy ekranów."
+      - title: "Konfiguracja i development"
+        description: "Wdrażamy standardowe aplikacje, rozszerzamy je i budujemy dedykowane komponenty."
+      - title: "Testy i roll-out"
+        description: "Szkolenia użytkowników, monitoring użycia i optymalizacja wydajności."
+  faq:
+    eyebrow: "FAQ"
+    title: "Pytania o SAP Fiori"
+    description: "Najczęściej zadawane pytania od naszych klientów."
+    items:
+      - question: "Czy Fiori działa tylko z S/4HANA?"
+        answer: "Nie – wdrażamy również Fiori dla SAP ECC oraz jako front-end do integracji."
+      - question: "Czy mogę użyć Fiori offline?"
+        answer: "Tak, wybrane aplikacje wspierają tryb offline, a dane synchronizują się po odzyskaniu internetu."
+      - question: "Jak wyglądają aktualizacje?"
+        answer: "Przygotowujemy politykę aktualizacji UI5 oraz testy regresyjne w oparciu o SAP BTP."
+  related:
+    eyebrow: "Powiązane usługi"
+    title: "Wspierające moduły"
+    description: "Fiori często łączymy z integracjami i ERPNext."
+    items:
+      - category: "Integracje"
+        name: "Integracje i automatyzacje"
+        description: "Dwukierunkowa wymiana danych między SAP i ERPNext."
+        url: "/uslugi/integracje/"
+      - category: "IoT"
+        name: "SAP IoT"
+        description: "Pokaz danych z urządzeń przemysłowych w wygodnym interfejsie."
+        url: "/uslugi/iot/"
+  cta:
+    eyebrow: "Porozmawiajmy"
+    title: "Zaprojektujmy nowy UX dla Twojego SAP"
+    description: "Zamów audyt Fiori lub warsztat prototypowania."
+    primary:
+      label: "Umów prezentację"
+      url: "/kontakt/"
+    secondary:
+      label: "Sprawdź pakiety"
+      url: "/oferta/cennik/"
 ---
 
 <div class="py-20 bg-white" id="fiori-intro">

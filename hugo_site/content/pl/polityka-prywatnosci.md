@@ -39,7 +39,7 @@ Zbieramy dane w następujących sytuacjach:
 
 #### Cookies analityczne (wymagają zgody)
 Używamy:
-- **Matomo Analytics** (`//www.vh13224.vh.net.pl/`) – narzędzie analityczne hostowane na własnym serwerze, zbiera anonimowe dane o odwiedzinach
+- **Matomo Analytics** – narzędzie hostowane na naszym serwerze, zbiera anonimowe dane o odwiedzinach
 - **Google Analytics 4** (ID: `G-S3Y6QBN3F3`) – usługa Google do analizy ruchu
 
 Oba narzędzia anonimizują adresy IP i nie przechowują danych osobowych bez Twojej zgody.
@@ -101,9 +101,7 @@ Możesz zmienić swoje preferencje dotyczące cookies analitycznych w dowolnym m
 
 ### Opt-out z Matomo
 
-Możesz również zrezygnować z śledzenia przez Matomo bezpośrednio:
-
-<iframe style="border:0;height:200px;width:100%;margin-top:12px" src="//www.vh13224.vh.net.pl/index.php?module=CoreAdminHome&action=optOut&language=pl"></iframe>
+Możesz zrezygnować z śledzenia przez Matomo Analytics, korzystając z opcji zarządzania cookies powyżej lub kontaktując się z nami bezpośrednio.
 
 ---
 

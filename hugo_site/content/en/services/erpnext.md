@@ -2,6 +2,81 @@
 title: "ERPnext System"
 subtitle: "Comprehensive ERP system without license costs"
 date: 2025-11-07
+service_sections:
+  scope:
+    eyebrow: "Scope"
+    title: "What we deliver in ERPNext projects"
+    description: "End-to-end delivery – from process discovery through configuration to ongoing care."
+    items:
+      - title: "Process & data assessment"
+        description: "Workshops with stakeholders, gap analysis and migration strategy."
+      - title: "Module setup & automations"
+        description: "Sales, purchasing, finance, HR and project workflows tailored to your business."
+      - title: "Integrations & migration"
+        description: "Connect ERPNext with e-commerce, BI, WMS or banking platforms and migrate legacy data."
+  scenarios:
+    eyebrow: "Use cases"
+    title: "Where ERPNext works best"
+    description: "We support service companies, manufacturing plants and multi-entity groups."
+    items:
+      - title: "Scaling service delivery"
+        description: "Standardised quoting, project execution and subscription billing."
+      - title: "Group-wide control"
+        description: "Central chart of accounts, currencies, permissions and consolidated reporting."
+      - title: "Back-office automation"
+        description: "Document workflows, purchasing approvals and automated settlements."
+    highlight:
+      title: "Grow without license limits"
+      description: "Open API and no per-user fees let you iterate faster."
+      bullets:
+        - "Start with MVP, extend per sprint"
+        - "Onboard new branches with templates"
+        - "Full access to the source code"
+  starter:
+    eyebrow: "Kick-off"
+    title: "How we start ERPNext engagements"
+    description: "Clear stages ensure transparency and predictable results."
+    steps:
+      - title: "Discovery workshops"
+        description: "2–3 days of sessions to capture goals, KPIs and AS-IS/TO-BE."
+      - title: "Proof of concept"
+        description: "Configuring key modules and integrations to validate the approach."
+      - title: "Implementation roadmap"
+        description: "Sprint plan, resource allocation and go-live timeline."
+  faq:
+    eyebrow: "FAQ"
+    title: "Frequently asked questions"
+    description: "Quick answers before you kick off the project."
+    items:
+      - question: "Can you migrate data from my current ERP?"
+        answer: "Yes. We prepare mapping templates, dry runs and validation tools."
+      - question: "What support do you offer post go-live?"
+        answer: "Hourly support packages with SLA and a dedicated architect."
+      - question: "Do you integrate with 3rd party apps?"
+        answer: "Yes – via REST/GraphQL, webhooks and custom connectors."
+  related:
+    eyebrow: "Related services"
+    title: "Boost ERPNext with industry modules"
+    description: "Combine ERPNext with specialised capabilities."
+    items:
+      - category: "Warehouse"
+        name: "Warehouse management"
+        description: "Advanced logistics, slotting and picking."
+        url: "/en/services/warehouse/"
+      - category: "Integrations"
+        name: "Integrations & automation"
+        description: "Real-time data flows between ERPNext and other platforms."
+        url: "/en/services/integrations/"
+  cta:
+    eyebrow: "Next step"
+    title: "Let's align ERPNext with your business"
+    description: "Review pricing packages or schedule an intro workshop."
+    primary:
+      label: "Book a call"
+      url: "/en/contact/"
+    secondary:
+      label: "Explore services"
+      url: "/en/services/"
 ---
 
 ## Main ERPnext Representative in Poland

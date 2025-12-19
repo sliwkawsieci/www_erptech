@@ -38,7 +38,7 @@ We collect data in the following situations:
 
 #### Analytics cookies (require consent)
 We use:
-- **Matomo Analytics** (`//www.vh13224.vh.net.pl/`) – self-hosted analytics tool that collects anonymous visit data
+- **Matomo Analytics** – analytics tool hosted on our server that collects anonymous visit data
 - **Google Analytics 4** (ID: `G-S3Y6QBN3F3`) – Google's traffic analysis service
 
 Both tools anonymize IP addresses and do not store personal data without your consent.

@@ -2,6 +2,81 @@
 title: "EOD"
 subtitle: "Electronic Document Management"
 date: 2025-11-07
+service_sections:
+  scope:
+    eyebrow: "Scope"
+    title: "What we deliver in EOD projects"
+    description: "Workflow design, approval matrices, storage policies and integrations with ERP."
+    items:
+      - title: "Procurement & finance flows"
+        description: "Purchase requests, cost invoices, travel expenses and settlements."
+      - title: "HR & admin documents"
+        description: "Contracts, employee requests, onboarding and personal files."
+      - title: "Archive & retention"
+        description: "Document repository with access control and audit trail."
+  scenarios:
+    eyebrow: "Use cases"
+    title: "Document processes we automate"
+    description: "From simple approvals to highly regulated flows."
+    items:
+      - title: "Invoice processing"
+        description: "OCR, PO matching, automatic coding and posting."
+      - title: "Contract lifecycle"
+        description: "Templates, versioning, qualified e-signatures."
+      - title: "HR self-service"
+        description: "Leave requests, GDPR consents, policy acknowledgements."
+    highlight:
+      title: "Compliance ready"
+      description: "Each document keeps timestamps, author, comments and full approval history."
+      bullets:
+        - "Audit-friendly logs"
+        - "Notifications & SLA tracking"
+        - "Role-based permissions"
+  starter:
+    eyebrow: "Kick-off"
+    title: "Implementation approach"
+    description: "Start with one process, expand iteratively."
+    steps:
+      - title: "Process mapping"
+        description: "Identify document types, data fields and decision rules."
+      - title: "Workflow configuration"
+        description: "Forms, routing, notifications and OCR/API integrations."
+      - title: "Training & rollout"
+        description: "Playbooks for users and onboarding of additional processes."
+  faq:
+    eyebrow: "FAQ"
+    title: "Document management questions"
+    description: "Answers for the most common concerns."
+    items:
+      - question: "Do you integrate OCR?"
+        answer: "Yes, we connect ABBYY, Google Vision or custom OCR services."
+      - question: "How do signatures work?"
+        answer: "Qualified signatures, ePUAP and internal approvals supported."
+      - question: "Is the system GDPR-compliant?"
+        answer: "We configure roles, data masking and retention policies."
+  related:
+    eyebrow: "Related services"
+    title: "Combine EOD with other modules"
+    description: "Document management often goes hand in hand with ERPNext and integrations."
+    items:
+      - category: "ERP"
+        name: "ERPnext System"
+        description: "Unified data for finance, warehouse and projects."
+        url: "/en/services/erpnext/"
+      - category: "Integrations"
+        name: "Integrations & automation"
+        description: "Connections to banks, accounting partners or HR platforms."
+        url: "/en/services/integrations/"
+  cta:
+    eyebrow: "Next step"
+    title: "Digitize your document flow"
+    description: "Show us one process – we’ll prepare a demo and rollout plan."
+    primary:
+      label: "Book a call"
+      url: "/en/contact/"
+    secondary:
+      label: "Explore services"
+      url: "/en/services/"
 ---
 
 ## EOD System in ERPnext

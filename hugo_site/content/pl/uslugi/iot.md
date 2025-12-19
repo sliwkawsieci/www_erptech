@@ -6,6 +6,81 @@ draft: false
 raw_html: true
 aliases:
   - /uslugi/iot
+service_sections:
+  scope:
+    eyebrow: "Zakres"
+    title: "Zakres rozwiązań IoT"
+    description: "Łączymy urządzenia przemysłowe, sensory i ERP, aby dostarczyć dane w czasie rzeczywistym."
+    items:
+      - title: "Integracje z czujnikami"
+        description: "Edge gateway, komunikacja MQTT/OPC-UA i normalizacja danych."
+      - title: "Analityka i alerty"
+        description: "Modele predykcyjne, reguły alarmowe oraz wizualizacja KPI."
+      - title: "Integracja z SAP/ERPNext"
+        description: "Zasilanie procesów produkcyjnych, jakościowych i serwisowych danymi IoT."
+  scenarios:
+    eyebrow: "Scenariusze"
+    title: "Gdzie wykorzystujemy IoT"
+    description: "Wspieramy zakłady produkcyjne, logistykę i firmy serwisowe."
+    items:
+      - title: "Monitoring maszyn"
+        description: "Zbieranie danych o pracy, energiach i przestojach."
+      - title: "Traceability produktów"
+        description: "Czujniki temperatury/wilgotności i rejestracja zdarzeń transportowych."
+      - title: "Predykcyjne utrzymanie ruchu"
+        description: "Analiza wibracji, temperatury i alerty dla służb UR."
+    highlight:
+      title: "IoT + ERP"
+      description: "Automatycznie tworzymy zlecenia serwisowe, raporty jakości i aktualizujemy stany magazynowe."
+      bullets:
+        - "Dwukierunkowa komunikacja"
+        - "Bezpieczne tunelowanie danych"
+        - "Skalowalna architektura chmurowa"
+  starter:
+    eyebrow: "Pakiet startowy"
+    title: "Jak startuje projekt IoT"
+    description: "Zaczynamy od szybkiego pilota i planu skalowania."
+    steps:
+      - title: "Warsztat i audyt urządzeń"
+        description: "Sprawdzamy dostępne protokoły, częstotliwość próbkowania i ograniczenia sieciowe."
+      - title: "Proof of Concept"
+        description: "Podłączamy pierwsze urządzenia, zbieramy dane do chmury i prezentujemy dashboard."
+      - title: "Integracja z procesami"
+        description: "Łączymy IoT z ERPNext/SAP, definiujemy alerty i przekazujemy dokumentację."
+  faq:
+    eyebrow: "FAQ"
+    title: "Pytania o SAP IoT"
+    description: "Najczęściej poruszane kwestie."
+    items:
+      - question: "Czy pracujecie z własnym sprzętem?"
+        answer: "Współpracujemy z dostawcami urządzeń i dobieramy sprzęt do wymagań projektu."
+      - question: "Jak dbacie o bezpieczeństwo?"
+        answer: "Stosujemy szyfrowanie, segmentację sieci, certyfikaty oraz monitoring."
+      - question: "Czy IoT może działać bez chmury?"
+        answer: "Tak, możliwe są wdrożenia edge/on-premise z późniejszą synchronizacją."
+  related:
+    eyebrow: "Powiązane usługi"
+    title: "Rozszerz IoT o dodatkowe moduły"
+    description: "Najczęściej łączymy IoT z integracjami i produkcją."
+    items:
+      - category: "Integracje"
+        name: "Integracje i automatyzacje"
+        description: "Dystrybucja danych IoT do systemów ERP i aplikacji mobilnych."
+        url: "/uslugi/integracje/"
+      - category: "Produkcja"
+        name: "Moduł produkcyjny"
+        description: "Zasilanie OEE, zleceń UR i kontroli jakości."
+        url: "/uslugi/produkcja/"
+  cta:
+    eyebrow: "Działaj"
+    title: "Uruchom projekt IoT z naszym wsparciem"
+    description: "Przygotujemy koncepcję, wybierzemy sprzęt i wdrożymy integracje."
+    primary:
+      label: "Umów konsultację"
+      url: "/kontakt/"
+    secondary:
+      label: "Zobacz pakiety"
+      url: "/oferta/cennik/"
 ---
 
 <div class="py-20 bg-white" id="iot-intro">

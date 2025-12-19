@@ -5,6 +5,81 @@ date: 2025-11-07
 draft: false
 aliases:
   - /en/services/iot
+service_sections:
+  scope:
+    eyebrow: "Scope"
+    title: "IoT services"
+    description: "Connect industrial devices, collect data, analyse and feed ERP processes."
+    items:
+      - title: "Sensor & device integration"
+        description: "Edge gateways, MQTT/OPC-UA, normalising telemetry streams."
+      - title: "Analytics & alerts"
+        description: "Dashboards, predictive models and rule-based notifications."
+      - title: "ERP integration"
+        description: "Trigger work orders, quality inspections or inventory updates."
+  scenarios:
+    eyebrow: "Use cases"
+    title: "IoT scenarios we support"
+    description: "Manufacturing, logistics and service organisations."
+    items:
+      - title: "Machine monitoring"
+        description: "Track utilisation, energy consumption, downtime."
+      - title: "Product traceability"
+        description: "Cold chain sensors, transport events, compliance data."
+      - title: "Predictive maintenance"
+        description: "Vibration/temperature analytics feeding maintenance teams."
+    highlight:
+      title: "IoT meets ERP"
+      description: "Automatically create service orders, quality tasks or update stock."
+      bullets:
+        - "Bi-directional communication"
+        - "Secure data channels"
+        - "Cloud or edge deployments"
+  starter:
+    eyebrow: "Kick-off"
+    title: "How we run IoT projects"
+    description: "Pilot fast, scale with proven architecture."
+    steps:
+      - title: "Device & network audit"
+        description: "Review protocols, sampling rates and connectivity constraints."
+      - title: "Proof of concept"
+        description: "Connect selected assets, stream data to the cloud and build first dashboard."
+      - title: "Process integration"
+        description: "Link IoT events with ERPNext/SAP workflows and document the solution."
+  faq:
+    eyebrow: "FAQ"
+    title: "IoT questions"
+    description: "Answers for the most common topics."
+    items:
+      - question: "Do you supply hardware?"
+        answer: "We cooperate with hardware partners and recommend devices suited to your needs."
+      - question: "How do you secure IoT?"
+        answer: "Encryption, network segmentation, certificates and proactive monitoring."
+      - question: "Can we run on-premise?"
+        answer: "Yes – edge deployments with later synchronisation are possible."
+  related:
+    eyebrow: "Related services"
+    title: "Extend IoT with"
+    description: "Integrations and production modules often complement IoT."
+    items:
+      - category: "Integrations"
+        name: "Integrations & automation"
+        description: "Distribute IoT data across ERP and external apps."
+        url: "/en/services/integrations/"
+      - category: "Production"
+        name: "Production module"
+        description: "Feed OEE, maintenance and quality processes."
+        url: "/en/services/production/"
+  cta:
+    eyebrow: "Next step"
+    title: "Launch an IoT initiative"
+    description: "We’ll craft the concept, select hardware and implement integrations."
+    primary:
+      label: "Book a call"
+      url: "/en/contact/"
+    secondary:
+      label: "Explore services"
+      url: "/en/services/"
 ---
 
 ## SAP IoT - smart solutions

@@ -1,7 +1,82 @@
----
+﻿---
 title: "Integracje"
 subtitle: "Połączenie różnych systemów IT"
 date: 2025-11-07
+service_sections:
+  scope:
+    eyebrow: "Zakres"
+    title: "Zakres projektów integracyjnych"
+    description: "Budujemy mosty danych między ERPNext, SAP, e-commerce, IoT i aplikacjami mobilnymi."
+    items:
+      - title: "Integracje ERPNext ↔ systemy zewnętrzne"
+        description: "Synchronizacja produktów, dokumentów i płatności, automatyzacja zamówień."
+      - title: "Middleware SAP i API"
+        description: "SAP PI/PO, BTP, CPI oraz lekkie usługi integracyjne dla systemów legacy."
+      - title: "Procesy ETL i streaming"
+        description: "Harmonogramy zadań, kolejki, CDC i kontrola jakości danych."
+  scenarios:
+    eyebrow: "Scenariusze"
+    title: "Kiedy pomagamy"
+    description: "Najczęstsze potrzeby naszych klientów."
+    items:
+      - title: "E-commerce i ERP"
+        description: "Stany magazynowe, ceny i zamówienia między sklepami a ERP."
+      - title: "Integracje B2B"
+        description: "Wymiana danych z dostawcami, EDI, automatyczne potwierdzenia."
+      - title: "Data hub i BI"
+        description: "Replikacja danych do hurtowni / lakehouse i zasilanie dashboardów."
+    highlight:
+      title: "Architektura odporna na błędy"
+      description: "Projektujemy kolejki, monitoring oraz automatyczne retry, aby integracje były stabilne."
+      bullets:
+        - "Alerty i dashboardy SLA"
+        - "Rejestrowanie i maskowanie danych"
+        - "Wersjonowanie API"
+  starter:
+    eyebrow: "Pakiet startowy"
+    title: "Jak przebiega projekt integracyjny"
+    description: "Zapewniamy analizę, architekturę i wdrożenie w krótkich iteracjach."
+    steps:
+      - title: "Analiza i warsztat techniczny"
+        description: "Poznajemy systemy źródłowe, wymagania bezpieczeństwa i wolumeny danych."
+      - title: "Proof of Concept"
+        description: "Tworzymy pierwsze przepływy, konfigurujemy middleware i monitoring."
+      - title: "Roll-out i przekazanie"
+        description: "Automatyzujemy wdrożenia (CI/CD) i szkolimy zespół klienta."
+  faq:
+    eyebrow: "FAQ"
+    title: "Pytania o integracje"
+    description: "Dzięki odpowiedziom łatwiej zaplanujesz zakres projektu."
+    items:
+      - question: "Czy przejmujecie utrzymanie integracji?"
+        answer: "Tak, zapewniamy SLA, monitoring i rozwój kolejnych przepływów danych."
+      - question: "Czy pracujecie w chmurze klienta?"
+        answer: "Tak – wdrażamy rozwiązania w Azure, AWS, GCP lub on‑premise."
+      - question: "Czy integracje są bezpieczne?"
+        answer: "Stosujemy szyfrowanie, tokeny, VPN i logi audytowe."
+  related:
+    eyebrow: "Powiązane usługi"
+    title: "Rozwiązania, które warto połączyć"
+    description: "Integracje najczęściej współpracują z naszymi modułami ERP i IoT."
+    items:
+      - category: "ERPnext"
+        name: "System ERPnext"
+        description: "Centralna baza danych dla finansów, magazynu i projektów."
+        url: "/uslugi/erpnext/"
+      - category: "SAP IoT"
+        name: "IoT i Industry 4.0"
+        description: "Integracja danych z urządzeń z systemami biznesowymi."
+        url: "/uslugi/iot/"
+  cta:
+    eyebrow: "Porozmawiajmy"
+    title: "Potrzebujesz połączyć wiele systemów?"
+    description: "Przygotujemy architekturę i plan wdrożenia integracji dostosowany do Twoich systemów."
+    primary:
+      label: "Umów konsultację"
+      url: "/kontakt/"
+    secondary:
+      label: "Sprawdź pakiety wsparcia"
+      url: "/oferta/cennik/"
 ---
 
 <div class="py-20 bg-white" id="integrations-intro">
@@ -17,7 +92,7 @@ date: 2025-11-07
 <span class="flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-600 shadow-inner">
 <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
 </span>
-<p><strong class="text-gray-900">Integracje ERPnext ↔ systemy zewnętrzne.</strong> Dwukierunkowa synchronizacja produktów, dokumentów i płatności.</p>
+<p><strong class="text-gray-900">Integracje ERPnext - systemy zewnętrzne.</strong> Dwukierunkowa synchronizacja produktów, dokumentów i płatności.</p>
 </div>
 <div class="flex items-start gap-4">
 <span class="flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-600 shadow-inner">

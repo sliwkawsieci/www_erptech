@@ -2,6 +2,81 @@
 title: "Production"
 subtitle: "Production planning and control"
 date: 2025-11-07
+service_sections:
+  scope:
+    eyebrow: "Scope"
+    title: "Manufacturing services in ERPNext"
+    description: "From BOM modelling to shop-floor reporting and costing."
+    items:
+      - title: "BOM & routing design"
+        description: "Variants, substitutions and multi-level routings with revisions."
+      - title: "MRP & scheduling"
+        description: "Material requirements, capacity planning and scenario simulation."
+      - title: "Execution & costing"
+        description: "Time capture, scrap, consumption and unit cost calculation."
+  scenarios:
+    eyebrow: "Use cases"
+    title: "Manufacturing scenarios we support"
+    description: "Discrete, process and make-to-order environments."
+    items:
+      - title: "Discrete manufacturing"
+        description: "Devices, furniture, metalwork with revision tracking."
+      - title: "Process industries"
+        description: "Recipes, batches, compliance (HACCP, cosmetic GMP)."
+      - title: "MaaS / contract manufacturing"
+        description: "Customer orders, resource billing and OEE dashboards."
+    highlight:
+      title: "Real-time visibility"
+      description: "Production data flows directly into finance, warehouse and sales."
+      bullets:
+        - "OTIF and lead-time metrics"
+        - "Material shortage alerts"
+        - "Maintenance dashboards"
+  starter:
+    eyebrow: "Kick-off"
+    title: "How we implement ERPNext for manufacturing"
+    description: "Focused on material and information flow."
+    steps:
+      - title: "Technology workshop"
+        description: "Analyse BOMs, routings and workstation hierarchy."
+      - title: "Pilot line setup"
+        description: "Configure pilot work centres and operator reporting."
+      - title: "Roll-out & training"
+        description: "Work instructions, go-live assistance and hypercare."
+  faq:
+    eyebrow: "FAQ"
+    title: "Production module questions"
+    description: "Key points before the implementation."
+    items:
+      - question: "Do you support batches & serial numbers?"
+        answer: "Yes – every production order and delivery can carry batch/serial tracking."
+      - question: "How do operators report time?"
+        answer: "Simple start/stop screens on tablets or terminals, feeding payroll and costing."
+      - question: "Can we connect machines?"
+        answer: "Yes – via APIs, OPC-UA or lightweight PLC integrations."
+  related:
+    eyebrow: "Related services"
+    title: "Extend manufacturing capabilities"
+    description: "Tie production with warehouse and Lean ERP."
+    items:
+      - category: "Warehouse"
+        name: "Warehouse module"
+        description: "Real-time buffers, component picking and shipping."
+        url: "/en/services/warehouse/"
+      - category: "Lean ERP"
+        name: "Lean ERP & reporting"
+        description: "Visual boards, KPIs and improvement programs."
+        url: "/en/services/lean-erp/"
+  cta:
+    eyebrow: "Next step"
+    title: "Bring clarity to your production"
+    description: "Pick a support package or schedule a value stream workshop."
+    primary:
+      label: "Book a call"
+      url: "/en/contact/"
+    secondary:
+      label: "Explore services"
+      url: "/en/services/"
 ---
 
 ## ERPnext Production Module

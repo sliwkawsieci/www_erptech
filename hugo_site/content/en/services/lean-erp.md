@@ -5,6 +5,81 @@ date: 2025-11-13
 raw_html: true
 hero_image: "/Images/lean_erp.png"
 hero_image_alt: "Lean ERP"
+service_sections:
+  scope:
+    eyebrow: "Scope"
+    title: "Lean ERP program scope"
+    description: "We combine Lean practices, visual management and ERPNext analytics."
+    items:
+      - title: "Value stream mapping"
+        description: "Identify waste, design future-state processes and translate them into ERP workflows."
+      - title: "Visual boards & Gemba"
+        description: "Interactive dashboards, stand-up rituals and action tracking."
+      - title: "Executive reporting"
+        description: "Unified KPI set connected directly to operational data."
+  scenarios:
+    eyebrow: "Use cases"
+    title: "Where Lean ERP helps"
+    description: "Manufacturing, services and support functions."
+    items:
+      - title: "IT / project portfolios"
+        description: "Roadmaps, sprints and budgets surfaced in ERPNext."
+      - title: "Logistics optimisation"
+        description: "Heijunka, Kanban, stock control and lead-time monitoring."
+      - title: "Management reporting"
+        description: "OEE, OTIF, backlog, cash metrics displayed in one place."
+    highlight:
+      title: "Lean culture meets data"
+      description: "We digitise only validated improvements, so teams adopt new habits faster."
+      bullets:
+        - "Single source of truth"
+        - "Transparent backlog of improvements"
+        - "Regular reviews and coaching"
+  starter:
+    eyebrow: "Kick-off"
+    title: "How we run the program"
+    description: "Iterative cycles – workshop, prototype, rollout."
+    steps:
+      - title: "Diagnostic workshop"
+        description: "Understand processes, KPIs and tool landscape."
+      - title: "Improvement sprint"
+        description: "Configure boards, automations and reports in ERPNext."
+      - title: "Results review"
+        description: "Measure impact and plan the next Kaizen cycle."
+  faq:
+    eyebrow: "FAQ"
+    title: "Lean ERP questions"
+    description: "What clients usually ask us."
+    items:
+      - question: "Is it consulting or software?"
+        answer: "Both – we implement Lean practices and configure ERPNext accordingly."
+      - question: "How long does it take?"
+        answer: "We start with a 4-week pilot sprint; next cycles depend on your roadmap."
+      - question: "Do I need extra licenses?"
+        answer: "No, we use existing ERPNext modules or lightweight custom apps."
+  related:
+    eyebrow: "Related services"
+    title: "What to pair with Lean ERP"
+    description: "Usually combined with production and warehouse modules."
+    items:
+      - category: "Production"
+        name: "Production module"
+        description: "Plan MRP, monitor OEE and act on shop-floor data."
+        url: "/en/services/production/"
+      - category: "ERP"
+        name: "ERPnext System"
+        description: "Core processes for finance, sales and logistics."
+        url: "/en/services/erpnext/"
+  cta:
+    eyebrow: "Next step"
+    title: "Launch a digital improvement program"
+    description: "Book a diagnosis workshop or choose a support package."
+    primary:
+      label: "Book a call"
+      url: "/en/contact/"
+    secondary:
+      label: "Explore services"
+      url: "/en/services/"
 ---
 
 <div class="py-20 bg-white" id="lean-intro">

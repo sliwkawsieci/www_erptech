@@ -5,6 +5,81 @@ date: 2025-11-07
 draft: false
 aliases:
   - /en/services/fiori
+service_sections:
+  scope:
+    eyebrow: "Scope"
+    title: "What we do in Fiori projects"
+    description: "UX assessment, standard app rollout, custom UI5 development and integration."
+    items:
+      - title: "UX & catalog audit"
+        description: "Identify high-value processes and map them to standard/custom apps."
+      - title: "Custom apps & extensions"
+        description: "Build dedicated tiles, extend OData services and tailor UI5 components."
+      - title: "Security & authorisations"
+        description: "Spaces, groups, roles and SAP Identity integration."
+  scenarios:
+    eyebrow: "Use cases"
+    title: "Fiori scenarios"
+    description: "Logistics, finance, HR and executive dashboards."
+    items:
+      - title: "Manager cockpits"
+        description: "KPI dashboards, alerts and quick approvals."
+      - title: "Mobile apps"
+        description: "Inventory, invoice approvals, HR requests on phones/tablets."
+      - title: "ERPNext bridge"
+        description: "Fiori front-end for ERPNext or mixed SAP + ERPNext processes."
+    highlight:
+      title: "Consistent SAP UX"
+      description: "Fiori increases adoption, reduces training time and lowers error rates."
+      bullets:
+        - "Responsive layouts"
+        - "Offline mode & push notifications"
+        - "Personalised roles"
+  starter:
+    eyebrow: "Kick-off"
+    title: "Engagement flow"
+    description: "Design-driven, backed by solid SAP delivery."
+    steps:
+      - title: "UX discovery"
+        description: "Personas, user journeys and wireframes."
+      - title: "Implementation sprint"
+        description: "Configure standard apps, extend and build custom ones."
+      - title: "Testing & rollout"
+        description: "User enablement, performance checks and monitoring."
+  faq:
+    eyebrow: "FAQ"
+    title: "Fiori questions"
+    description: "Most frequent topics."
+    items:
+      - question: "Is Fiori only for S/4HANA?"
+        answer: "No – we deploy it for SAP ECC and as a front-end to other systems."
+      - question: "Can we run offline?"
+        answer: "Selected apps support offline scenarios with background sync."
+      - question: "How about upgrades?"
+        answer: "We prepare UI5 upgrade policies and regression tests within SAP BTP."
+  related:
+    eyebrow: "Related services"
+    title: "Combine Fiori with"
+    description: "Often delivered together with integrations and IoT projects."
+    items:
+      - category: "Integrations"
+        name: "Integrations & automation"
+        description: "Data exchange between SAP, ERPNext and external services."
+        url: "/en/services/integrations/"
+      - category: "IoT"
+        name: "SAP IoT"
+        description: "Visualise industrial sensor data directly in Fiori."
+        url: "/en/services/iot/"
+  cta:
+    eyebrow: "Next step"
+    title: "Design a modern SAP experience"
+    description: "Book a UX audit or prototyping session."
+    primary:
+      label: "Book a call"
+      url: "/en/contact/"
+    secondary:
+      label: "Explore services"
+      url: "/en/services/"
 ---
 
 ## SAP FIORI - interface revolution
