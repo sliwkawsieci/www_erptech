@@ -3,6 +3,7 @@ title = 'ERP Tech'
 defaultContentLanguage = 'pl'
 enableRobotsTXT = true
 enableGitInfo = false
+publishDir = '../docs'
 
 [params]
   description = "Główny przedstawiciel ERPnext w Polsce, wieloletnie doświadczenie we wdrażaniu i rozbudowie systemów informatycznych ERPnext i SAP."

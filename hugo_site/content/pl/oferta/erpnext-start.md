@@ -1,8 +1,8 @@
----
+Ôªø---
 title: "ERPnext Start"
 subtitle: "Pakiet startowy wdro≈ºenia ERPNext"
 date: 2025-12-17
-raw_html: true
+layout: "raw"
 ---
 
 <div class="bg-gradient-to-br from-blue-50 to-orange-50 py-16 px-4 -mx-4 my-8 rounded-2xl">
@@ -156,42 +156,38 @@ raw_html: true
         <span class="text-gray-700">30 dni wsparcia po wdro≈ºeniu</span>
     </div>
 <div id="pelna-oferta" class="bg-white border border-gray-200 rounded-2xl shadow-sm p-8 my-12">
-<h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Pe≥na oferta ERPnext Start na erptech.pl</h3>
+<h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Pe≈Çna oferta ERPnext Start na erptech.pl</h3>
 <div class="grid md:grid-cols-3 gap-6">
     <div class="p-5 rounded-xl bg-blue-50">
         <p class="text-sm font-semibold text-blue-600 uppercase">Etap 1</p>
         <h4 class="text-lg font-bold text-gray-900 mt-1 mb-2">Warsztaty procesowe</h4>
-        <p class="text-gray-600 text-sm">Dwa spotkania online, podczas ktÛrych mapujemy procesy i przygotowujemy backlog startowy.</p>
+        <p class="text-gray-600 text-sm">Dwa spotkania online, podczas kt√≥rych mapujemy procesy i przygotowujemy backlog startowy.</p>
     </div>
     <div class="p-5 rounded-xl bg-orange-50">
         <p class="text-sm font-semibold text-orange-600 uppercase">Etap 2</p>
         <h4 class="text-lg font-bold text-gray-900 mt-1 mb-2">Konfiguracja i migracja</h4>
-        <p class="text-gray-600 text-sm">Instalacja úrodowiska, import danych podstawowych, przygotowanie rÛl oraz dashboardÛw.</p>
+        <p class="text-gray-600 text-sm">Instalacja ≈õrodowiska, import danych podstawowych, przygotowanie r√≥l oraz dashboard√≥w.</p>
     </div>
     <div class="p-5 rounded-xl bg-green-50">
         <p class="text-sm font-semibold text-green-600 uppercase">Etap 3</p>
         <h4 class="text-lg font-bold text-gray-900 mt-1 mb-2">Szkolenie i wsparcie</h4>
-        <p class="text-gray-600 text-sm">Dwugodzinne szkolenie uøytkownikÛw, checklisty powdroøeniowe oraz 30 dni asysty zespo≥u ERP Tech.</p>
+        <p class="text-gray-600 text-sm">Dwugodzinne szkolenie u≈ºytkownik√≥w, checklisty powdro≈ºeniowe oraz 30 dni asysty zespo≈Çu ERP Tech.</p>
     </div>
 </div>
 <div class="mt-8 grid md:grid-cols-2 gap-6">
     <div class="bg-gray-50 rounded-xl p-5">
         <h5 class="text-base font-semibold text-gray-900 mb-2">W cenie pakietu</h5>
         <ul class="text-gray-600 text-sm space-y-2">
-            <li>&bull; dostÍp do repozytorium konfiguracyjnego ERP Tech</li>
-            <li>&bull; checklisty wdroøeniowe i scenariusze testÛw</li>
-            <li>&bull; dokumentacja administracyjna w jÍzyku polskim</li>
+            <li>&bull; dostƒôp do repozytorium konfiguracyjnego ERP Tech</li>
+            <li>&bull; checklisty wdro≈ºeniowe i scenariusze test√≥w</li>
+            <li>&bull; dokumentacja administracyjna w jƒôzyku polskim</li>
         </ul>
     </div>
     <div class="bg-gray-50 rounded-xl p-5">
-        <h5 class="text-base font-semibold text-gray-900 mb-2">Opcje rozszerzeÒ</h5>
+        <h5 class="text-base font-semibold text-gray-900 mb-2">Opcje rozszerze≈Ñ</h5>
         <ul class="text-gray-600 text-sm space-y-2">
             <li>&bull; integracje z e-commerce i systemami finansowymi</li>
-            <li>&bull; modu≥y branøowe (produkcja, magazyn, serwis)</li>
-            <li>&bull; abonament wsparcia rozliczany wed≥ug pakietÛw godzinowych</li>
-        </ul>
-    </div>
-</div>
+            <li>&bull; modu≈Çy bran≈ºowe (produkcja, magazyn, serwis)</li>
 </div>
 </div>
 </div>
@@ -245,7 +241,7 @@ raw_html: true
         Zadzwo≈Ñ ‚Äì doradzimy bez zobowiƒÖza≈Ñ. Odpiszemy na maila w 1 dzie≈Ñ roboczy.
     </p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="/kontakt/" class="inline-block bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl">
+        <a href="/kontakt/" class="inline-block bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300">
             Skontaktuj siƒô
         </a>
         <a href="#pelna-oferta" class="inline-block bg-white/20 text-white hover:bg-white/30 px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 border-2 border-white/30">
@@ -255,7 +251,7 @@ raw_html: true
 </div>
 </div>
 
-
+            ...
 
 
 

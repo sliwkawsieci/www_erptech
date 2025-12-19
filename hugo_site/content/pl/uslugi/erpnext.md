@@ -5,6 +5,8 @@ description: "ERPnext to otwarty system ERP bez kosztów licencyjnych. Jesteśmy
 keywords: ["ERPnext", "system ERP", "oprogramowanie ERP", "Polska"]
 date: 2025-11-07
 type: "page"
+hero_image: "/Images/erpnext_hero.png"
+hero_image_alt: "ERPnext"
 ---
 
 <div class="py-20 bg-white" id="erpnext-intro">
@@ -74,26 +76,27 @@ type: "page"
 
 <div class="grid md:grid-cols-2 gap-8 items-center">
 <div class="bg-white p-4 rounded-xl shadow-lg">
-    <img src="/Images/system-erp-schemat.jpg.webp" alt="Schemat systemu ERPnext" class="rounded-lg w-full h-auto aspect-video object-cover" loading="lazy" decoding="async">
+    <img src="/Images/erpnext_schemat.png" alt="Schemat systemu ERPnext" class="rounded-lg w-full h-auto aspect-video object-cover" loading="lazy" decoding="async">
     <p class="text-center text-sm text-gray-500 mt-2">Schemat architektury systemu ERPnext</p>
 </div>
 <div class="space-y-4">
+    <h3 class="text-2xl font-bold text-gray-900 mb-4">ERPNext – Elastyczny system ERP dla nowoczesnych firm</h3>
     <p class="text-lg text-gray-700">
-        ERPNext – Elastyczny system ERP dla nowoczesnych firm
-ERPNext to jeden z najbardziej dynamicznie rozwijających się systemów ERP o otwartym kodzie źródłowym, stworzony z myślą o kompleksowym zarządzaniu przedsiębiorstwem – wszystko w jednym miejscu. Łączy rozbudowaną funkcjonalność z intuicyjnym interfejsem, dzięki czemu jest przyjazny zarówno dla użytkowników technicznych, jak i biznesowych.
-System wspiera zarządzanie kluczowymi obszarami działalności firmy, takimi jak:
-
-księgowość i finanse,
-gospodarka magazynowa i zapasy,
-projekty i zadania,
-zasoby ludzkie (HR),
-relacje z klientami (CRM),
-oraz wiele innych.
-
-Dzięki swojej modułowej budowie i otwartej architekturze ERPNext doskonale sprawdza się zarówno w małych firmach, jak i w dużych organizacjach, które szukają skalowalnego i dostosowanego do swoich potrzeb rozwiązania.
+        ERPNext to jeden z najbardziej dynamicznie rozwijających się systemów ERP o otwartym kodzie źródłowym, stworzony z myślą o kompleksowym zarządzaniu przedsiębiorstwem – wszystko w jednym miejscu. Łączy rozbudowaną funkcjonalność z intuicyjnym interfejsem, dzięki czemu jest przyjazny zarówno dla użytkowników technicznych, jak i biznesowych.
     </p>
     <p class="text-lg text-gray-700">
-        Został zaprojektowany, aby pomóc firmom zarządzać różnymi aspektami ich działalności, w tym księgowością, zarządzaniem zapasami, zarządzaniem projektami, zasobami ludzkimi, zarządzaniem relacjami z klientami (CRM) i nie tylko.
+        System wspiera zarządzanie kluczowymi obszarami działalności firmy, takimi jak:
+    </p>
+    <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4">
+        <li>księgowość i finanse</li>
+        <li>gospodarka magazynowa i zapasy</li>
+        <li>projekty i zadania</li>
+        <li>zasoby ludzkie (HR)</li>
+        <li>relacje z klientami (CRM)</li>
+        <li>oraz wiele innych</li>
+    </ul>
+    <p class="text-lg text-gray-700">
+        Dzięki swojej modułowej budowie i otwartej architekturze ERPNext doskonale sprawdza się zarówno w małych firmach, jak i w dużych organizacjach, które szukają skalowalnego i dostosowanego do swoich potrzeb rozwiązania.
     </p>
 </div>
 </div>

@@ -83,6 +83,63 @@ Wyślij swoje CV i list motywacyjny na adres: <a href="mailto:biuro@erptech.pl" 
 </div>
 </div>
 
+<div class="bg-white border border-gray-200 p-8 rounded-xl shadow-lg my-8">
+<div class="flex items-start justify-between mb-4">
+<div>
+<h3 class="text-2xl font-bold text-gray-800 mb-2">Ml. Programista Python (Frappe Developer)</h3>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Pelny etat</span>
+<span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Zdalnie / Hybrydowo</span>
+<span class="px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-sm">Python � ERP</span>
+</div>
+</div>
+<div class="text-right">
+<p class="text-gray-600 text-sm">Opublikowano: 19 grudnia 2025</p>
+</div>
+</div>
+
+<div class="prose max-w-none">
+<h4 class="text-xl font-bold text-gray-800 mt-6 mb-3">O stanowisku</h4>
+<p class="text-gray-700 mb-4">
+Dolaczysz do zespolu developerow ERP Tech i bedziesz rozwijal rozszerzenia oraz integracje ERPNext. Nie wymagamy praktycznej znajomosci Frappe - wszystkiego nauczymy, ale kazde doswiadczenie z tym frameworkiem bedzie duzym atutem.
+</p>
+
+<h4 class="text-xl font-bold text-gray-800 mt-6 mb-3">Czego oczekujemy?</h4>
+<ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+<li>Okolo rocznego doswiadczenia w Pythonie (komercyjnie lub OSS)</li>
+<li>Podstaw SQL oraz pracy z REST API</li>
+<li>Umiejetnosci korzystania z Git/CLI i dokumentowania kodu</li>
+<li>Otwartosci na rozmowy z klientem biznesowym</li>
+<li>Mile widziane: Frappe/ERPNext, Django/Flask, Vue/React</li>
+</ul>
+
+<h4 class="text-xl font-bold text-gray-800 mt-6 mb-3">Co oferujemy?</h4>
+<ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+<li>Umowe B2B lub UoP, tryb zdalny albo hybrydowy</li>
+<li>Mentoring architektow ERP oraz budzet szkoleniowy</li>
+<li>Udzial w ciekawych wdrozeniach (produkcja, logistyka, e-commerce)</li>
+<li>Elastyczne godziny i platne dni rozwojowe</li>
+</ul>
+
+<h4 class="text-xl font-bold text-gray-800 mt-6 mb-3">Zakres obowiazkow</h4>
+<ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+<li>Tworzenie aplikacji i DocType'ow w Frappe</li>
+<li>Integracje ERPNext z zewnetrznymi systemami (REST/webhooki)</li>
+<li>Automatyzacja procesow biznesowych (Python server scripts, JS klient)</li>
+<li>Testy jednostkowe, code review i dokumentacja wdrozen</li>
+</ul>
+</div>
+
+<div class="mt-8 pt-6 border-t border-gray-200">
+<a href="/kontakt/" class="btn-primary inline-block text-lg">
+<i class="fas fa-paper-plane mr-2"></i>
+Dolacz do nas
+</a>
+<p class="text-gray-600 text-sm mt-4">
+CV wyslij na <a href="mailto:biuro@erptech.pl" class="text-blue-600 hover:underline">biuro@erptech.pl</a> (temat: "Ml. Programista Python").
+</p>
+</div>
+</div>
 <div class="bg-blue-50 p-8 rounded-xl my-8">
 <h3 class="text-2xl font-bold text-gray-800 mb-4">Nie znalazłeś odpowiedniej oferty?</h3>
 <p class="text-gray-700 mb-4">
@@ -93,3 +150,5 @@ wyślij nam swoje CV. Zawsze poszukujemy utalentowanych osób do naszego zespoł
 Wyślij aplikację spontaniczną →
 </a>
 </div>
+
+
