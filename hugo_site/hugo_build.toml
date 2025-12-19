@@ -1,9 +1,9 @@
-baseURL = 'https://erptech.pl/'
+baseURL = 'https://sliwkawsieci.github.io/www_erptech/'
 title = 'ERP Tech'
 defaultContentLanguage = 'pl'
 enableRobotsTXT = true
 enableGitInfo = false
-relativeURLs = true
+relativeURLs = false
 
 [params]
   description = "Główny przedstawiciel ERPnext w Polsce, wieloletnie doświadczenie we wdrażaniu i rozbudowie systemów informatycznych ERPnext i SAP."
