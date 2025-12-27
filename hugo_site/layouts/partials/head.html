@@ -8,6 +8,11 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ .Permalink }}">
     
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <!-- Compiled Tailwind CSS -->
     <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
     
@@ -41,7 +46,10 @@
     <!-- Schema.org Structured Data -->
     {{ partial "schema-organization.html" . }}
     {{ partial "schema-breadcrumb.html" . }}
+    {{ partial "schema-breadcrumb-erpnext.html" . }}
     {{ partial "schema-service.html" . }}
+    {{ partial "schema-service-erpnext.html" . }}
+    {{ partial "schema-faq-erpnext.html" . }}
     {{ partial "schema-jobposting.html" . }}
     
     <!-- JavaScript -->

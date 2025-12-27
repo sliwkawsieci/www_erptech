@@ -1,40 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Oferta on ERP Tech</title>
-    <link>https://erptech.pl/oferta/</link>
-    <description>Recent content in Oferta on ERP Tech</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pl</language>
-    <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://erptech.pl/oferta/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cennik i Pakiety</title>
-      <link>https://erptech.pl/oferta/cennik/</link>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/oferta/cennik/</guid>
-      <description>Transparentne rozliczenia • gwarancja SLA&#xD;Z nami wiesz dokładnie, ile płacisz i za co. Wszystkie pakiety zawierają przejrzyste warunki SLA z gwarantowanym czasem reakcji.&#xD;Karty pakietów&#xA;Wybierz wariant dopasowany do procesu&#xD;Wszystkie pakiety obejmują prace programistyczne, analityczne oraz wsparcie użytkowników. Godziny wykorzystujesz elastycznie – raportujemy postęp w Twoim systemie zgłoszeń.&#xD;Ad-hoc&#xA;Pojedyncze zlecenie&#xD;Doraźnie&#xD;280 PLN&#xA;rozliczenie godzinowe&#xA;• brak umowy i zobowiązań&#xD;• płacisz po wykonaniu zadania&#xD;• średni czas reakcji do 3 dni&#xD;Zamów wycenę&#xD;10 godzin</description>
-    </item>
-    <item>
-      <title>ERPnext Start</title>
-      <link>https://erptech.pl/oferta/erpnext-start/</link>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/oferta/erpnext-start/</guid>
-      <description>Kompleksowe zarządzanie firmą w jednym miejscu&#xD;ERPNext to nowoczesny, otwartoźródłowy system klasy ERP, który umożliwia kompleksowe zarządzanie firmą w jednym miejscu.&#xD;Zintegrowane rozwiązanie łączące wszystkie kluczowe procesy biznesowe – od sprzedaży i magazynu, przez finanse i księgowość, aż po produkcję i kadry.&#xD;Najważniejsze atuty ERPNext Brak opłat licencyjnych&#xD;Open source - płacisz tylko za wdrożenie i wsparcie&#xA;Modułowa budowa&#xD;Wybierz tylko te moduły, których potrzebujesz&#xA;Szybkie wdrożenie&#xD;Gotowe szablony i konfiguracje przyspieszają start</description>
-    </item>
-    <item>
-      <title>Hosting</title>
-      <link>https://erptech.pl/oferta/hosting/</link>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/oferta/hosting/</guid>
-      <description>Hosting ERPnext&#xD;Profesjonalny hosting ERPnext w chmurze - bezpieczny, wydajny i zarządzany przez ekspertów.&#xD;Dlaczego hosting u nas? Bezpieczeństwo&#xD;Szyfrowanie SSL, firewall, regularne backupy i monitoring 24/7&#xA;Wydajność&#xD;Szybkie serwery SSD, optymalizacja bazy danych i cache&#xA;Niezawodność&#xD;SLA 99.9% dostępności, redundancja i disaster recovery&#xA;Aktualizacje&#xD;Regularne aktualizacje systemu i zabezpieczeń&#xA;Wsparcie&#xD;Dedykowane wsparcie techniczne od ekspertów ERPnext&#xA;Skalowalność&#xD;Elastyczne zasoby rosnące wraz z Twoją firmą&#xA;Co zawiera hosting? Infrastruktura&#xD;Serwery w europejskich data center&#xD;Dyski SSD NVMe&#xD;Dedykowane zasoby CPU i RAM&#xD;Własna domena i certyfikat SSL&#xD;Zarządzanie&#xD;Codzienne backupy&#xD;Monitoring 24/7&#xD;Automatyczne aktualizacje bezpieczeństwa&#xD;Środowisko testowe (opcjonalnie)&#xD;Pakiety hostingowe Dla małych firm&#xD;Starter&#xD;Do 5 użytkowników&#xD;10 GB przestrzeni&#xD;Backup dzienny&#xD;Wsparcie email&#xD;Zapytaj o cenę&#xD;POPULARNY&#xD;Dla średnich firm&#xD;Business&#xD;Do 25 użytkowników&#xD;50 GB przestrzeni&#xD;Środowisko testowe&#xD;Wsparcie priorytetowe&#xD;Zapytaj o cenę&#xD;Dla dużych firm&#xD;Enterprise&#xD;Nieograniczeni użytkownicy&#xD;Dedykowany serwer&#xD;SLA 99.</description>
-    </item>
-    <item>
-      <title>Wsparcie</title>
-      <link>https://erptech.pl/oferta/wsparcie/</link>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/oferta/wsparcie/</guid>
-      <description>Pakiety Wsparcia&#xD;Kompleksowe wsparcie techniczne, rozwojowe i konsultacyjne dla systemów ERPnext i SAP.&#xD;Rodzaje wsparcia Wsparcie Techniczne&#xD;Szybka pomoc w rozwiązywaniu problemów technicznych, optymalizacja wydajności i aktualizacje systemu.&#xD;Diagnoza i naprawa błędów&#xD;Optymalizacja wydajności&#xD;Aktualizacje systemu&#xD;Monitoring i backup&#xD;Wsparcie Rozwojowe&#xD;Rozbudowa systemu, dostosowanie do specyficznych potrzeb biznesowych oraz integracje.&#xD;Nowe funkcjonalności&#xD;Customizacje&#xD;Integracje API&#xD;Automatyzacje procesów&#xD;Wsparcie Konsultacyjne&#xD;Konsultacje strategiczne, audyty systemów oraz rekomendacje dotyczące optymalizacji.&#xD;Audyt procesów&#xD;Analiza wymagań&#xD;Planowanie rozwoju&#xD;Szkolenia&#xD;Jak działamy?</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Oferta on ERP Tech</title><link>https://erptech.pl/oferta/</link><description>Recent content in Oferta on ERP Tech</description><generator>Hugo -- gohugo.io</generator><language>pl</language><lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://erptech.pl/oferta/index.xml" rel="self" type="application/rss+xml"/><item><title>Cennik i Pakiety</title><link>https://erptech.pl/oferta/cennik/</link><pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/oferta/cennik/</guid><description>Transparentne rozliczenia • elastyczne pakietyZ nami wiesz dokładnie, ile płacisz i za co. Wszystkie pakiety zawierają przejrzyste warunki i elastyczne rozliczenie godzin.Karty pakietów
+Wybierz wariant dopasowany do procesuWszystkie pakiety obejmują prace programistyczne, analityczne oraz wsparcie użytkowników. Godziny wykorzystujesz elastycznie – raportujemy postęp w Twoim systemie zgłoszeń.Ad-hoc
+Pojedyncze zlecenieDoraźnie280 PLN
+rozliczenie godzinowe
+• brak umowy i zobowiązań• płacisz po wykonaniu zadania• średni czas reakcji do 3 dniZamów wycenę10 godzin</description></item><item><title>ERPnext Start</title><link>https://erptech.pl/oferta/erpnext-start/</link><pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/oferta/erpnext-start/</guid><description>ERPNext – Twoje ERP
+bez abonamentuStart w 5 dniKompleksowy system zarządzania firmą bez opłat licencyjnych. elastyczny i gotowy do pracy w krótkim czasie.Umów spotkaniePorównaj pakietyERPNextSprzedażZamówienia i CRM
+MagazynStan i lokalizacje
+FinanseKsięgowość
+HRKadry i płace
+100%Open Source5Dni start0 złAbonamentNajważniejsze atuty ERPNextDlaczego tysiące firm wybiera ERPNext do zarządzania swoim biznesemBrak abonamentuPłacisz tylko raz, bez miesięcznych opłat licencyjnych</description></item><item><title>Hosting ERPnext</title><link>https://erptech.pl/oferta/hosting/</link><pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/oferta/hosting/</guid><description>Dlaczego hosting u nas?Poznaj nasze przewagi i cechy, które wyróżniają nas na rynku
+BezpieczeństwoSzyfrowanie SSL, firewall, regularne backupy i monitoring 24/7
+WydajnośćSzybkie serwery SSD, optymalizacja bazy danych i cache
+NiezawodnośćSLA 99.9% dostępności, redundancja i disaster recovery
+AktualizacjeRegularne aktualizacje systemu i zabezpieczeń
+WsparcieDedykowane wsparcie techniczne od ekspertów ERPnext
+SkalowalnośćElastyczne zasoby rosnące wraz z Twoją firmą
+Co zawiera hosting?Pełny zestaw usług i narzędzi do zarządzania Twoim systemem ERPnext</description></item><item><title>Wsparcie ERPnext</title><link>https://erptech.pl/oferta/wsparcie/</link><pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/oferta/wsparcie/</guid><description>Rodzaje wsparciaPoznaj nasze kompleksowe pakiety wsparcia techniczne, rozwojowe i konsultacyjne
+Wsparcie TechniczneSzybka pomoc w rozwiązywaniu problemów technicznych, optymalizacja wydajności i aktualizacje systemu.Diagnoza i naprawa błędówOptymalizacja wydajnościAktualizacje systemuMonitoring i backupWsparcie RozwojoweRozbudowa systemu, dostosowanie do specyficznych potrzeb biznesowych oraz integracje.Nowe funkcjonalnościCustomizacjeIntegracje APIAutomatyzacje procesówWsparcie KonsultacyjneKonsultacje strategiczne, audyty systemów oraz rekomendacje dotyczące optymalizacji.Audyt procesówAnaliza wymagańPlanowanie rozwojuSzkoleniaJak działamy?</description></item></channel></rss>

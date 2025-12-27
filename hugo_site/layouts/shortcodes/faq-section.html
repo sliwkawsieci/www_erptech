@@ -1,108 +1,322 @@
-<section class="bg-white py-16 lg:py-24">
+<section class="bg-gradient-to-b from-white to-gray-50 py-16 lg:py-24">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Najczęstsze pytania</h2>
-            <p class="text-lg text-gray-600">Odpowiedzi na popularne pytania o wdrożenie ERPNext</p>
+        <!-- Nagłówek sekcji -->
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Najczęstsze pytania</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">Odpowiedzi na popularne pytania o wdrożenie ERPNext w Polsce</p>
         </div>
 
+        <!-- FAQ Grid -->
         <div class="space-y-4">
-            <!-- Pytanie 1: Cennik -->
-            <details class="bg-gray-50 rounded-xl border border-gray-200 overflow-hidden">
-                <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer hover:bg-gray-100 transition-colors flex items-center justify-between">
-                    <span>Jaki jest cennik wdrożenia ERPNext?</span>
-                    <svg class="w-5 h-5 text-gray-500 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            <!-- Pytanie 1: Koszt wdrożenia -->
+            <details class="group bg-white rounded-2xl border-2 border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <summary class="px-6 py-5 font-semibold text-gray-900 cursor-pointer hover:bg-blue-50 transition-colors flex items-center justify-between">
+                    <span class="flex items-center gap-3">
+                        <span class="text-2xl">❓</span>
+                        <span class="text-lg">Jaki jest koszt wdrożenia ERPNext w Polsce?</span>
+                    </span>
+                    <svg class="w-6 h-6 text-blue-600 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                     </svg>
                 </summary>
-                <div class="px-6 pb-4 text-gray-700">
-                    <p class="leading-relaxed">
-                        Oferujemy dwa pakiety: Basic za 12 500 PLN i Premium za 25 000 PLN. Pakiet Basic zawiera podstawowe moduły i 30 dni wsparcia, podczas gdy Premium obejmuje pełną funkcjonalność, 90 dni wsparcia i integracje z 2 systemami zewnętrznymi. Każde wdrożenie jest indywidualnie wyceniane w zależności od potrzeb.
-                    </p>
+                <div class="px-6 pb-6 pt-2 bg-gradient-to-br from-blue-50 to-transparent border-t-2 border-blue-100">
+                    <div class="flex items-start gap-3 mb-4">
+                        <span class="text-2xl mt-1">✓</span>
+                        <div class="flex-1">
+                            <p class="text-gray-700 leading-relaxed mb-4">
+                                Oferowana cena dotyczy uruchomienia prekonfigurowanej wersji systemu ERPNext, gotowej do natychmiastowego użytkowania:
+                            </p>
+                            <ul class="space-y-3 mb-4">
+                                <li class="flex gap-3">
+                                    <span class="text-blue-600 font-bold">•</span>
+                                    <span class="text-gray-700"><strong>Pakiet Basic:</strong> 3000 PLN netto (15 dni roboczych) – podstawowa konfiguracja, migracja danych i wsparcie po uruchemieniu</span>
+                                </li>
+                                <li class="flex gap-3">
+                                    <span class="text-blue-600 font-bold">•</span>
+                                    <span class="text-gray-700"><strong>Pakiet Premium:</strong> 5500 PLN netto (5 dni roboczych) – zaawansowana konfiguracja, integracje i kompleksowe wsparcie po uruchemieniu</span>
+                                </li>
+                            </ul>
+                            <p class="text-gray-700 leading-relaxed text-sm bg-white rounded-lg p-3 border-l-4 border-blue-600">
+                                <strong>Kompleksowe wdrożenie:</strong> W przypadku większych projektów dostosowanych do specyfiki firmy, koszty kalkulujemy indywidualnie na podstawie analizy potrzeb, zakresu prac, liczby użytkowników, stopnia customizacji i integracji.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </details>
 
-            <!-- Pytanie 2: Migracja -->
-            <details class="bg-gray-50 rounded-xl border border-gray-200 overflow-hidden">
-                <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer hover:bg-gray-100 transition-colors flex items-center justify-between">
-                    <span>Jak wygląda migracja danych z obecnego systemu?</span>
-                    <svg class="w-5 h-5 text-gray-500 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            <!-- Pytanie 2: Czas wdrożenia -->
+            <details class="group bg-white rounded-2xl border-2 border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <summary class="px-6 py-5 font-semibold text-gray-900 cursor-pointer hover:bg-orange-50 transition-colors flex items-center justify-between">
+                    <span class="flex items-center gap-3">
+                        <span class="text-2xl">❓</span>
+                        <span class="text-lg">Ile trwa wdrożenie ERPNext?</span>
+                    </span>
+                    <svg class="w-6 h-6 text-orange-600 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                     </svg>
                 </summary>
-                <div class="px-6 pb-4 text-gray-700">
-                    <p class="leading-relaxed">
-                        Migracja danych przebiega w 3 etapach: audyt obecnych danych, mapowanie struktury do ERPNext i import. Wspieramy migrację z Excel, systemów ERP (Comarch, Subiekt) oraz innych baz danych. Zapewniamy pełne bezpieczeństwo danych i backup przed migracją. Proces trwa zazwyczaj 2-5 dni w zależności od ilości danych.
-                    </p>
+                <div class="px-6 pb-6 pt-2 bg-gradient-to-br from-orange-50 to-transparent border-t-2 border-orange-100">
+                    <div class="flex items-start gap-3">
+                        <span class="text-2xl mt-1">✓</span>
+                        <div class="flex-1">
+                            <p class="text-gray-700 leading-relaxed mb-4">
+                                Samo uruchomienie gotowej do użycia wersji systemu ERPNext z przystosowaniem do klienta trwa od <strong>5 do 15 dni roboczych</strong> w zależności od wybranego pakietu.
+                            </p>
+                            <p class="text-gray-700 leading-relaxed mb-4">
+                                Jeśli chodzi o całościowe wdrożenie systemu które obejmuje kompleksowe podejście dopasowane do potrzeb firmy to dzieli się na etapy:
+                            </p>
+                            <div class="space-y-3">
+                                <div class="bg-white rounded-lg p-3 border-l-4 border-orange-600">
+                                    <p class="text-sm text-gray-700"><strong>Dzień 1-3:</strong> Analiza potrzeb i procesów biznesowych</p>
+                                </div>
+                                <div class="bg-white rounded-lg p-3 border-l-4 border-orange-600">
+                                    <p class="text-sm text-gray-700"><strong>Dzień 4-15:</strong> Konfiguracja systemu pod konkretną specyfikę branży/firmy</p>
+                                </div>
+                                <div class="bg-white rounded-lg p-3 border-l-4 border-orange-600">
+                                    <p class="text-sm text-gray-700"><strong>Dzień 16-20:</strong> Migracja danych i testy kontrolne</p>
+                                </div>
+                                <div class="bg-white rounded-lg p-3 border-l-4 border-orange-600">
+                                    <p class="text-sm text-gray-700"><strong>Dzień 21-23:</strong> Szkolenie użytkowników</p>
+                                </div>
+                                <div class="bg-white rounded-lg p-3 border-l-4 border-orange-600">
+                                    <p class="text-sm text-gray-700"><strong>Dzień 24-25:</strong> Go-live + intensywne wsparcie startowe/p>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm mt-4 italic">Cały cykl jest zoptymalizowany pod kątem minimalizacji przestoju w działalności firmy.</p>
+                        </div>
+                    </div>
                 </div>
             </details>
 
-            <!-- Pytanie 3: Terminy -->
-            <details class="bg-gray-50 rounded-xl border border-gray-200 overflow-hidden">
-                <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer hover:bg-gray-100 transition-colors flex items-center justify-between">
-                    <span>Ile czasu trwa pełne wdrożenie systemu?</span>
-                    <svg class="w-5 h-5 text-gray-500 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            <!-- Pytanie 3: Migracja danych -->
+            <details class="group bg-white rounded-2xl border-2 border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <summary class="px-6 py-5 font-semibold text-gray-900 cursor-pointer hover:bg-green-50 transition-colors flex items-center justify-between">
+                    <span class="flex items-center gap-3">
+                        <span class="text-2xl">❓</span>
+                        <span class="text-lg">Jak wygląda migracja danych z obecnego systemu do ERPNext?</span>
+                    </span>
+                    <svg class="w-6 h-6 text-green-600 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                     </svg>
                 </summary>
-                <div class="px-6 pb-4 text-gray-700">
-                    <p class="leading-relaxed">
-                        Standardowe wdrożenie pakietu Basic trwa 5-7 dni roboczych, a Premium 10-14 dni. Proces obejmuje: analizę potrzeb (1 dzień), instalację i konfigurację (2-3 dni), migrację danych (1-2 dni) oraz szkolenie (1 dzień). Terminy mogą się wydłużyć przy większych projektach lub niestandardowych wymaganiach.
-                    </p>
+                <div class="px-6 pb-6 pt-2 bg-gradient-to-br from-green-50 to-transparent border-t-2 border-green-100">
+                    <div class="flex items-start gap-3">
+                        <span class="text-2xl mt-1">✓</span>
+                        <div class="flex-1">
+                            <p class="text-gray-700 leading-relaxed mb-4">
+                                Migracja danych do ERPNext odbywa się w 4 etapach:
+                            </p>
+                            <ol class="space-y-3 mb-4">
+                                <li class="flex gap-3">
+                                    <span class="text-green-600 font-bold">1.</span>
+                                    <span class="text-gray-700"><strong>Eksport danych</strong> z obecnego systemu do formatów CSV lub Excel</span>
+                                </li>
+                                <li class="flex gap-3">
+                                    <span class="text-green-600 font-bold">2.</span>
+                                    <span class="text-gray-700"><strong>Mapowanie pól</strong> i struktury danych zgodnie z wymaganiami ERPNext</span>
+                                </li>
+                                <li class="flex gap-3">
+                                    <span class="text-green-600 font-bold">3.</span>
+                                    <span class="text-gray-700"><strong>Import danych</strong> do nowego systemu z zachowaniem relacji</span>
+                                </li>
+                                <li class="flex gap-3">
+                                    <span class="text-green-600 font-bold">4.</span>
+                                    <span class="text-gray-700"><strong>Weryfikacja poprawności</strong> i testy kontrolne</span>
+                                </li>
+                            </ol>
+                            <p class="text-gray-700 text-sm bg-white rounded-lg p-3 border-l-4 border-green-600">
+                                Obsługujemy różne formaty danych i zapewniamy pełne wsparcie, w tym czyszczenie danych i przygotowanie szablonów importu.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </details>
 
-            <!-- Pytanie 4: Szkolenia -->
-            <details class="bg-gray-50 rounded-xl border border-gray-200 overflow-hidden">
-                <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer hover:bg-gray-100 transition-colors flex items-center justify-between">
-                    <span>Jak przebiegają szkolenia z systemu ERPNext?</span>
-                    <svg class="w-5 h-5 text-gray-500 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            <!-- Pytanie 4: Integracje -->
+            <details class="group bg-white rounded-2xl border-2 border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <summary class="px-6 py-5 font-semibold text-gray-900 cursor-pointer hover:bg-purple-50 transition-colors flex items-center justify-between">
+                    <span class="flex items-center gap-3">
+                        <span class="text-2xl">❓</span>
+                        <span class="text-lg">Z jakimi systemami można zintegrować ERPNext?</span>
+                    </span>
+                    <svg class="w-6 h-6 text-purple-600 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                     </svg>
                 </summary>
-                <div class="px-6 pb-4 text-gray-700">
-                    <p class="leading-relaxed">
-                        Szkolenia prowadzimy stacjonarnie lub online w grupach 3-5 osób. Pakiet Basic obejmuje 4 godziny szkolenia podstawowego, a Premium 12 godzin zaawansowanych. Uczestnicy otrzymują materiały szkoleniowe i certyfikaty. Szkolenie jest praktyczne - pracujemy na rzeczywistych danych z Twojej firmy.
-                    </p>
+                <div class="px-6 pb-6 pt-2 bg-gradient-to-br from-purple-50 to-transparent border-t-2 border-purple-100">
+                    <div class="flex items-start gap-3">
+                        <span class="text-2xl mt-1">✓</span>
+                        <div class="flex-1">
+                            <p class="text-gray-700 leading-relaxed mb-4">
+                                ERPNext można zintegrować z wieloma systemami poprzez API REST/SOAP:
+                            </p>
+                            <div class="grid md:grid-cols-2 gap-3 mb-4">
+                                <div class="bg-white rounded-lg p-3 border-l-4 border-purple-600">
+                                    <p class="font-semibold text-gray-900 text-sm mb-1">📧 Poczta & Biuro</p>
+                                    <p class="text-sm text-gray-700">SMTP, Google Workspace, Outlook, Office 365</p>
+                                </div>
+                                <div class="bg-white rounded-lg p-3 border-l-4 border-purple-600">
+                                    <p class="font-semibold text-gray-900 text-sm mb-1">🛒 E-commerce</p>
+                                    <p class="text-sm text-gray-700">Shoper, Sky-Shop, WooCommerce</p>
+                                </div>
+                                <div class="bg-white rounded-lg p-3 border-l-4 border-purple-600">
+                                    <p class="font-semibold text-gray-900 text-sm mb-1">💳 Finanse & Banki</p>
+                                    <p class="text-sm text-gray-700">Systemy księgowe, bankowość online</p>
+                                </div>
+                                <div class="bg-white rounded-lg p-3 border-l-4 border-purple-600">
+                                    <p class="font-semibold text-gray-900 text-sm mb-1">📦 Logistyka</p>
+                                    <p class="text-sm text-gray-700">InPost, DPD, DHL</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700 text-sm bg-white rounded-lg p-3 border-l-4 border-purple-600">
+                                Zapewniamy zarówno standardowe integracje, jak i niestandardowe rozwiązania dopasowane do Twoich potrzeb.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </details>
 
-            <!-- Pytanie 5: Gwarancja -->
-            <details class="bg-gray-50 rounded-xl border border-gray-200 overflow-hidden">
-                <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer hover:bg-gray-100 transition-colors flex items-center justify-between">
-                    <span>Jaką gwarancję oferujecie na wdrożenie?</span>
-                    <svg class="w-5 h-5 text-gray-500 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            <!-- Pytanie 5: Abonament i licencje -->
+            <details class="group bg-white rounded-2xl border-2 border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <summary class="px-6 py-5 font-semibold text-gray-900 cursor-pointer hover:bg-red-50 transition-colors flex items-center justify-between">
+                    <span class="flex items-center gap-3">
+                        <span class="text-2xl">❓</span>
+                        <span class="text-lg">Czy ERPNext wymaga abonamentu i licencji?</span>
+                    </span>
+                    <svg class="w-6 h-6 text-red-600 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                     </svg>
                 </summary>
-                <div class="px-6 pb-4 text-gray-700">
-                    <p class="leading-relaxed">
-                        Oferujemy 12-miesięczną gwarancję na poprawność działania systemu oraz bezpłatne usunięcie ewentualnych błędów. Gwarancja obejmuje również wsparcie techniczne w pakiecie Basic (30 dni) lub Premium (90 dni). Po okresie gwarancyjnym oferujemy umowy serwisowe z różnymi poziomami wsparcia.
-                    </p>
+                <div class="px-6 pb-6 pt-2 bg-gradient-to-br from-red-50 to-transparent border-t-2 border-red-100">
+                    <div class="flex items-start gap-3">
+                        <span class="text-2xl mt-1">✓</span>
+                        <div class="flex-1">
+                            <p class="text-gray-700 leading-relaxed mb-4">
+                                <strong>ERPNext to system open source – bez abonamentu licencyjnego!</strong>
+                            </p>
+                            <ul class="space-y-3 mb-4">
+                                <li class="flex gap-3">
+                                    <span class="text-red-600 font-bold">✓</span>
+                                    <span class="text-gray-700">Brak opłat za użytkowanie oprogramowania</span>
+                                </li>
+                                <li class="flex gap-3">
+                                    <span class="text-red-600 font-bold">✓</span>
+                                    <span class="text-gray-700">Brak ukrytych kosztów miesięcznych i rocznych licencji</span>
+                                </li>
+                                <li class="flex gap-3">
+                                    <span class="text-red-600 font-bold">✓</span>
+                                    <span class="text-gray-700">Pełna kontrola nad systemem i danymi</span>
+                                </li>
+                                <li class="flex gap-3">
+                                    <span class="text-red-600 font-bold">✓</span>
+                                    <span class="text-gray-700">Brak limitów użytkowników ani ograniczeń funkcjonalnych</span>
+                                </li>
+                            </ul>
+                            <p class="text-gray-700 text-sm bg-white rounded-lg p-3 border-l-4 border-red-600">
+                                <strong>Płatne są jedynie:</strong> usługi wdrożeniowe, opcjonalne wsparcie techniczne i hosting. To idealne rozwiązanie dla firm szukających ekonomicznego i niezależnego systemu ERP.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </details>
 
-            <!-- Pytanie 6: Integracje -->
-            <details class="bg-gray-50 rounded-xl border border-gray-200 overflow-hidden">
-                <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer hover:bg-gray-100 transition-colors flex items-center justify-between">
-                    <span>Z jakimi systemami można zintegrować ERPNext?</span>
-                    <svg class="w-5 h-5 text-gray-500 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            <!-- Pytanie 6: Rozszerzanie systemu -->
+            <details class="group bg-white rounded-2xl border-2 border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <summary class="px-6 py-5 font-semibold text-gray-900 cursor-pointer hover:bg-indigo-50 transition-colors flex items-center justify-between">
+                    <span class="flex items-center gap-3">
+                        <span class="text-2xl">❓</span>
+                        <span class="text-lg">Czy można rozszerzać system o dodatkowe funkcje?</span>
+                    </span>
+                    <svg class="w-6 h-6 text-indigo-600 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                     </svg>
                 </summary>
-                <div class="px-6 pb-4 text-gray-700">
-                    <p class="leading-relaxed">
-                        ERPNext integrujemy z systemami e-commerce (Shoper, PrestaShop, WooCommerce), bankowością online, kurierami (InPost, DHL, FedEx), platformami płatniczymi oraz systemami księgowymi. W pakiecie Premium oferujemy 2 integracje, dodatkowe są wyceniane indywidualnie. Wszystkie integracje realizujemy przez REST API.
-                    </p>
+                <div class="px-6 pb-6 pt-2 bg-gradient-to-br from-indigo-50 to-transparent border-t-2 border-indigo-100">
+                    <div class="flex items-start gap-3">
+                        <span class="text-2xl mt-1">✓</span>
+                        <div class="flex-1">
+                            <p class="text-gray-700 leading-relaxed mb-4">
+                                <strong>Tak! ERPNext jest w pełni rozszerzalny</strong> dzięki marketplace Frappe z setkami aplikacji:
+                            </p>
+                            <div class="grid md:grid-cols-2 gap-3 mb-4">
+                                <div class="bg-white rounded-lg p-3 border-l-4 border-indigo-600">
+                                    <p class="font-semibold text-gray-900 text-sm mb-1">🏭 Produkcja</p>
+                                    <p class="text-sm text-gray-700">MRP, BOM, zlecenia produkcyjne, planowanie</p>
+                                </div>
+                                <div class="bg-white rounded-lg p-3 border-l-4 border-indigo-600">
+                                    <p class="font-semibold text-gray-900 text-sm mb-1">📊 BI & Analityka</p>
+                                    <p class="text-sm text-gray-700">Zaawansowane raporty, dashboardy, KPI</p>
+                                </div>
+                                <div class="bg-white rounded-lg p-3 border-l-4 border-indigo-600">
+                                    <p class="font-semibold text-gray-900 text-sm mb-1">🏪 POS & Sprzedaż</p>
+                                    <p class="text-sm text-gray-700">System punktów sprzedaży, integracje z kasami</p>
+                                </div>
+                                <div class="bg-white rounded-lg p-3 border-l-4 border-indigo-600">
+                                    <p class="font-semibold text-gray-900 text-sm mb-1">🏗️ Budownictwo</p>
+                                    <p class="text-sm text-gray-700">Zarządzanie projektami, kosztorysy, zasoby</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700 text-sm bg-white rounded-lg p-3 border-l-4 border-indigo-600">
+                                <strong>Frappe Marketplace</strong> oferuje ponad 500 aplikacji – darmowych i płatnych. Możesz też zamówić u nas niestandardowe moduły dopasowane do specyfiki Twojej firmy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </details>
+
+            <!-- Pytanie 7: Bezpieczeństwo danych -->
+            <details class="group bg-white rounded-2xl border-2 border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <summary class="px-6 py-5 font-semibold text-gray-900 cursor-pointer hover:bg-teal-50 transition-colors flex items-center justify-between">
+                    <span class="flex items-center gap-3">
+                        <span class="text-2xl">❓</span>
+                        <span class="text-lg">Czy system jest bezpieczny i nie utracę swoich danych?</span>
+                    </span>
+                    <svg class="w-6 h-6 text-teal-600 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                    </svg>
+                </summary>
+                <div class="px-6 pb-6 pt-2 bg-gradient-to-br from-teal-50 to-transparent border-t-2 border-teal-100">
+                    <div class="flex items-start gap-3">
+                        <span class="text-2xl mt-1">✓</span>
+                        <div class="flex-1">
+                            <p class="text-gray-700 leading-relaxed mb-4">
+                                <strong>Twoje dane są w pełni bezpieczne</strong> – ERPNext zapewnia najwyższy poziom ochrony:
+                            </p>
+                            <ul class="space-y-3 mb-4">
+                                <li class="flex gap-3">
+                                    <span class="text-teal-600 font-bold">🔒</span>
+                                    <span class="text-gray-700"><strong>Szyfrowanie danych</strong> – SSL/TLS, szyfrowanie bazy danych</span>
+                                </li>
+                                <li class="flex gap-3">
+                                    <span class="text-teal-600 font-bold">🗄️</span>
+                                    <span class="text-gray-700"><strong>Automatyczne kopie zapasowe</strong> – codzienne backupy przechowywane przez 30 dni</span>
+                                </li>
+                                <li class="flex gap-3">
+                                    <span class="text-teal-600 font-bold">👥</span>
+                                    <span class="text-gray-700"><strong>Kontrola dostępu</strong> – role i uprawnienia dla każdego użytkownika</span>
+                                </li>
+                                <li class="flex gap-3">
+                                    <span class="text-teal-600 font-bold">📋</span>
+                                    <span class="text-gray-700"><strong>Audyt i logi</strong> – pełna historia operacji w systemie</span>
+                                </li>
+                                <li class="flex gap-3">
+                                    <span class="text-teal-600 font-bold">🛡️</span>
+                                    <span class="text-gray-700"><strong>Hosting w UE</strong> – dane przechowywane w europejskich centrach danych</span>
+                                </li>
+                            </ul>
+                            <p class="text-gray-700 text-sm bg-white rounded-lg p-3 border-l-4 border-teal-600">
+                                <strong>Nigdy nie utracisz danych</strong> – oferujemy gwarancję odzyskania danych w razie awarii. Jesteś właścicielem swoich danych i masz do nich pełny dostęp.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </details>
         </div>
 
-        <!-- Dodatkowe pytanie -->
-        <div class="mt-8 text-center bg-gradient-to-r from-blue-50 to-orange-50 rounded-xl p-6 border border-blue-200">
-            <p class="text-gray-700 mb-4">
-                Nie znalazłeś odpowiedzi na swoje pytanie?
-            </p>
-            <a href="/kontakt/" class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-colors">
+        <!-- Minimalist CTA -->
+        <div class="mt-20 text-center">
+            <p class="text-gray-800 font-semibold text-base mb-6">Nie znalazłeś odpowiedzi?</p>
+            <a href="/kontakt/" class="inline-flex items-center bg-gradient-to-r from-blue-600 to-orange-600 hover:from-blue-700 hover:to-orange-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1">
                 Zadaj pytanie
                 <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>

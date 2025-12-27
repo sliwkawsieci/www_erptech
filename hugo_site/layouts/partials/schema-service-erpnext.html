@@ -1,0 +1,49 @@
+{{ if in .RelPermalink "/oferta/erpnext-start" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Wdrożenie ERPNext",
+  "description": "Kompleksowe wdrożenie systemu ERPNext dla firm w Polsce - analiza, konfiguracja, migracja danych i szkolenia",
+  "provider": {
+    "@type": "Organization",
+    "name": "ERPtech"
+  },
+  "brand": "ERPNext",
+  "serviceType": "System wdrożenie ERP",
+  "areaServed": {
+    "@type": "Country",
+    "name": "Poland"
+  },
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Basic",
+      "description": "Podstawowy pakiet wdrożenia ERPNext",
+      "price": "3000",
+      "priceCurrency": "PLN",
+      "availability": "https://schema.org/InStock",
+      "eligibleDuration": {
+        "@type": "Duration",
+        "value": "15",
+        "unitText": "days"
+      }
+    },
+    {
+      "@type": "Offer",
+      "name": "Premium",
+      "description": "Rozszerzony pakiet wdrożenia ERPNext",
+      "price": "5500",
+      "priceCurrency": "PLN",
+      "availability": "https://schema.org/InStock",
+      "eligibleDuration": {
+        "@type": "Duration",
+        "value": "5",
+        "unitText": "days"
+      }
+    }
+  ],
+  "url": "https://erptech.pl/oferta/erpnext-start/"
+}
+</script>
+{{ end }}

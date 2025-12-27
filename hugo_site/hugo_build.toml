@@ -1,5 +1,5 @@
 baseURL = 'https://erptech.pl/'
-title = 'ERP Tech'
+title = 'ERPtech'
 defaultContentLanguage = 'pl'
 enableRobotsTXT = true
 enableGitInfo = false

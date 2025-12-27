@@ -1,124 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Wdrożenia ERPNext w Polsce – integracje i utrzymanie on ERP Tech</title>
-    <link>https://erptech.pl/</link>
-    <description>Recent content in Wdrożenia ERPNext w Polsce – integracje i utrzymanie on ERP Tech</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pl</language>
-    <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://erptech.pl/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Polityka prywatności i cookies</title>
-      <link>https://erptech.pl/polityka-prywatnosci/</link>
-      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/polityka-prywatnosci/</guid>
-      <description>Polityka prywatności ERP Tech (dalej: „my&amp;quot;, „nas&amp;quot;, „nasz&amp;quot;) szanuje Twoją prywatność. Niniejsza polityka wyjaśnia, jak zbieramy, używamy i chronimy Twoje dane osobowe.&#xA;1. Administrator danych Administratorem Twoich danych osobowych jest:&#xA;ERP Tech Sp. z o.o. Adres: ul. Łęczycka 19/11, 53-632 Wrocław NIP: 897-192-4461 Email: krzysztof@erptech.pl Telefon: (+48) 693 068 300 2. Jakie dane zbieramy? Zbieramy dane w następujących sytuacjach:&#xA;Formularz kontaktowy: imię, email, temat, wiadomość Analityka: anonimowe dane o ruchu (IP anonimizowany, typ przeglądarki, strony odwiedzane, czas spędzony) Cookies: identyfikatory sesji, preferencje użytkownika 3.</description>
-    </item>
-    <item>
-      <title>Cennik i Pakiety</title>
-      <link>https://erptech.pl/oferta/cennik/</link>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/oferta/cennik/</guid>
-      <description>Transparentne rozliczenia • gwarancja SLA&#xD;Z nami wiesz dokładnie, ile płacisz i za co. Wszystkie pakiety zawierają przejrzyste warunki SLA z gwarantowanym czasem reakcji.&#xD;Karty pakietów&#xA;Wybierz wariant dopasowany do procesu&#xD;Wszystkie pakiety obejmują prace programistyczne, analityczne oraz wsparcie użytkowników. Godziny wykorzystujesz elastycznie – raportujemy postęp w Twoim systemie zgłoszeń.&#xD;Ad-hoc&#xA;Pojedyncze zlecenie&#xD;Doraźnie&#xD;280 PLN&#xA;rozliczenie godzinowe&#xA;• brak umowy i zobowiązań&#xD;• płacisz po wykonaniu zadania&#xD;• średni czas reakcji do 3 dni&#xD;Zamów wycenę&#xD;10 godzin</description>
-    </item>
-    <item>
-      <title>ERPnext Start</title>
-      <link>https://erptech.pl/oferta/erpnext-start/</link>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/oferta/erpnext-start/</guid>
-      <description>Kompleksowe zarządzanie firmą w jednym miejscu&#xD;ERPNext to nowoczesny, otwartoźródłowy system klasy ERP, który umożliwia kompleksowe zarządzanie firmą w jednym miejscu.&#xD;Zintegrowane rozwiązanie łączące wszystkie kluczowe procesy biznesowe – od sprzedaży i magazynu, przez finanse i księgowość, aż po produkcję i kadry.&#xD;Najważniejsze atuty ERPNext Brak opłat licencyjnych&#xD;Open source - płacisz tylko za wdrożenie i wsparcie&#xA;Modułowa budowa&#xD;Wybierz tylko te moduły, których potrzebujesz&#xA;Szybkie wdrożenie&#xD;Gotowe szablony i konfiguracje przyspieszają start</description>
-    </item>
-    <item>
-      <title>Hosting</title>
-      <link>https://erptech.pl/oferta/hosting/</link>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/oferta/hosting/</guid>
-      <description>Hosting ERPnext&#xD;Profesjonalny hosting ERPnext w chmurze - bezpieczny, wydajny i zarządzany przez ekspertów.&#xD;Dlaczego hosting u nas? Bezpieczeństwo&#xD;Szyfrowanie SSL, firewall, regularne backupy i monitoring 24/7&#xA;Wydajność&#xD;Szybkie serwery SSD, optymalizacja bazy danych i cache&#xA;Niezawodność&#xD;SLA 99.9% dostępności, redundancja i disaster recovery&#xA;Aktualizacje&#xD;Regularne aktualizacje systemu i zabezpieczeń&#xA;Wsparcie&#xD;Dedykowane wsparcie techniczne od ekspertów ERPnext&#xA;Skalowalność&#xD;Elastyczne zasoby rosnące wraz z Twoją firmą&#xA;Co zawiera hosting? Infrastruktura&#xD;Serwery w europejskich data center&#xD;Dyski SSD NVMe&#xD;Dedykowane zasoby CPU i RAM&#xD;Własna domena i certyfikat SSL&#xD;Zarządzanie&#xD;Codzienne backupy&#xD;Monitoring 24/7&#xD;Automatyczne aktualizacje bezpieczeństwa&#xD;Środowisko testowe (opcjonalnie)&#xD;Pakiety hostingowe Dla małych firm&#xD;Starter&#xD;Do 5 użytkowników&#xD;10 GB przestrzeni&#xD;Backup dzienny&#xD;Wsparcie email&#xD;Zapytaj o cenę&#xD;POPULARNY&#xD;Dla średnich firm&#xD;Business&#xD;Do 25 użytkowników&#xD;50 GB przestrzeni&#xD;Środowisko testowe&#xD;Wsparcie priorytetowe&#xD;Zapytaj o cenę&#xD;Dla dużych firm&#xD;Enterprise&#xD;Nieograniczeni użytkownicy&#xD;Dedykowany serwer&#xD;SLA 99.</description>
-    </item>
-    <item>
-      <title>Wsparcie</title>
-      <link>https://erptech.pl/oferta/wsparcie/</link>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/oferta/wsparcie/</guid>
-      <description>Pakiety Wsparcia&#xD;Kompleksowe wsparcie techniczne, rozwojowe i konsultacyjne dla systemów ERPnext i SAP.&#xD;Rodzaje wsparcia Wsparcie Techniczne&#xD;Szybka pomoc w rozwiązywaniu problemów technicznych, optymalizacja wydajności i aktualizacje systemu.&#xD;Diagnoza i naprawa błędów&#xD;Optymalizacja wydajności&#xD;Aktualizacje systemu&#xD;Monitoring i backup&#xD;Wsparcie Rozwojowe&#xD;Rozbudowa systemu, dostosowanie do specyficznych potrzeb biznesowych oraz integracje.&#xD;Nowe funkcjonalności&#xD;Customizacje&#xD;Integracje API&#xD;Automatyzacje procesów&#xD;Wsparcie Konsultacyjne&#xD;Konsultacje strategiczne, audyty systemów oraz rekomendacje dotyczące optymalizacji.&#xD;Audyt procesów&#xD;Analiza wymagań&#xD;Planowanie rozwoju&#xD;Szkolenia&#xD;Jak działamy?</description>
-    </item>
-    <item>
-      <title>Lean ERP</title>
-      <link>https://erptech.pl/uslugi/lean-erp/</link>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/uslugi/lean-erp/</guid>
-      <description>Lean ERP – Metodyka eliminacji marnotrawstwa&#xD;W ERPtech wdrażamy systemy ERP w oparciu o zasady Lean Manufacturing. Eliminujemy marnotrawstwo, optymalizujemy przepływy i budujemy kultury ciągłego doskonalenia – wszystko w jednym zintegrowanym systemie.&#xA;Eliminacja marnotrawstwa. Identyfikujemy i usuwamy 8 rodzajów Muda (nadprodukcja, oczekiwanie, transport, nadmierne przetwarzanie, zapasy, zbędne ruchy, wady, niewykorzystany potencjał).&#xA;Ciągłe doskonalenie (Kaizen). Wbudowane mechanizmy monitorowania KPI, analiza wąskich gardeł i sugestie optymalizacji procesów.&#xA;Przepływ wartości (Value Stream). Mapowanie procesów od surowca do produktu końcowego z wyraźną wizualizacją wartości dodanej.</description>
-    </item>
-    <item>
-      <title>EOD</title>
-      <link>https://erptech.pl/uslugi/eod/</link>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/uslugi/eod/</guid>
-      <description>System EOD w ERPnext&#xD;Digitalizujemy pełny obieg dokumentów – od tworzenia i akceptacji po archiwizację. Automatyzujemy procesy, aby dokumenty trafiały do właściwych osób bez opóźnień.&#xA;Tworzenie i zarządzanie dokumentami. Szablony, wersje robocze i publikacje w jednym miejscu.&#xA;Workflowy i ścieżki akceptacji. Reguły biznesowe, przypomnienia oraz eskalacje.&#xA;Wersjonowanie i podpisy. Historia zmian, porównywanie wersji oraz kwalifikowane podpisy elektroniczne.&#xA;Integracje z modułami ERP. Automatyczne generowanie umów, faktur czy zamówień z innych procesów.</description>
-    </item>
-    <item>
-      <title>Integracje</title>
-      <link>https://erptech.pl/uslugi/integracje/</link>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/uslugi/integracje/</guid>
-      <description>Integracje systemowe ERPnext i SAP&#xD;Łączymy systemy ERP, e-commerce, IoT i aplikacje mobilne w jeden spójny ekosystem. Projektujemy integracje, które zapewniają wymianę danych w czasie rzeczywistym.&#xA;Integracje ERPnext - systemy zewnętrzne. Dwukierunkowa synchronizacja produktów, dokumentów i płatności.&#xA;SAP i middleware. Integracje SAP PI/PO, CPI oraz dedykowane konektory do systemów legacy.&#xA;Procesy ETL i replikacje. Przetwarzanie dużych wolumenów danych, harmonogramy i monitorowanie błędów.&#xA;Bezpieczeństwo i audyt. Szyfrowanie, logowanie zdarzeń i kontrola dostępów w integracjach.</description>
-    </item>
-    <item>
-      <title>Kontakt</title>
-      <link>https://erptech.pl/kontakt/</link>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/kontakt/</guid>
-      <description>&#xD;Imię i nazwisko *&#xD;Email *&#xD;Temat&#xD;Treść wiadomości&#xD;Wyrażam zgodę na przetwarzanie moich danych osobowych w celu udzielenia odpowiedzi na zapytanie zgodnie z Polityką prywatności. *&#xD;Wyrażam zgodę na otrzymywanie informacji handlowych drogą elektroniczną (opcjonalnie).&#xD;Wyślij wiadomość&#xD;biuro@erptech.pl&#xD;(+48) 693 068 300&#xD;</description>
-    </item>
-    <item>
-      <title>Magazyn</title>
-      <link>https://erptech.pl/uslugi/magazyn/</link>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/uslugi/magazyn/</guid>
-      <description>System magazynowy ERPnext&#xD;ERPnext zapewnia pełną kontrolę nad magazynem – od przyjęcia towarów po logistykę wysyłkową. Tworzymy procesy idealnie dopasowane do specyfiki Twojej branży.&#xA;Śledzenie stanów. Bieżące informacje o zapasach, rezerwacjach i limitach bezpieczeństwa.&#xA;Elastyczne lokalizacje. Struktura stref, regałów i miejsc odkładczych z szybkim adresowaniem.&#xA;Obsługa przyjęć i wydań. Procesy PZ/WZ, kompletacja, cross-docking oraz kontrola jakości.&#xA;Inwentaryzacje i serie. Liczenia cykliczne, partie, numery seryjne oraz pełna historia partii dostaw.</description>
-    </item>
-    <item>
-      <title>O Nas</title>
-      <link>https://erptech.pl/o-nas/</link>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/o-nas/</guid>
-      <description>ERP Tech&#xD;Twój partner w cyfrowej transformacji&#xD;Specjalizujemy się we wdrażaniu i rozbudowie systemów ERPnext oraz SAP, dostarczając rozwiązania, które napędzają rozwój biznesu.&#xD;Kim jesteśmy? ERP Tech to zespół doświadczonych specjalistów z wieloletnim doświadczeniem we wdrażaniu i rozbudowie systemów informatycznych ERPnext i SAP. Jesteśmy głównym przedstawicielem ERPnext w Polsce, co gwarantuje najwyższą jakość i wsparcie na każdym etapie wdrożenia.&#xD;Nasza misja Naszą misją jest wspieranie firm w cyfrowej transformacji poprzez dostarczanie najlepszych rozwiązań ERP dostosowanych do indywidualnych potrzeb każdego klienta.</description>
-    </item>
-    <item>
-      <title>Oferty Pracy</title>
-      <link>https://erptech.pl/kariera/</link>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/kariera/</guid>
-      <description>Aktualne oferty pracy Stażysta Python - Frappe/ERPnext&#xD;Staż&#xD;Zdalnie/Hybrydowo&#xD;Python&#xD;Opublikowano: 7 listopada 2025&#xA;O stanowisku&#xD;Poszukujemy ambitnego stażysty, który chce rozwijać swoje umiejętności w zakresie programowania w Pythonie oraz poznać framework Frappe i system ERPnext. To doskonała okazja, aby zdobyć praktyczne doświadczenie w pracy z nowoczesnym systemem ERP open source.&#xD;Czego oczekujemy?&#xD;Podstawowa znajomość języka Python&#xD;Chęć nauki i rozwoju w obszarze systemów ERP&#xD;Znajomość podstaw HTML, CSS, JavaScript będzie dodatkowym atutem&#xD;Umiejętność pracy w zespole&#xD;Komunikatywność i zaangażowanie&#xD;Znajomość języka angielskiego w stopniu umożliwiającym czytanie dokumentacji technicznej&#xD;Co oferujemy?</description>
-    </item>
-    <item>
-      <title>Produkcja</title>
-      <link>https://erptech.pl/uslugi/produkcja/</link>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/uslugi/produkcja/</guid>
-      <description>Moduł produkcyjny ERPnext&#xD;Planowanie i kontrola produkcji w ERPnext pozwala zarządzać całym cyklem wytwórczym – od specyfikacji produktów po kalkulację kosztów.&#xA;Definicja BOM. Wielopoziomowe struktury produktów z obsługą wersji i zastępników.&#xA;Planowanie zdolności. Harmonogramy gniazd produkcyjnych, dostępność zasobów i planowanie MRP.&#xA;Zlecenia produkcyjne. Tworzenie, monitorowanie postępu i rejestrowanie operacji.&#xA;Kalkulacja kosztów. Analiza zużycia materiałów, pracy i kosztów pośrednich.&#xA;Kluczowe obszary produkcji&#xD;Karty produktów&#xD;Pełna specyfikacja komponentów, receptur i dokumentacji.</description>
-    </item>
-    <item>
-      <title>SAP FIORI</title>
-      <link>https://erptech.pl/uslugi/fiori/</link>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/uslugi/fiori/</guid>
-      <description>SAP FIORI – rewolucja w interfejsie SAP&#xD;Projektujemy i wdrażamy SAP FIORI, aby użytkownicy systemów SAP pracowali szybciej, intuicyjniej i z każdego urządzenia.&#xA;UX-first. Design zgodny z SAP Fiori Design Guidelines i najlepszymi praktykami UX.&#xA;Personalizacja. Launchpady, kafelki i widoki tworzone według ról i procesów.&#xA;Mobilność. Pełna responsywność i wsparcie dla aplikacji mobilnych SAP.&#xA;Bezpieczeństwo. Integracja z SAP Identity Management i kontrola autoryzacji.&#xA;Kluczowe funkcje SAP FIORI&#xD;Responsywność&#xD;Jedna aplikacja, która dostosowuje się do każdego ekranu.</description>
-    </item>
-    <item>
-      <title>SAP IoT</title>
-      <link>https://erptech.pl/uslugi/iot/</link>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/uslugi/iot/</guid>
-      <description>SAP IoT – inteligentne rozwiązania&#xD;Łączymy świat czujników z systemami SAP, aby dane były dostępne w czasie rzeczywistym i wspierały decyzje operacyjne.&#xA;Zbieranie danych z czujników. Integracja urządzeń IoT, PLC i maszyn produkcyjnych.&#xA;Analiza w czasie rzeczywistym. Stream processing, alerty i dashboardy KPI.&#xA;Automatyzacja procesów. Sterowanie urządzeniami, workflowy reakcji i integracja z MES.&#xA;Predictive maintenance. Modele prognostyczne i alerty utrzymania ruchu.&#xA;Kluczowe obszary IoT&#xD;Urządzenia i gatewaye&#xD;Integracja czujników, PLC, kamer i maszyn przemysłowych.</description>
-    </item>
-    <item>
-      <title>System ERPnext</title>
-      <link>https://erptech.pl/uslugi/erpnext/</link>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://erptech.pl/uslugi/erpnext/</guid>
-      <description>Główny przedstawiciel ERPNext w Polsce&#xD;Specjalizujemy się w kompleksowych wdrożeniach ERPNext. Lączymy doświadczenie techniczne z praktyką biznesową dla optymalnych wyników.&#xA;Profesjonalne wdrożenia&#xD;Dziesiątki wdrożeń w firmach różnej wielkości - od małych przedsiębiorstw po duże korporacje.&#xA;Dedykowane moduły&#xD;Tworzymy niestandardowe rozwiązania idealnie dopasowane do Twojej branży.&#xA;Integracje i automatyzacje&#xD;Łączymy ERPNext z e-commerce, CRM, systemami magazynowymi i zewnętrznymi API.&#xA;Pełne wsparcie i szkolenia&#xD;Zapewniamy kompleksową obsługę po wdrożeniu oraz transfer wiedzy dla użytkowników.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wdrożenia ERPNext w Polsce – integracje i utrzymanie on ERP Tech</title><link>https://erptech.pl/</link><description>Recent content in Wdrożenia ERPNext w Polsce – integracje i utrzymanie on ERP Tech</description><generator>Hugo -- gohugo.io</generator><language>pl</language><lastBuildDate>Sat, 27 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://erptech.pl/index.xml" rel="self" type="application/rss+xml"/><item><title>Rozbudowa Systemu SAP</title><link>https://erptech.pl/uslugi/rozbudowa-sap/</link><pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/uslugi/rozbudowa-sap/</guid><description>Rozbudowa Systemu SAPZaufaj wieloletniemu doświadczeniu ERPtech w rozbudowie systemów SAP. Realizujemy międzynarodowe projekty dla setek zadowolonych klientów.Nasze DoświadczenieLata praktyki w projektach SAP na całym świecie
+Wieloletnie DoświadczeniePonad 10 lat specjalizacji w systemach SAP. Realizowaliśmy projekty dla firm z Europy, Azji i Ameryki Północnej, zdobywając unikalną wiedzę i najlepsze praktyki.Ponad 30 zakończonych projektówMiędzynarodowy zespół ekspertówCertyfikowani konsultanci SAPZadowoleni KlienciWspółpracujemy z liderami różnych branż - od produkcji po finanse.</description></item><item><title>Polityka prywatności i cookies</title><link>https://erptech.pl/polityka-prywatnosci/</link><pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/polityka-prywatnosci/</guid><description>Polityka prywatności ERP Tech (dalej: „my&amp;quot;, „nas&amp;quot;, „nasz&amp;quot;) szanuje Twoją prywatność. Niniejsza polityka wyjaśnia, jak zbieramy, używamy i chronimy Twoje dane osobowe.
+1. Administrator danych Administratorem Twoich danych osobowych jest:
+ERP Tech Sp. z o.o. Adres: ul. Łęczycka 19/11, 53-632 Wrocław NIP: 897-192-4461 Email: krzysztof@erptech.pl Telefon: (+48) 693 068 300 2. Jakie dane zbieramy? Zbieramy dane w następujących sytuacjach:
+Formularz kontaktowy: imię, email, temat, wiadomość Analityka: anonimowe dane o ruchu (IP anonimizowany, typ przeglądarki, strony odwiedzane, czas spędzony) Cookies: identyfikatory sesji, preferencje użytkownika 3.</description></item><item><title>Cennik i Pakiety</title><link>https://erptech.pl/oferta/cennik/</link><pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/oferta/cennik/</guid><description>Transparentne rozliczenia • elastyczne pakietyZ nami wiesz dokładnie, ile płacisz i za co. Wszystkie pakiety zawierają przejrzyste warunki i elastyczne rozliczenie godzin.Karty pakietów
+Wybierz wariant dopasowany do procesuWszystkie pakiety obejmują prace programistyczne, analityczne oraz wsparcie użytkowników. Godziny wykorzystujesz elastycznie – raportujemy postęp w Twoim systemie zgłoszeń.Ad-hoc
+Pojedyncze zlecenieDoraźnie280 PLN
+rozliczenie godzinowe
+• brak umowy i zobowiązań• płacisz po wykonaniu zadania• średni czas reakcji do 3 dniZamów wycenę10 godzin</description></item><item><title>ERPnext Start</title><link>https://erptech.pl/oferta/erpnext-start/</link><pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/oferta/erpnext-start/</guid><description>ERPNext – Twoje ERP
+bez abonamentuStart w 5 dniKompleksowy system zarządzania firmą bez opłat licencyjnych. elastyczny i gotowy do pracy w krótkim czasie.Umów spotkaniePorównaj pakietyERPNextSprzedażZamówienia i CRM
+MagazynStan i lokalizacje
+FinanseKsięgowość
+HRKadry i płace
+100%Open Source5Dni start0 złAbonamentNajważniejsze atuty ERPNextDlaczego tysiące firm wybiera ERPNext do zarządzania swoim biznesemBrak abonamentuPłacisz tylko raz, bez miesięcznych opłat licencyjnych</description></item><item><title>Hosting ERPnext</title><link>https://erptech.pl/oferta/hosting/</link><pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/oferta/hosting/</guid><description>Dlaczego hosting u nas?Poznaj nasze przewagi i cechy, które wyróżniają nas na rynku
+BezpieczeństwoSzyfrowanie SSL, firewall, regularne backupy i monitoring 24/7
+WydajnośćSzybkie serwery SSD, optymalizacja bazy danych i cache
+NiezawodnośćSLA 99.9% dostępności, redundancja i disaster recovery
+AktualizacjeRegularne aktualizacje systemu i zabezpieczeń
+WsparcieDedykowane wsparcie techniczne od ekspertów ERPnext
+SkalowalnośćElastyczne zasoby rosnące wraz z Twoją firmą
+Co zawiera hosting?Pełny zestaw usług i narzędzi do zarządzania Twoim systemem ERPnext</description></item><item><title>Wsparcie ERPnext</title><link>https://erptech.pl/oferta/wsparcie/</link><pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/oferta/wsparcie/</guid><description>Rodzaje wsparciaPoznaj nasze kompleksowe pakiety wsparcia techniczne, rozwojowe i konsultacyjne
+Wsparcie TechniczneSzybka pomoc w rozwiązywaniu problemów technicznych, optymalizacja wydajności i aktualizacje systemu.Diagnoza i naprawa błędówOptymalizacja wydajnościAktualizacje systemuMonitoring i backupWsparcie RozwojoweRozbudowa systemu, dostosowanie do specyficznych potrzeb biznesowych oraz integracje.Nowe funkcjonalnościCustomizacjeIntegracje APIAutomatyzacje procesówWsparcie KonsultacyjneKonsultacje strategiczne, audyty systemów oraz rekomendacje dotyczące optymalizacji.Audyt procesówAnaliza wymagańPlanowanie rozwojuSzkoleniaJak działamy?</description></item><item><title>Lean ERP</title><link>https://erptech.pl/uslugi/lean-erp/</link><pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/uslugi/lean-erp/</guid><description>Lean ERP – Metodyka eliminacji marnotrawstwaW ERPtech wdrażamy systemy ERP w oparciu o zasady Lean Manufacturing. Eliminujemy marnotrawstwo, optymalizujemy przepływy i budujemy kultury ciągłego doskonalenia – wszystko w jednym zintegrowanym systemie.
+Eliminacja marnotrawstwa. Identyfikujemy i usuwamy 8 rodzajów Muda (nadprodukcja, oczekiwanie, transport, nadmierne przetwarzanie, zapasy, zbędne ruchy, wady, niewykorzystany potencjał).
+Ciągłe doskonalenie (Kaizen). Wbudowane mechanizmy monitorowania KPI, analiza wąskich gardeł i sugestie optymalizacji procesów.
+Przepływ wartości (Value Stream). Mapowanie procesów od surowca do produktu końcowego z wyraźną wizualizacją wartości dodanej.</description></item><item><title>EOD</title><link>https://erptech.pl/uslugi/eod/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/uslugi/eod/</guid><description>System EOD w ERPnextDigitalizujemy pełny obieg dokumentów – od tworzenia i akceptacji po archiwizację. Automatyzujemy procesy, aby dokumenty trafiały do właściwych osób bez opóźnień.
+Tworzenie i zarządzanie dokumentami. Szablony, wersje robocze i publikacje w jednym miejscu.
+Workflowy i ścieżki akceptacji. Reguły biznesowe, przypomnienia oraz eskalacje.
+Wersjonowanie i podpisy. Historia zmian, porównywanie wersji oraz kwalifikowane podpisy elektroniczne.
+Integracje z modułami ERP. Automatyczne generowanie umów, faktur czy zamówień z innych procesów.</description></item><item><title>Integracje</title><link>https://erptech.pl/uslugi/integracje/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/uslugi/integracje/</guid><description>Integracje systemowe ERPnext i SAPŁączymy systemy ERP, e-commerce, IoT i aplikacje mobilne w jeden spójny ekosystem. Projektujemy integracje, które zapewniają wymianę danych w czasie rzeczywistym.
+Integracje ERPnext - systemy zewnętrzne. Dwukierunkowa synchronizacja produktów, dokumentów i płatności.
+SAP i middleware. Integracje SAP PI/PO, CPI oraz dedykowane konektory do systemów legacy.
+Procesy ETL i replikacje. Przetwarzanie dużych wolumenów danych, harmonogramy i monitorowanie błędów.
+Bezpieczeństwo i audyt. Szyfrowanie, logowanie zdarzeń i kontrola dostępów w integracjach.</description></item><item><title>Kontakt</title><link>https://erptech.pl/kontakt/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/kontakt/</guid><description>Imię i nazwisko *Email *TematTreść wiadomościWyrażam zgodę na przetwarzanie moich danych osobowych w celu udzielenia odpowiedzi na zapytanie zgodnie z Polityką prywatności. *Wyrażam zgodę na otrzymywanie informacji handlowych drogą elektroniczną (opcjonalnie).Wyślij wiadomośćbiuro@erptech.pl(+48) 693 068 300</description></item><item><title>Magazyn</title><link>https://erptech.pl/uslugi/magazyn/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/uslugi/magazyn/</guid><description>System magazynowy ERPnextERPnext zapewnia pełną kontrolę nad magazynem – od przyjęcia towarów po logistykę wysyłkową. Tworzymy procesy idealnie dopasowane do specyfiki Twojej branży.
+Śledzenie stanów. Bieżące informacje o zapasach, rezerwacjach i limitach bezpieczeństwa.
+Elastyczne lokalizacje. Struktura stref, regałów i miejsc odkładczych z szybkim adresowaniem.
+Obsługa przyjęć i wydań. Procesy PZ/WZ, kompletacja, cross-docking oraz kontrola jakości.
+Inwentaryzacje i serie. Liczenia cykliczne, partie, numery seryjne oraz pełna historia partii dostaw.</description></item><item><title>O Nas</title><link>https://erptech.pl/o-nas/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/o-nas/</guid><description>ERP TechTwój partner w cyfrowej transformacjiSpecjalizujemy się we wdrażaniu i rozbudowie systemów ERPnext oraz SAP, dostarczając rozwiązania, które napędzają rozwój biznesu.Kim jesteśmy? ERP Tech to zespół doświadczonych specjalistów z wieloletnim doświadczeniem we wdrażaniu i rozbudowie systemów informatycznych ERPnext i SAP. Jesteśmy głównym przedstawicielem ERPnext w Polsce, co gwarantuje najwyższą jakość i wsparcie na każdym etapie wdrożenia.Nasza misja Naszą misją jest wspieranie firm w cyfrowej transformacji poprzez dostarczanie najlepszych rozwiązań ERP dostosowanych do indywidualnych potrzeb każdego klienta.</description></item><item><title>Oferty Pracy</title><link>https://erptech.pl/kariera/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/kariera/</guid><description>Aktualne oferty pracy Stażysta Python - Frappe/ERPnextStażZdalnie/HybrydowoPythonOpublikowano: 7 listopada 2025
+O stanowiskuPoszukujemy ambitnego stażysty, który chce rozwijać swoje umiejętności w zakresie programowania w Pythonie oraz poznać framework Frappe i system ERPnext. To doskonała okazja, aby zdobyć praktyczne doświadczenie w pracy z nowoczesnym systemem ERP open source.Czego oczekujemy?Podstawowa znajomość języka PythonChęć nauki i rozwoju w obszarze systemów ERPZnajomość podstaw HTML, CSS, JavaScript będzie dodatkowym atutemUmiejętność pracy w zespoleKomunikatywność i zaangażowanieZnajomość języka angielskiego w stopniu umożliwiającym czytanie dokumentacji technicznejCo oferujemy?</description></item><item><title>Produkcja</title><link>https://erptech.pl/uslugi/produkcja/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/uslugi/produkcja/</guid><description>Moduł produkcyjny ERPnextPlanowanie i kontrola produkcji w ERPnext pozwala zarządzać całym cyklem wytwórczym – od specyfikacji produktów po kalkulację kosztów.
+Definicja BOM. Wielopoziomowe struktury produktów z obsługą wersji i zastępników.
+Planowanie zdolności. Harmonogramy gniazd produkcyjnych, dostępność zasobów i planowanie MRP.
+Zlecenia produkcyjne. Tworzenie, monitorowanie postępu i rejestrowanie operacji.
+Kalkulacja kosztów. Analiza zużycia materiałów, pracy i kosztów pośrednich.
+Kluczowe obszary produkcjiKarty produktówPełna specyfikacja komponentów, receptur i dokumentacji.</description></item><item><title>SAP FIORI</title><link>https://erptech.pl/uslugi/fiori/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/uslugi/fiori/</guid><description>SAP FIORI – rewolucja w interfejsie SAPProjektujemy i wdrażamy SAP FIORI, aby użytkownicy systemów SAP pracowali szybciej, intuicyjniej i z każdego urządzenia.
+UX-first. Design zgodny z SAP Fiori Design Guidelines i najlepszymi praktykami UX.
+Personalizacja. Launchpady, kafelki i widoki tworzone według ról i procesów.
+Mobilność. Pełna responsywność i wsparcie dla aplikacji mobilnych SAP.
+Bezpieczeństwo. Integracja z SAP Identity Management i kontrola autoryzacji.
+Kluczowe funkcje SAP FIORIResponsywnośćJedna aplikacja, która dostosowuje się do każdego ekranu.</description></item><item><title>SAP IoT</title><link>https://erptech.pl/uslugi/iot/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/uslugi/iot/</guid><description>SAP IoT – inteligentne rozwiązaniaŁączymy świat czujników z systemami SAP, aby dane były dostępne w czasie rzeczywistym i wspierały decyzje operacyjne.
+Zbieranie danych z czujników. Integracja urządzeń IoT, PLC i maszyn produkcyjnych.
+Analiza w czasie rzeczywistym. Stream processing, alerty i dashboardy KPI.
+Automatyzacja procesów. Sterowanie urządzeniami, workflowy reakcji i integracja z MES.
+Predictive maintenance. Modele prognostyczne i alerty utrzymania ruchu.
+Kluczowe obszary IoTUrządzenia i gatewayeIntegracja czujników, PLC, kamer i maszyn przemysłowych.</description></item><item><title>System ERPnext</title><link>https://erptech.pl/uslugi/erpnext/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/uslugi/erpnext/</guid><description>Główny przedstawiciel ERPNext w PolsceSpecjalizujemy się w kompleksowych wdrożeniach ERPNext. Lączymy doświadczenie techniczne z praktyką biznesową dla optymalnych wyników.
+Profesjonalne wdrożeniaDziesiątki wdrożeń w firmach różnej wielkości - od małych przedsiębiorstw po duże korporacje.
+Dedykowane modułyTworzymy niestandardowe rozwiązania idealnie dopasowane do Twojej branży.
+Integracje i automatyzacjeŁączymy ERPNext z e-commerce, CRM, systemami magazynowymi i zewnętrznymi API.
+Pełne wsparcie i szkoleniaZapewniamy kompleksową obsługę po wdrożeniu oraz transfer wiedzy dla użytkowników.</description></item></channel></rss>

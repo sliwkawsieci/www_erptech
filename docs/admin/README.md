@@ -1,6 +1,4 @@
-# Konfiguracja Decap CMS dla strony ERP Tech
-
-## Jak używać CMS
+# Konfiguracja Decap CMS — Jak używać CMS
 
 ### Dostęp do panelu CMS
 Panel CMS jest dostępny pod adresem: `http://localhost:56921/admin/`
@@ -12,7 +10,7 @@ Aby korzystać z CMS, musisz skonfigurować uwierzytelnianie:
 2. **Dla lokalnego rozwoju**: Możesz tymczasowo zmienić backend w `config.yml`:
    ```yaml
    backend:
-     name: proxy
+     "name": proxy
      proxy_url: http://localhost:8081/api/v1
    ```
 
