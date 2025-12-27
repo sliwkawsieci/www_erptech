@@ -1,22 +1,17 @@
 ---
-title: "Hosting"
-subtitle: "Profesjonalny hosting ERPnext w chmurze"
+title: "Hosting ERPnext"
+subtitle: "Profesjonalny hosting ERPnext w chmurze - bezpieczny, wydajny i zarządzany przez ekspertów."
 date: 2025-12-17
 raw_html: true
 ---
 
-<div class="bg-gradient-to-br from-purple-50 to-blue-50 py-16 px-4 -mx-4 my-8 rounded-2xl">
-<div class="max-w-4xl mx-auto text-center">
-    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-        Hosting ERPnext
-    </h2>
-    <p class="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
-        Profesjonalny hosting ERPnext w chmurze - bezpieczny, wydajny i zarządzany przez ekspertów.
-    </p>
-</div>
-</div>
 
-## Dlaczego hosting u nas?
+<div class="bg-gradient-to-r from-blue-50 to-purple-50 py-12 px-4 -mx-4 my-12 rounded-2xl">
+<div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Dlaczego hosting u nas?</h2>
+    <p class="text-lg text-gray-600">Poznaj nasze przewagi i cechy, które wyróżniają nas na rynku</p>
+</div>
+</div>
 
 <div class="grid md:grid-cols-3 gap-6 my-12">
 <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
@@ -75,7 +70,12 @@ raw_html: true
 </div>
 </div>
 
-## Co zawiera hosting?
+<div class="bg-gradient-to-r from-purple-50 to-blue-50 py-12 px-4 -mx-4 my-12 rounded-2xl">
+<div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Co zawiera hosting?</h2>
+    <p class="text-lg text-gray-600">Pełny zestaw usług i narzędzi do zarządzania Twoim systemem ERPnext</p>
+</div>
+</div>
 
 <div class="bg-gradient-to-r from-blue-50 to-purple-50 p-8 rounded-xl my-12">
 <div class="grid md:grid-cols-2 gap-6">
@@ -140,13 +140,19 @@ raw_html: true
 </div>
 </div>
 
-## Pakiety hostingowe
+<div class="bg-gradient-to-r from-orange-50 to-pink-50 py-12 px-4 -mx-4 my-12 rounded-2xl">
+<div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Pakiety hostingowe</h2>
+    <p class="text-lg text-gray-600">Wybierz plan, który najlepiej odpowiada potrzebom Twojej firmy</p>
+</div>
+</div>
 
 <div class="grid md:grid-cols-3 gap-6 my-12">
 <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
     <div class="text-center mb-6">
         <span class="text-sm font-medium text-gray-500 uppercase">Dla małych firm</span>
         <h3 class="text-xl font-bold text-gray-900 mt-1">Starter</h3>
+        <p class="text-3xl font-bold text-gray-900 mt-3">39 zł<span class="text-lg text-gray-600">/miesiąc</span></p>
     </div>
     <ul class="space-y-3 mb-6">
         <li class="flex items-center gap-2 text-gray-600">
@@ -185,7 +191,8 @@ raw_html: true
     </div>
     <div class="text-center mb-6">
         <span class="text-sm font-medium text-blue-600 uppercase">Dla średnich firm</span>
-        <h3 class="text-xl font-bold text-gray-900 mt-1">Business</h3>
+        <h3 class="text-xl font-bold text-gray-900 mt-1">Standard</h3>
+        <p class="text-3xl font-bold text-gray-900 mt-3">59 zł<span class="text-lg text-gray-600">/miesiąc</span></p>
     </div>
     <ul class="space-y-3 mb-6">
         <li class="flex items-center gap-2 text-gray-600">
@@ -221,7 +228,8 @@ raw_html: true
 <div class="bg-gradient-to-br from-gray-900 to-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow text-white">
     <div class="text-center mb-6">
         <span class="text-sm font-medium text-orange-400 uppercase">Dla dużych firm</span>
-        <h3 class="text-xl font-bold mt-1">Enterprise</h3>
+        <h3 class="text-xl font-bold mt-1">Business</h3>
+        <p class="text-3xl font-bold text-white mt-3">99 zł<span class="text-lg text-gray-300">/miesiąc</span></p>
     </div>
     <ul class="space-y-3 mb-6">
         <li class="flex items-center gap-2 text-gray-300">

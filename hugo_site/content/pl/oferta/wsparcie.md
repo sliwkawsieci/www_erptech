@@ -1,22 +1,16 @@
 ---
-title: "Wsparcie"
-subtitle: "Kompleksowe wsparcie dla systemów ERP"
+title: "Wsparcie ERPnext"
+subtitle: "Kompleksowe wsparcie dla systemów ERP - techniczne, rozwojowe i konsultacyjne"
 date: 2025-12-17
 raw_html: true
 ---
 
-<div class="bg-gradient-to-br from-green-50 to-blue-50 py-16 px-4 -mx-4 my-8 rounded-2xl">
+<div class="bg-gradient-to-r from-green-50 to-blue-50 py-12 px-4 -mx-4 my-12 rounded-2xl">
 <div class="max-w-4xl mx-auto text-center">
-    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-        Pakiety Wsparcia
-    </h2>
-    <p class="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
-        Kompleksowe wsparcie techniczne, rozwojowe i konsultacyjne dla systemów ERPnext i SAP.
-    </p>
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Rodzaje wsparcia</h2>
+    <p class="text-lg text-gray-600">Poznaj nasze kompleksowe pakiety wsparcia techniczne, rozwojowe i konsultacyjne</p>
 </div>
 </div>
-
-## Rodzaje wsparcia
 
 <div class="grid md:grid-cols-3 gap-8 my-12">
 <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-lg transition-all duration-300">
@@ -134,7 +128,12 @@ raw_html: true
 </div>
 </div>
 
-## Jak działamy?
+<div class="bg-gradient-to-r from-blue-50 to-purple-50 py-12 px-4 -mx-4 my-12 rounded-2xl">
+<div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Jak działamy?</h2>
+    <p class="text-lg text-gray-600">Cztery kroki do szybkiego i efektywnego rozwiązania Twoich problemów</p>
+</div>
+</div>
 
 <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 my-12">
 <div class="grid md:grid-cols-4 gap-8">
@@ -169,7 +168,12 @@ raw_html: true
 </div>
 </div>
 
-## Czas reakcji
+<div class="bg-gradient-to-r from-purple-50 to-orange-50 py-12 px-4 -mx-4 my-12 rounded-2xl">
+<div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Czas reakcji</h2>
+    <p class="text-lg text-gray-600">Gwarantujemy szybką pomoc dostosowaną do pilności Twojego problemu</p>
+</div>
+</div>
 
 <div class="grid md:grid-cols-3 gap-6 my-12">
 <div class="bg-red-50 p-6 rounded-xl border border-red-200">
@@ -198,7 +202,12 @@ raw_html: true
 </div>
 </div>
 
-## Więcej informacji
+<div class="bg-gradient-to-r from-orange-50 to-pink-50 py-12 px-4 -mx-4 my-12 rounded-2xl">
+<div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Więcej informacji</h2>
+    <p class="text-lg text-gray-600">Poznaj szczegółowe informacje o naszych pakietach wsparcia</p>
+</div>
+</div>
 
 <div class="bg-blue-50 p-8 rounded-xl my-12">
 <p class="text-lg text-gray-700 mb-6">

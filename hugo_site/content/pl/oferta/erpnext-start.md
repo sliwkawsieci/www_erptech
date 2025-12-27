@@ -21,6 +21,8 @@ layout: "raw"
 
 {{< why-erptech >}}
 
+{{< additional-features >}}
+
             ...
 
 

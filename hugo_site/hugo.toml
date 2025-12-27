@@ -51,6 +51,21 @@ publishDir = '../docs'
       name = "SAP"
       weight = 20
       identifier = "sap"
+    [[languages.pl.menu.main]]
+      name = "Rozbudowa Systemu"
+      parent = "sap"
+      url = "/uslugi/rozbudowa-sap/"
+      weight = 1
+    [[languages.pl.menu.main]]
+      name = "SAP FIORI"
+      parent = "sap"
+      url = "/uslugi/fiori/"
+      weight = 2
+    [[languages.pl.menu.main]]
+      name = "SAP IoT"
+      parent = "sap"
+      url = "/uslugi/iot/"
+      weight = 3
     # [[languages.pl.menu.main]]
     #   name = "SAP FIORI"
     #   parent = "sap"
