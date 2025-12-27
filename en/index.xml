@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Business Software Solutions on ERP Tech</title><link>https://erptech.pl/en/</link><description>Recent content in Business Software Solutions on ERP Tech</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://erptech.pl/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Privacy Policy &amp; Cookies</title><link>https://erptech.pl/en/privacy-policy/</link><pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/privacy-policy/</guid><description>&lt;h2 id="privacy-policy"&gt;Privacy Policy&lt;/h2&gt;
+&lt;p&gt;ERP Tech (hereinafter: &amp;ldquo;we&amp;rdquo;, &amp;ldquo;us&amp;rdquo;, &amp;ldquo;our&amp;rdquo;) respects your privacy. This policy explains how we collect, use, and protect your personal data.&lt;/p&gt;
+&lt;h3 id="1-data-controller"&gt;1. Data Controller&lt;/h3&gt;
+&lt;p&gt;The controller of your personal data is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ERP Tech Sp. z o.o.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Address: [Your address]&lt;/li&gt;
+&lt;li&gt;Email: [Your email]&lt;/li&gt;
+&lt;li&gt;Phone: [Your phone]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2-what-data-do-we-collect"&gt;2. What data do we collect?&lt;/h3&gt;
+&lt;p&gt;We collect data in the following situations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Contact form&lt;/strong&gt;: name, email, subject, message&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analytics&lt;/strong&gt;: anonymous traffic data (anonymized IP, browser type, visited pages, time spent)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cookies&lt;/strong&gt;: session identifiers, user preferences&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="3-legal-basis-for-processing"&gt;3. Legal basis for processing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Consent&lt;/strong&gt;: for analytics cookies (Matomo, Google Analytics 4)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contract&lt;/strong&gt;: for contact form data (to respond to your message)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Legitimate interest&lt;/strong&gt;: for website security&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="4-cookies-and-tracking"&gt;4. Cookies and tracking&lt;/h3&gt;
+&lt;h4 id="functional-cookies-always-active"&gt;Functional cookies (always active)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;User session&lt;/li&gt;
+&lt;li&gt;Language preferences&lt;/li&gt;
+&lt;li&gt;Security&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="analytics-cookies-require-consent"&gt;Analytics cookies (require consent)&lt;/h4&gt;
+&lt;p&gt;We use:&lt;/p&gt;</description></item><item><title>Integrations</title><link>https://erptech.pl/en/services/integrations/</link><pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/integrations/</guid><description>&lt;h2 id="integrations-for-sap--erpnext"&gt;Integrations for SAP &amp;amp; ERPNext&lt;/h2&gt;
+&lt;p&gt;We design integrations that keep your data consistent across systems and reduce manual work:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;API integrations (REST, SOAP)&lt;/li&gt;
+&lt;li&gt;EDI and file-based exchange&lt;/li&gt;
+&lt;li&gt;Middleware and event-driven flows&lt;/li&gt;
+&lt;li&gt;Reporting and data synchronization&lt;/li&gt;
+&lt;li&gt;Monitoring and error handling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you need a specific integration scenario, contact us and we’ll propose the safest and fastest approach.&lt;/p&gt;</description></item><item><title>Lean ERP</title><link>https://erptech.pl/en/services/lean-erp/</link><pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/lean-erp/</guid><description>&lt;div class="py-20 bg-white" id="lean-intro"&gt;
+&lt;div class="max-w-6xl mx-auto px-6 lg:px-8"&gt;
+&lt;div class="text-center mb-12"&gt;
+&lt;h2 class="text-3xl md:text-4xl font-bold text-gray-900"&gt;Lean ERP – Waste Elimination Methodology&lt;/h2&gt;
+&lt;p class="text-lg text-gray-600 mt-4 max-w-2xl mx-auto"&gt;At ERPtech, we implement ERP systems based on Lean Manufacturing principles. We eliminate waste, optimize flows, and build continuous improvement cultures – all within one integrated system.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="grid md:grid-cols-2 gap-10 items-center"&gt;
+&lt;div class="space-y-5 text-gray-700 leading-relaxed"&gt;
+&lt;div class="flex items-start gap-4"&gt;
+&lt;span class="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-green-600 shadow-inner"&gt;
+&lt;svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;p&gt;&lt;strong class="text-gray-900"&gt;Waste elimination.&lt;/strong&gt; We identify and remove 8 types of Muda (overproduction, waiting, transport, overprocessing, inventory, unnecessary movement, defects, unused potential).&lt;/p&gt;</description></item><item><title>About Us</title><link>https://erptech.pl/en/about/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/about/</guid><description>&lt;h2 id="who-we-are"&gt;Who We Are?&lt;/h2&gt;
+&lt;p&gt;ERP Tech is a team of experienced specialists with years of experience in implementing and expanding ERPnext and SAP systems. We are the main representative of ERPnext in Poland.&lt;/p&gt;
+&lt;h2 id="our-mission"&gt;Our Mission&lt;/h2&gt;
+&lt;p&gt;Our mission is to support companies in digital transformation by providing the best ERP solutions tailored to each client&amp;rsquo;s individual needs.&lt;/p&gt;
+&lt;div class="grid md:grid-cols-3 gap-8 my-12"&gt;
+ &lt;div class="text-center p-6 bg-blue-50 rounded-xl"&gt;
+ &lt;div class="text-4xl font-bold text-blue-600 mb-2"&gt;10+&lt;/div&gt;
+ &lt;p class="text-gray-700"&gt;Years of experience&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="text-center p-6 bg-blue-50 rounded-xl"&gt;
+ &lt;div class="text-4xl font-bold text-blue-600 mb-2"&gt;100+&lt;/div&gt;
+ &lt;p class="text-gray-700"&gt;Completed projects&lt;/p&gt;</description></item><item><title>Contact</title><link>https://erptech.pl/en/contact/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/contact/</guid><description>&lt;div class="max-w-4xl mx-auto"&gt;
+ &lt;div class="bg-white p-8 rounded-xl shadow-lg"&gt;
+ &lt;form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-6"&gt;
+ &lt;!-- REPLACE YOUR_FORM_ID with your actual Formspree form ID --&gt;
+ &lt;div class="grid md:grid-cols-2 gap-6"&gt;
+ &lt;div&gt;
+ &lt;label for="name" class="block text-gray-700 font-medium mb-2"&gt;Name *&lt;/label&gt;
+ &lt;input type="text" id="name" name="name" required 
+ class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent"&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;label for="email" class="block text-gray-700 font-medium mb-2"&gt;Email *&lt;/label&gt;
+ &lt;input type="email" id="email" name="email" required 
+ class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent"&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ 
+ &lt;div&gt;
+ &lt;label for="subject" class="block text-gray-700 font-medium mb-2"&gt;Subject&lt;/label&gt;
+ &lt;input type="text" id="subject" name="subject" 
+ class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent"&gt;
+ &lt;/div&gt;
+ 
+ &lt;div&gt;
+ &lt;label for="message" class="block text-gray-700 font-medium mb-2"&gt;Message&lt;/label&gt;
+ &lt;textarea id="message" name="message" rows="5" 
+ class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent"&gt;&lt;/textarea&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="text-center"&gt;
+ &lt;button type="submit" class="btn-primary text-lg"&gt;
+ Send Message
+ &lt;/button&gt;
+ &lt;/div&gt;
+ &lt;/form&gt;
+ 
+ &lt;div class="mt-8 text-center text-gray-600"&gt;
+ &lt;p class="mb-2"&gt;
+ &lt;i class="fas fa-envelope mr-2"&gt;&lt;/i&gt;
+ &lt;a href="mailto:biuro@erptech.pl" class="text-blue-600 hover:underline"&gt;biuro@erptech.pl&lt;/a&gt;
+ &lt;/p&gt;</description></item><item><title>EOD</title><link>https://erptech.pl/en/services/eod/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/eod/</guid><description>&lt;h2 id="eod-system-in-erpnext"&gt;EOD System in ERPnext&lt;/h2&gt;
+&lt;p&gt;ERPnext offers a comprehensive electronic document management solution:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Document creation and management&lt;/li&gt;
+&lt;li&gt;Workflows and business processes&lt;/li&gt;
+&lt;li&gt;Version control&lt;/li&gt;
+&lt;li&gt;Electronic signatures&lt;/li&gt;
+&lt;li&gt;Integration with other modules&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="grid md:grid-cols-2 gap-6 my-8"&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-file-alt text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Document Templates
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Ready-made templates for invoices, contracts, orders and other documents.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-random text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Workflows
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Defining business processes and approval paths.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-history text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Versioning
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Full history of document changes.
+ &lt;/p&gt;</description></item><item><title>ERPnext System</title><link>https://erptech.pl/en/services/erpnext/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/erpnext/</guid><description>&lt;h2 id="main-erpnext-representative-in-poland"&gt;Main ERPnext Representative in Poland&lt;/h2&gt;
+&lt;p&gt;ERPnext is an open source ERP system offering full functionality without license costs. We are the main ERPnext representative in Poland with years of experience in implementing and customizing this system.&lt;/p&gt;
+&lt;div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 my-12"&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl text-center"&gt;
+ &lt;div class="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center mx-auto mb-4"&gt;
+ &lt;i class="fas fa-dollar-sign text-white text-2xl"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-2"&gt;No License&lt;/h3&gt;
+ &lt;p class="text-gray-600 text-sm"&gt;Open source without license costs&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl text-center"&gt;
+ &lt;div class="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center mx-auto mb-4"&gt;
+ &lt;i class="fas fa-puzzle-piece text-white text-2xl"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-2"&gt;Modularity&lt;/h3&gt;
+ &lt;p class="text-gray-600 text-sm"&gt;Choose only needed modules&lt;/p&gt;</description></item><item><title>Job Offers</title><link>https://erptech.pl/en/careers/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/careers/</guid><description>&lt;h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mt-2 mb-6"&gt;Current Job Openings&lt;/h2&gt;
+
+&lt;div class="bg-white border border-gray-200 p-8 rounded-xl shadow-lg my-8"&gt;
+ &lt;div class="flex items-start justify-between mb-4"&gt;
+ &lt;div&gt;
+ &lt;h3 class="text-2xl font-bold text-gray-800 mb-2"&gt;Python Intern - Frappe/ERPNext&lt;/h3&gt;
+ &lt;div class="flex flex-wrap gap-2 mb-4"&gt;
+ &lt;span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm"&gt;Internship&lt;/span&gt;
+ &lt;span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm"&gt;Remote/Hybrid&lt;/span&gt;
+ &lt;span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm"&gt;Python&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="text-right"&gt;
+ &lt;p class="text-gray-600 text-sm"&gt;Posted: November 7, 2025&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+
+ &lt;div class="prose max-w-none"&gt;
+ &lt;h4 class="text-xl font-bold text-gray-800 mt-6 mb-3"&gt;About the Position&lt;/h4&gt;
+ &lt;p class="text-gray-700 mb-4"&gt;
+ We are looking for an ambitious intern who wants to develop Python skills and learn the Frappe framework and ERPNext system. This is a great opportunity to gain practical experience with modern open-source ERP.
+ &lt;/p&gt;</description></item><item><title>Production</title><link>https://erptech.pl/en/services/production/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/production/</guid><description>&lt;h2 id="erpnext-production-module"&gt;ERPnext Production Module&lt;/h2&gt;
+&lt;p&gt;ERPnext enables comprehensive production management:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BOM (Bill of Materials) definition&lt;/li&gt;
+&lt;li&gt;Work order creation&lt;/li&gt;
+&lt;li&gt;Production capacity planning&lt;/li&gt;
+&lt;li&gt;Production progress tracking&lt;/li&gt;
+&lt;li&gt;Cost calculation&lt;/li&gt;
+&lt;li&gt;Warehouse integration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="grid md:grid-cols-2 gap-6 my-8"&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-list-alt text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Product Cards
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Full specification of products and components.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-project-diagram text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Product Structures
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Multi-level BOM definitions with alternative versions.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-tasks text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Work Orders
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Planning and execution of production orders.
+ &lt;/p&gt;</description></item><item><title>SAP FIORI</title><link>https://erptech.pl/en/services/fiori/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/fiori/</guid><description>&lt;h2 id="sap-fiori---interface-revolution"&gt;SAP FIORI - interface revolution&lt;/h2&gt;
+&lt;p&gt;SAP FIORI is a modern, responsive user interface for SAP systems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;UX-driven design&lt;/li&gt;
+&lt;li&gt;Access from any device&lt;/li&gt;
+&lt;li&gt;View personalization&lt;/li&gt;
+&lt;li&gt;Intuitive navigation&lt;/li&gt;
+&lt;li&gt;Ready-to-use apps for various business processes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="grid md:grid-cols-2 gap-6 my-8"&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-mobile-alt text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Responsiveness
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Full functionality on computers, tablets and smartphones.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-paint-brush text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Personalization
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Interface customization to user needs.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-rocket text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Performance
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Fast loading and smooth operation.
+ &lt;/p&gt;</description></item><item><title>SAP IoT</title><link>https://erptech.pl/en/services/iot/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/iot/</guid><description>&lt;h2 id="sap-iot---smart-solutions"&gt;SAP IoT - smart solutions&lt;/h2&gt;
+&lt;p&gt;We integrate IoT devices with SAP systems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sensor data collection&lt;/li&gt;
+&lt;li&gt;Real-time data analysis&lt;/li&gt;
+&lt;li&gt;Process automation&lt;/li&gt;
+&lt;li&gt;Predictive maintenance&lt;/li&gt;
+&lt;li&gt;ERP and MES integration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="grid md:grid-cols-2 gap-6 my-8"&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-microchip text-blue-600 mr-2"&gt;&lt;/i&gt;
+ IoT Devices
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Integration of various sensors and devices.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-cloud text-blue-600 mr-2"&gt;&lt;/i&gt;
+ SAP Cloud
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Secure data storage and analysis.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-chart-line text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Data Analysis
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Advanced data analysis algorithms.
+ &lt;/p&gt;</description></item><item><title>Warehouse</title><link>https://erptech.pl/en/services/warehouse/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/warehouse/</guid><description>&lt;h2 id="erpnext-warehouse-system"&gt;ERPnext Warehouse System&lt;/h2&gt;
+&lt;p&gt;ERPnext offers full warehouse management functionality including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stock level tracking&lt;/li&gt;
+&lt;li&gt;Location management&lt;/li&gt;
+&lt;li&gt;Goods receipt and issue&lt;/li&gt;
+&lt;li&gt;Inventory counts&lt;/li&gt;
+&lt;li&gt;Batch and serial number management&lt;/li&gt;
+&lt;li&gt;Integration with purchases and sales&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="grid md:grid-cols-2 gap-6 my-8"&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-barcode text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Barcodes
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Generate and scan barcodes for quick item identification.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-exchange-alt text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Stock Transfers
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Manage item transfers between warehouses.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-search text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Inventory
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Plan and conduct inventory counts with variance reports.
+ &lt;/p&gt;</description></item></channel></rss>

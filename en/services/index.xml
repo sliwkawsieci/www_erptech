@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Services on ERP Tech</title><link>https://erptech.pl/en/services/</link><description>Recent content in Services on ERP Tech</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://erptech.pl/en/services/index.xml" rel="self" type="application/rss+xml"/><item><title>Integrations</title><link>https://erptech.pl/en/services/integrations/</link><pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/integrations/</guid><description>&lt;h2 id="integrations-for-sap--erpnext"&gt;Integrations for SAP &amp;amp; ERPNext&lt;/h2&gt;
+&lt;p&gt;We design integrations that keep your data consistent across systems and reduce manual work:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;API integrations (REST, SOAP)&lt;/li&gt;
+&lt;li&gt;EDI and file-based exchange&lt;/li&gt;
+&lt;li&gt;Middleware and event-driven flows&lt;/li&gt;
+&lt;li&gt;Reporting and data synchronization&lt;/li&gt;
+&lt;li&gt;Monitoring and error handling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you need a specific integration scenario, contact us and we’ll propose the safest and fastest approach.&lt;/p&gt;</description></item><item><title>Lean ERP</title><link>https://erptech.pl/en/services/lean-erp/</link><pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/lean-erp/</guid><description>&lt;div class="py-20 bg-white" id="lean-intro"&gt;
+&lt;div class="max-w-6xl mx-auto px-6 lg:px-8"&gt;
+&lt;div class="text-center mb-12"&gt;
+&lt;h2 class="text-3xl md:text-4xl font-bold text-gray-900"&gt;Lean ERP – Waste Elimination Methodology&lt;/h2&gt;
+&lt;p class="text-lg text-gray-600 mt-4 max-w-2xl mx-auto"&gt;At ERPtech, we implement ERP systems based on Lean Manufacturing principles. We eliminate waste, optimize flows, and build continuous improvement cultures – all within one integrated system.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="grid md:grid-cols-2 gap-10 items-center"&gt;
+&lt;div class="space-y-5 text-gray-700 leading-relaxed"&gt;
+&lt;div class="flex items-start gap-4"&gt;
+&lt;span class="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-green-600 shadow-inner"&gt;
+&lt;svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;p&gt;&lt;strong class="text-gray-900"&gt;Waste elimination.&lt;/strong&gt; We identify and remove 8 types of Muda (overproduction, waiting, transport, overprocessing, inventory, unnecessary movement, defects, unused potential).&lt;/p&gt;</description></item><item><title>EOD</title><link>https://erptech.pl/en/services/eod/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/eod/</guid><description>&lt;h2 id="eod-system-in-erpnext"&gt;EOD System in ERPnext&lt;/h2&gt;
+&lt;p&gt;ERPnext offers a comprehensive electronic document management solution:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Document creation and management&lt;/li&gt;
+&lt;li&gt;Workflows and business processes&lt;/li&gt;
+&lt;li&gt;Version control&lt;/li&gt;
+&lt;li&gt;Electronic signatures&lt;/li&gt;
+&lt;li&gt;Integration with other modules&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="grid md:grid-cols-2 gap-6 my-8"&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-file-alt text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Document Templates
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Ready-made templates for invoices, contracts, orders and other documents.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-random text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Workflows
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Defining business processes and approval paths.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-history text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Versioning
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Full history of document changes.
+ &lt;/p&gt;</description></item><item><title>ERPnext System</title><link>https://erptech.pl/en/services/erpnext/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/erpnext/</guid><description>&lt;h2 id="main-erpnext-representative-in-poland"&gt;Main ERPnext Representative in Poland&lt;/h2&gt;
+&lt;p&gt;ERPnext is an open source ERP system offering full functionality without license costs. We are the main ERPnext representative in Poland with years of experience in implementing and customizing this system.&lt;/p&gt;
+&lt;div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 my-12"&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl text-center"&gt;
+ &lt;div class="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center mx-auto mb-4"&gt;
+ &lt;i class="fas fa-dollar-sign text-white text-2xl"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-2"&gt;No License&lt;/h3&gt;
+ &lt;p class="text-gray-600 text-sm"&gt;Open source without license costs&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl text-center"&gt;
+ &lt;div class="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center mx-auto mb-4"&gt;
+ &lt;i class="fas fa-puzzle-piece text-white text-2xl"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-2"&gt;Modularity&lt;/h3&gt;
+ &lt;p class="text-gray-600 text-sm"&gt;Choose only needed modules&lt;/p&gt;</description></item><item><title>Production</title><link>https://erptech.pl/en/services/production/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/production/</guid><description>&lt;h2 id="erpnext-production-module"&gt;ERPnext Production Module&lt;/h2&gt;
+&lt;p&gt;ERPnext enables comprehensive production management:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BOM (Bill of Materials) definition&lt;/li&gt;
+&lt;li&gt;Work order creation&lt;/li&gt;
+&lt;li&gt;Production capacity planning&lt;/li&gt;
+&lt;li&gt;Production progress tracking&lt;/li&gt;
+&lt;li&gt;Cost calculation&lt;/li&gt;
+&lt;li&gt;Warehouse integration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="grid md:grid-cols-2 gap-6 my-8"&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-list-alt text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Product Cards
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Full specification of products and components.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-project-diagram text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Product Structures
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Multi-level BOM definitions with alternative versions.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-tasks text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Work Orders
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Planning and execution of production orders.
+ &lt;/p&gt;</description></item><item><title>SAP FIORI</title><link>https://erptech.pl/en/services/fiori/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/fiori/</guid><description>&lt;h2 id="sap-fiori---interface-revolution"&gt;SAP FIORI - interface revolution&lt;/h2&gt;
+&lt;p&gt;SAP FIORI is a modern, responsive user interface for SAP systems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;UX-driven design&lt;/li&gt;
+&lt;li&gt;Access from any device&lt;/li&gt;
+&lt;li&gt;View personalization&lt;/li&gt;
+&lt;li&gt;Intuitive navigation&lt;/li&gt;
+&lt;li&gt;Ready-to-use apps for various business processes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="grid md:grid-cols-2 gap-6 my-8"&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-mobile-alt text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Responsiveness
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Full functionality on computers, tablets and smartphones.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-paint-brush text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Personalization
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Interface customization to user needs.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-rocket text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Performance
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Fast loading and smooth operation.
+ &lt;/p&gt;</description></item><item><title>SAP IoT</title><link>https://erptech.pl/en/services/iot/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/iot/</guid><description>&lt;h2 id="sap-iot---smart-solutions"&gt;SAP IoT - smart solutions&lt;/h2&gt;
+&lt;p&gt;We integrate IoT devices with SAP systems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sensor data collection&lt;/li&gt;
+&lt;li&gt;Real-time data analysis&lt;/li&gt;
+&lt;li&gt;Process automation&lt;/li&gt;
+&lt;li&gt;Predictive maintenance&lt;/li&gt;
+&lt;li&gt;ERP and MES integration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="grid md:grid-cols-2 gap-6 my-8"&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-microchip text-blue-600 mr-2"&gt;&lt;/i&gt;
+ IoT Devices
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Integration of various sensors and devices.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-cloud text-blue-600 mr-2"&gt;&lt;/i&gt;
+ SAP Cloud
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Secure data storage and analysis.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-chart-line text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Data Analysis
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Advanced data analysis algorithms.
+ &lt;/p&gt;</description></item><item><title>Warehouse</title><link>https://erptech.pl/en/services/warehouse/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/en/services/warehouse/</guid><description>&lt;h2 id="erpnext-warehouse-system"&gt;ERPnext Warehouse System&lt;/h2&gt;
+&lt;p&gt;ERPnext offers full warehouse management functionality including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stock level tracking&lt;/li&gt;
+&lt;li&gt;Location management&lt;/li&gt;
+&lt;li&gt;Goods receipt and issue&lt;/li&gt;
+&lt;li&gt;Inventory counts&lt;/li&gt;
+&lt;li&gt;Batch and serial number management&lt;/li&gt;
+&lt;li&gt;Integration with purchases and sales&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="grid md:grid-cols-2 gap-6 my-8"&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-barcode text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Barcodes
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Generate and scan barcodes for quick item identification.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-exchange-alt text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Stock Transfers
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Manage item transfers between warehouses.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="bg-blue-50 p-6 rounded-xl"&gt;
+ &lt;h3 class="font-bold text-gray-800 mb-3"&gt;
+ &lt;i class="fas fa-search text-blue-600 mr-2"&gt;&lt;/i&gt;
+ Inventory
+ &lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;
+ Plan and conduct inventory counts with variance reports.
+ &lt;/p&gt;</description></item></channel></rss>

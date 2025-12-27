@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Oferta on ERP Tech</title><link>https://erptech.pl/oferta/</link><description>Recent content in Oferta on ERP Tech</description><generator>Hugo</generator><language>pl</language><lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://erptech.pl/oferta/index.xml" rel="self" type="application/rss+xml"/><item><title>Cennik i Pakiety</title><link>https://erptech.pl/oferta/cennik/</link><pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/oferta/cennik/</guid><description>&lt;div class="bg-gradient-to-br from-blue-50 to-orange-50 py-16 px-4 -mx-4 my-8 rounded-2xl"&gt;
+&lt;div class="max-w-4xl mx-auto text-center"&gt;
+ &lt;h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4"&gt;
+ Transparentne rozliczenia • elastyczne pakiety
+ &lt;/h2&gt;
+ &lt;p class="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed"&gt;
+ Z nami wiesz dokładnie, ile płacisz i za co. Wszystkie pakiety zawierają 
+ przejrzyste warunki i elastyczne rozliczenie godzin.
+ &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;section id="pakiety" class="py-12 sm:py-16"&gt;
+ &lt;div class="max-w-6xl mx-auto px-4"&gt;
+ &lt;div class="text-center mb-12"&gt;
+ &lt;p class="text-sm uppercase tracking-widest text-gray-500 mb-2"&gt;Karty pakietów&lt;/p&gt;
+ &lt;h2 class="text-3xl font-bold text-gray-900"&gt;Wybierz wariant dopasowany do procesu&lt;/h2&gt;
+ &lt;p class="text-lg text-gray-600 mt-4 max-w-2xl mx-auto"&gt;
+ Wszystkie pakiety obejmują prace programistyczne, analityczne oraz wsparcie użytkowników. 
+ Godziny wykorzystujesz elastycznie – raportujemy postęp w Twoim systemie zgłoszeń.
+ &lt;/p&gt;</description></item><item><title>ERPnext Start</title><link>https://erptech.pl/oferta/erpnext-start/</link><pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/oferta/erpnext-start/</guid><description>&lt;section class="relative bg-gradient-to-br from-blue-50 via-white to-orange-50 overflow-hidden"&gt;
+ &lt;div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24"&gt;
+ &lt;div class="grid lg:grid-cols-2 gap-12 items-center"&gt;
+ 
+ &lt;div class="text-center lg:text-left animate-fade-in max-w-2xl lg:max-w-[760px]"&gt;
+ &lt;h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight" style="color: #0B0B0C; font-weight: 700; line-height: 1.1;"&gt;
+ ERPNext – Twoje ERP&lt;br&gt;
+ &lt;span class="inline-block bg-gradient-to-r from-blue-600 to-orange-600 text-white px-4 py-2 rounded-lg"&gt;
+ bez abonamentu
+ &lt;/span&gt;
+ &lt;/h1&gt;
+ &lt;p class="text-xl md:text-2xl text-gray-700 mb-6 font-medium"&gt;
+ Start w 5 dni
+ &lt;/p&gt;
+ &lt;p class="text-lg text-gray-600 mb-8 leading-relaxed" style="max-width: 640px;"&gt;
+ Kompleksowy system zarządzania firmą bez opłat licencyjnych. 
+ elastyczny i gotowy do pracy w krótkim czasie.
+ &lt;/p&gt;</description></item><item><title>Hosting ERPnext</title><link>https://erptech.pl/oferta/hosting/</link><pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/oferta/hosting/</guid><description>&lt;div class="bg-gradient-to-r from-blue-50 to-purple-50 py-12 px-4 -mx-4 my-12 rounded-2xl"&gt;
+&lt;div class="max-w-4xl mx-auto text-center"&gt;
+ &lt;h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2"&gt;Dlaczego hosting u nas?&lt;/h2&gt;
+ &lt;p class="text-lg text-gray-600"&gt;Poznaj nasze przewagi i cechy, które wyróżniają nas na rynku&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="grid md:grid-cols-3 gap-6 my-12"&gt;
+&lt;div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow"&gt;
+ &lt;div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4"&gt;
+ &lt;svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"&gt;
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"&gt;&lt;/path&gt;
+ &lt;/svg&gt;
+ &lt;/div&gt;
+ &lt;h3 class="text-lg font-bold text-gray-900 mb-2"&gt;Bezpieczeństwo&lt;/h3&gt;
+ &lt;p class="text-gray-600"&gt;Szyfrowanie SSL, firewall, regularne backupy i monitoring 24/7&lt;/p&gt;</description></item><item><title>Wsparcie ERPnext</title><link>https://erptech.pl/oferta/wsparcie/</link><pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate><guid>https://erptech.pl/oferta/wsparcie/</guid><description>&lt;div class="bg-gradient-to-r from-green-50 to-blue-50 py-12 px-4 -mx-4 my-12 rounded-2xl"&gt;
+&lt;div class="max-w-4xl mx-auto text-center"&gt;
+ &lt;h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2"&gt;Rodzaje wsparcia&lt;/h2&gt;
+ &lt;p class="text-lg text-gray-600"&gt;Poznaj nasze kompleksowe pakiety wsparcia techniczne, rozwojowe i konsultacyjne&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="grid md:grid-cols-3 gap-8 my-12"&gt;
+&lt;div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-lg transition-all duration-300"&gt;
+ &lt;div class="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mb-6"&gt;
+ &lt;svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"&gt;
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"&gt;&lt;/path&gt;
+ &lt;/svg&gt;
+ &lt;/div&gt;
+ &lt;h3 class="text-xl font-bold text-gray-900 mb-3"&gt;Wsparcie Techniczne&lt;/h3&gt;
+ &lt;p class="text-gray-600 mb-4"&gt;
+ Szybka pomoc w rozwiązywaniu problemów technicznych, optymalizacja wydajności i aktualizacje systemu.
+ &lt;/p&gt;</description></item></channel></rss>
