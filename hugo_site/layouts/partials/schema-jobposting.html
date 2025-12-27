@@ -3,12 +3,12 @@
 {
   "@context": "https://schema.org",
   "@type": "JobPosting",
-  "title": "{{ if .Params.job_title }}{{ .Params.job_title }}{{ else }}Dołącz do zespołu ERP Tech{{ end }}",
+  "title": "{{ if .Params.job_title }}{{ .Params.job_title }}{{ else }}Dołącz do zespołu ERPtech{{ end }}",
   "description": "{{ .Description }}",
   "datePosted": "{{ .Date.Format "2006-01-02" }}",
   "hiringOrganization": {
     "@type": "Organization",
-    "name": "ERP Tech",
+    "name": "ERPtech",
     "sameAs": "{{ .Site.BaseURL }}",
     "logo": "{{ "Images/erptech logo.png" | absURL }}"
   },

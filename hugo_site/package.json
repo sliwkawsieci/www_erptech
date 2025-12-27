@@ -1,7 +1,7 @@
 {
   "name": "erptech-hugo",
   "version": "1.0.0",
-  "description": "ERP Tech Hugo website",
+  "description": "ERPtech Hugo website",
   "scripts": {
     "build-css": "npx tailwindcss -i ./assets/css/main.css -o ./static/css/styles.css --watch",
     "build-css-prod": "npx tailwindcss -i ./assets/css/main.css -o ./static/css/styles.css --minify"
