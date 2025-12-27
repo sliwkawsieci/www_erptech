@@ -119,7 +119,7 @@ service_sections:
 </div>
 
 <div class="relative">
-<img src="/Images/system-erp-schemat.jpg.webp" alt="SAP IoT" class="rounded-2xl shadow-lg" loading="lazy" decoding="async">
+<img src="/Images/sap_iot.png" alt="SAP IoT" class="rounded-2xl shadow-lg" loading="lazy" decoding="async">
 <div class="absolute inset-0 bg-gradient-to-tr from-blue-400/10 via-transparent to-transparent rounded-2xl"></div>
 </div>
 </div>
